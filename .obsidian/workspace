@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "5d63855ee305f48c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6362a5c23bb5d14",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac7749de8323ba0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "344160533fc66123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec171716451ae90d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b887b9dca1966527",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a0dc32dbeaead788",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcd204cb2e391b11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c704722b5c8bdec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e6362a5c23bb5d14",
+  "lastOpenFiles": [
+    "电脑/显卡/英伟达.md",
+    "电脑/显卡/AMD.md",
+    "思维/AMD与苹果的相似之处.md",
+    "认知/精英日课-第二季-万维钢-得到/3.规模因子和价值因子：选创业板和大蓝筹谁更赚钱？.md",
+    "认知/精英日课-第二季-万维钢-得到/0.精英日课-第二季-万维钢-得到-目录.md",
+    "认知/精英日课-第二季-万维钢-得到/Untitled.md",
+    "附件/1. 李笑来自由财富之路 20210407095420.png",
+    "附件/2.《原则》：激进面对现实 202104231523.png",
+    "认知/精英日课-第二季-万维钢-得到/2.《原则》：激进面对现实.md",
+    "认知/精英日课-第二季-万维钢-得到/1.《原则》：大亨的大道理.md"
+  ]
+}
