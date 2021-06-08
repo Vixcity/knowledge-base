@@ -4,12 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e6362a5c23bb5d14",
+        "id": "32aefe4ff4d3a817",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "阅读/1.鬼谷子.md",
+            "mode": "source"
+          }
+        },
+        "group": "f33d2df6129ced28"
+      },
+      {
+        "id": "23b263b99a4e899b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "阅读/1.鬼谷子.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f33d2df6129ced28"
       }
     ],
     "direction": "vertical"
@@ -65,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "阅读/1.鬼谷子.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e6362a5c23bb5d14",
+  "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "阅读/1.鬼谷子.md",
+    "README.md",
+    "阅读/0.目录.md",
+    "认知/精英日课-第二季-万维钢-得到/0.精英日课-第二季-万维钢-得到-目录.md",
+    "阅读/Untitled.md",
     "电脑/显卡/英伟达.md",
     "电脑/显卡/AMD.md",
     "思维/AMD与苹果的相似之处.md",
     "认知/精英日课-第二季-万维钢-得到/3.规模因子和价值因子：选创业板和大蓝筹谁更赚钱？.md",
-    "认知/精英日课-第二季-万维钢-得到/0.精英日课-第二季-万维钢-得到-目录.md",
-    "认知/精英日课-第二季-万维钢-得到/Untitled.md",
-    "附件/1. 李笑来自由财富之路 20210407095420.png",
-    "附件/2.《原则》：激进面对现实 202104231523.png",
-    "认知/精英日课-第二季-万维钢-得到/2.《原则》：激进面对现实.md",
-    "认知/精英日课-第二季-万维钢-得到/1.《原则》：大亨的大道理.md"
+    "认知/精英日课-第二季-万维钢-得到/Untitled.md"
   ]
 }
