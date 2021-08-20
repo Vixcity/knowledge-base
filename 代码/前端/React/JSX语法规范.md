@@ -1,4 +1,4 @@
- # JSX语法规则
+ # 1.JSX语法规则
 
  1. 定义虚拟DOM时，不要写引号
 
@@ -21,5 +21,7 @@
  8. jsx 里面的直接创建虚拟DOM 是一种语法糖
   	- 转义后生成的JS代码为 
   	``` javascript
-	React.createElement('h1',{id:'title'},React.createElement('span',{},'Hello React!'))
-	```
+	React.createElement('h1',{id:'title'},React.createElement('span',{},'Hello React!'))```
+	
+# 2.虚拟DOM
+- 虚拟DOM 本质是 object 的对象，虚拟DOM比较轻，真实DOM比较重，因为虚拟DOM是react内部在用，无需真实DOM上那么多的属性，虚拟DOM最终会被react转化成真实DOM，呈现在页面上
