@@ -18,4 +18,8 @@
 	
 	2. 若大写字母开头，React 就会去渲染对应的组件，若组件未定义，则报错
 
-
+ 8. jsx 里面的直接创建虚拟DOM 是一种语法糖
+  	- 转义后生成的JS代码为 
+  	``` javascript
+	React.createElement('h1',{id:'title'},React.createElement('span',{},'Hello React!'))
+	```
