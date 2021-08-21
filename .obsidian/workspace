@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/前端/React/JSX语法规范.md",
+            "file": "代码/React/组件.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/前端/React/JSX语法规范.md",
+            "file": "代码/React/组件.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/前端/React/JSX语法规范.md",
+                "file": "代码/React/组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23b263b99a4e899b",
+  "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/React/组件.md",
+    "代码/JavaScript/Class 类.md",
+    "代码/React/未命名.md",
+    "代码/React/JSX语法规范.md",
+    "代码/JavaScript/未命名.md",
+    "代码/未命名.md",
     "代码/前端/React/JSX语法规范.md",
     "代码/前端/React/未命名.md",
     "代码/未命名 1.md",
-    "代码/未命名.md",
-    "阅读/1.鬼谷子.md",
-    "README.md",
-    "阅读/0.目录.md",
-    "认知/精英日课-第二季-万维钢-得到/0.精英日课-第二季-万维钢-得到-目录.md",
-    "阅读/Untitled.md",
-    "电脑/显卡/英伟达.md"
+    "阅读/1.鬼谷子.md"
   ]
 }
