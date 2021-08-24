@@ -3,19 +3,19 @@ JS中的类，本质是上一个对象
 
 类里面有构造器 constructor
 
-类中你所定义的代码，会自动帮你开启严格模式，所以默认的this会指向undefined
+类中你所定义的代码，会自动帮你开启严格模式，所以默认的 this 会指向 undefined
 
-还可以自定义方法，这种自定义方法叫做一般方法，例如下方代码中的speak()
+还可以自定义方法，这种自定义方法叫做一般方法，例如下方代码中的 speak()
 
 如果需要使用某个方法的话，在原型上没有，就会去原型链上面找
 
 如果子类继承了父类，且子类中写了构造器，那么子类构造器中的super方法是必须调用的
 
-super方法会帮助你把子类获得的参数传给父类
+super 方法会帮助你把子类获得的参数传给父类
 
-super方法需要写在构造器的最前面
+super 方法需要写在构造器的最前面
 
-extends是继承的意思，详细用法可以看下面的 Student 继承于 Person
+extends 是继承的意思，详细用法可以看下面的 Student 继承于 Person
 
 ``` javascript 
  // 创建一个Persion类，创建一个Persion的示例对象
@@ -87,7 +87,7 @@ extends是继承的意思，详细用法可以看下面的 Student 继承于 Per
 		 3. 类中定义的方法都是放在类的原型对象上的
  */
 ```
-class类指向问题
+class 类指向问题
 ```javascript
  class Person {
 	 constructor(name,age) {
@@ -109,4 +109,17 @@ class类指向问题
  // 所以找到的this为undefined
  const x = p1.speak
  x() // undefined
+```
+类中可以直接写赋值语句,如下代码的含义是给 car 的实例对象添加一个属性，名为 a ，值为 1
+```javascript
+class Car {
+ 	constructor(name,price){
+ 		this.name = name
+ 		this.price = price
+	}
+	// 类中可以直接写赋值语句,如下代码的含义是给 car 的实例对象添加一个属性，名为 a ，值为 1
+	a = 1
+}
+ const c1 = new Car('奔驰',199)
+ console.log(c1) // Car {a: 1, name: "奔驰", price: 199}
 ```
