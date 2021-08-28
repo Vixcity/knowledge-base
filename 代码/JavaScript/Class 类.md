@@ -123,3 +123,60 @@ class Car {
  const c1 = new Car('奔驰',199)
  console.log(c1) // Car {a: 1, name: "奔驰", price: 199}
 ```
+static demo 可以把demo定义在类里面，而不是定义在实例对象当中  
+
+例如 static demo = 100
+
+``` javascript
+class Car {  
+    constructor(name,price){  
+        this.name = name  
+        this.price = price  
+    }  
+    // 类中可以直接写赋值语句,如下代码的含义是给 car 的实例对象添加一个属性，名为 a ，值为 1 	a = 1  
+ 	// static 可以定义在类里面，而不是定义在实例对象当中  
+ 	static demo = 100 
+	
+	// 这个是定义在实例对象当中
+	a=100
+}
+```
+
+构造器接收 props 是否传递给 super ，取决于是否希望在构造器中通过 this 访问 props
+
+类式组件中构造器能不写就不写
+
+函数式组件可以玩 props , 也只能玩 props ，state 和 refs 用不了
+ 
+ 举例
+ 
+ ```javascript
+ function Person (props) {  
+    const {name,sex,age} = props  
+    return (  
+        <ul>  
+			<li>姓名：{name}</li>  
+			<li>性别：{sex}</li>  
+			<li>年龄：{age+1}</li>  
+		</ul> 
+	)  
+}  
+  
+// 对标签属性进行类型，必要性的限制  
+Person.propTypes = {  
+    // 类型和必填  
+	name:PropTypes.string.isRequired, // 限制name必传，且为字符串  
+	sex:PropTypes.string,  
+	age:PropTypes.number,  
+}  
+  
+// 指定默认的标签属性值  
+Person.defaultProps = {  
+    sex:'男',  
+ age:18  
+}  
+  
+// 2.渲染组件到页面  
+// 通过属性传值  
+ReactDOM.render(<Person name="Tom" age={20}/>,document.getElementById('test'))
+```
