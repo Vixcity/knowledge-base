@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/React/React中收集表单数据.md",
+            "file": "代码/看源码思路.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/React/React中收集表单数据.md",
+            "file": "代码/看源码思路.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/React/React中收集表单数据.md",
+                "file": "代码/看源码思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
-    "代码/React/React中收集表单数据.md",
-    "代码/React/事件处理.md",
-    "认知/通往财富的自由之路-李笑来-得到/0.通往财富的自由之路-李笑来-得到-目录.md",
-    "代码/React/组件.md",
-    "代码/React/JSX语法规范.md",
-    "代码/React/未命名.md",
-    "代码/JavaScript/Class 类.md",
-    "代码/JavaScript/未命名.md",
     "代码/未命名.md",
-    "代码/前端/React/JSX语法规范.md"
+    "代码/jQuery/未命名.md",
+    "代码/Python/未命名.md",
+    "代码/Vue/未命名.md",
+    "写作/未命名.md",
+    "思考/未命名.md",
+    "时间管理/未命名.md",
+    "法则/未命名.md",
+    "经济学/未命名.md",
+    "代码/React/React中收集表单数据.md"
   ]
 }
