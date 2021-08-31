@@ -159,7 +159,6 @@ const execa = require('execa');
   console.log(stdout);
   //=> 'Vixcity'
 })();
-复制代码
 ```
 
 到此，第一部分的引入的依赖包的内容我们就看完了，接着我们来看第二部分的内容（10-18行）
@@ -222,7 +221,6 @@ const versionIncrements = [
 ]
 
 const inc = i => semver.inc(currentVersion, i, preId)
-复制代码
 ```
 
 这一块可能不是很好理解。`inc`是生成一个版本。更多可以查看[semver文档](https://github.com/npm/node-semver#prerelease-identifiers)
@@ -251,7 +249,6 @@ const getPkgRoot = pkg => path.resolve(__dirname, '../packages/' + pkg)
 
 // 控制台输出
 const step = msg => console.log(chalk.cyan(msg))
-复制代码
 ```
 
 ### 1.4.1 bin 函数
@@ -281,7 +278,6 @@ const run = (bin, args, opts = {}) =>
 const dryRun = (bin, args, opts = {}) =>
   console.log(chalk.blue(`[dryrun] ${bin} ${args.join(' ')}`), opts)
 const runIfNotDry = isDryRun ? dryRun : run
-复制代码
 ```
 
 `run` 真实在终端跑命令，比如 `yarn build --release`
@@ -392,7 +388,6 @@ const { yes } = await prompt({
 if (!yes) {
   return
 }
-
 ```
 ## 2.3 执行测试用例
 ```js
@@ -404,5 +399,4 @@ if (!skipTests && !isDryRun) {
 } else {
   console.log(`(skipped)`)
 }
-
 ```
