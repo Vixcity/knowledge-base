@@ -341,9 +341,9 @@ main().catch(err => {
 
 调试时，我们看下这段的两张截图，就好理解啦。
 
-![终端输出选择版本号](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0dff492e9ef640ffae5ecfb5915ebcd2~tplv-k3u1fbpfcp-watermark.awebp)
+![终端输出选择版本号](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202108311622321.jpg)
 
-![终端输入确认版本号](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c035caa8dc704769a7f473c4125cd87f~tplv-k3u1fbpfcp-watermark.awebp)
+![终端输入确认版本号](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202108311622717.jpg)
 
 ```js
 // 根据上文 mini 这句代码意思是 yarn run release 3.2.4 
