@@ -25,7 +25,6 @@
         "preinstall": "node ./scripts/checkYarn.js",
     }
 }
-
 ```
 ## 调试 vue-next ==> scripts ==> release.js 文件
 打开 VScode ，其版本最好是大于`1.50.0`
@@ -90,7 +89,6 @@ const { prompt } = require('enquirer')
 
 // 执行子进程命令   简单说 就是在终端命令行执行 命令
 const execa = require('execa')
-
 ```
 ### 1.1.1 minimist 命令行参数解析
 ```js
@@ -118,7 +116,6 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
   b: true,
   c: true,
   beep: 'boop' }
-
 ```
 ### 1.1.2 chalk 终端多色彩输出
 [chalk](https://github.com/chalk/chalk)
