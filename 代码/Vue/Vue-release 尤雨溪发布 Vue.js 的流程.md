@@ -282,7 +282,6 @@ const runIfNotDry = isDryRun ? dryRun : run
 `dryRun` 则是不跑，只是 `console.log();` 打印 'yarn build --release'
 
 `runIfNotDry` 如果不是空跑就执行命令。isDryRun 参数是通过控制台输入的。`yarn run release --dry`这样就是`true`。`runIfNotDry`就是只是打印，不执行命令。这样设计的好处在于，可以有时不想直接提交，要先看看执行命令的结果。不得不说，尤大就是会玩。
-
 在 `main` 函数末尾，也可以看到类似的提示。可以用`git diff`先看看文件修改。
 
 ```js
@@ -389,6 +388,7 @@ if (!yes) {
 ## 2.3 执行测试用例
 ```js
 // run tests before release
+// 下面这一段话是在终端打印换行这个 Running tests...
 step('\nRunning tests...')
 if (!skipTests && !isDryRun) {
   await run(bin('jest'), ['--clearCache'])
@@ -397,3 +397,458 @@ if (!skipTests && !isDryRun) {
   console.log(`(skipped)`)
 }
 ```
+## 2.4 更新所有包的版本号和内部 vue 相关依赖版本号
+
+这一部分，就是更新根目录下`package.json` 的版本号和所有 `packages` 的版本号。
+
+```js
+// update all package versions and inter-dependencies
+step('\nUpdating cross dependencies...')
+updateVersions(targetVersion)
+```
+
+```js
+function updateVersions(version) {
+  // 1. update root package.json
+  updatePackage(path.resolve(__dirname, '..'), version)
+  // 2. update all packages
+  packages.forEach(p => updatePackage(getPkgRoot(p), version))
+}
+```
+### 2.4.1 updatePackage 更新包的版本号
+
+```js
+function updatePackage(pkgRoot, version) {
+  const pkgPath = path.resolve(pkgRoot, 'package.json')
+  const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'))
+  // 自己本身 package.json 的版本号
+  pkg.version = version
+  
+  // packages.json 中 dependencies 中 vue 相关的依赖修改
+  updateDeps(pkg, 'dependencies', version)
+
+  // packages.json 中 peerDependencies 中 vue 相关的依赖修改
+  updateDeps(pkg, 'peerDependencies', version)
+  fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n')
+}
+```
+
+主要就是三种修改。
+
+```bash
+1. 自己本身 package.json 的版本号
+2. packages.json 中 dependencies 中 vue 相关的依赖修改
+3. packages.json 中 peerDependencies 中 vue 相关的依赖修改
+```
+
+一图胜千言。我们执行`yarn release --dry` 后 `git diff` 查看的 `git` 修改，部分截图如下。
+
+![更新的版本号举例](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109010950266.jpg)
+
+### 2.4.2 updateDeps 更新内部 vue 相关依赖的版本号
+
+```js
+function updateDeps(pkg, depType, version) {
+  const deps = pkg[depType]
+  if (!deps) return
+  Object.keys(deps).forEach(dep => {
+    if (
+      dep === 'vue' ||
+      (dep.startsWith('@vue') && packages.includes(dep.replace(/^@vue\//, '')))
+    ) {
+      console.log(
+        chalk.yellow(`${pkg.name} -> ${depType} -> ${dep}@${version}`)
+      )
+      deps[dep] = version
+    }
+  })
+}
+```
+
+一图胜千言。我们在终端执行`yarn release --dry`。会看到这样是输出。
+
+![更新 Vue 相关依赖的终端输出](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109010950084.jpg)
+
+也就是这句代码输出的。
+
+```js
+console.log(
+  chalk.yellow(`${pkg.name} -> ${depType} -> ${dep}@${version}`)
+)
+```
+
+## 2.5 打包编译所有包
+
+```js
+// build all packages with types
+step('\nBuilding all packages...')
+if (!skipBuild && !isDryRun) {
+  await run('yarn', ['build', '--release'])
+  // test generated dts files
+  step('\nVerifying type declarations...')
+  await run('yarn', ['test-dts-only'])
+} else {
+  console.log(`(skipped)`)
+}
+```
+
+## 4.6 生成 changelog
+
+```js
+// generate changelog
+await run(`yarn`, ['changelog'])
+```
+
+`yarn changelog` 对应的脚本是`conventional-changelog -p angular -i CHANGELOG.md -s`。
+
+## 4.7 提交代码
+
+经过更新版本号后，有文件改动，于是`git diff`。 是否有文件改动，如果有提交。
+
+`git add -A` `git commit -m 'release: v${targetVersion}'`
+
+```js
+const { stdout } = await run('git', ['diff'], { stdio: 'pipe' })
+if (stdout) {
+  step('\nCommitting changes...')
+  await runIfNotDry('git', ['add', '-A'])
+  await runIfNotDry('git', ['commit', '-m', `release: v${targetVersion}`])
+} else {
+  console.log('No changes to commit.')
+}
+```
+## 2.8 发布包
+
+```js
+// publish packages
+step('\nPublishing packages...')
+for (const pkg of packages) {
+  await publishPackage(pkg, targetVersion, runIfNotDry)
+}
+```
+
+这段函数比较长，可以不用细看，简单说就是 `yarn publish` 发布包。 我们 `yarn release --dry`后，这块函数在终端输出的如下：
+
+![发布终端输出命令](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011011990.jpg)
+
+值得一提的是，如果是 `vue` 默认有个 `tag` 为 `next`。当 `Vue 3.x` 是默认时删除。
+
+```js
+} else if (pkgName === 'vue') {
+  // TODO remove when 3.x becomes default
+  releaseTag = 'next'
+}
+```
+
+也就是为什么我们现在安装 `vue3` 还是 `npm i vue@next`命令。
+
+```js
+async function publishPackage(pkgName, version, runIfNotDry) {
+  // 如果在 跳过包里 则跳过
+  if (skippedPackages.includes(pkgName)) {
+    return
+  }
+  const pkgRoot = getPkgRoot(pkgName)
+  const pkgPath = path.resolve(pkgRoot, 'package.json')
+  const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'))
+  if (pkg.private) {
+    return
+  }
+
+  // For now, all 3.x packages except "vue" can be published as
+  // `latest`, whereas "vue" will be published under the "next" tag.
+  let releaseTag = null
+  if (args.tag) {
+    releaseTag = args.tag
+  } else if (version.includes('alpha')) {
+    releaseTag = 'alpha'
+  } else if (version.includes('beta')) {
+    releaseTag = 'beta'
+  } else if (version.includes('rc')) {
+    releaseTag = 'rc'
+  } else if (pkgName === 'vue') {
+    // TODO remove when 3.x becomes default
+    releaseTag = 'next'
+  }
+
+  // TODO use inferred release channel after official 3.0 release
+  // const releaseTag = semver.prerelease(version)[0] || null
+
+  // 上面的图片输出的就是这一段话
+  step(`Publishing ${pkgName}...`)
+  try {
+    await runIfNotDry(
+      'yarn',
+      [
+        'publish',
+        '--new-version',
+        version,
+        ...(releaseTag ? ['--tag', releaseTag] : []),
+        '--access',
+        'public'
+      ],
+      {
+        cwd: pkgRoot,
+        stdio: 'pipe'
+      }
+    )
+    console.log(chalk.green(`Successfully published ${pkgName}@${version}`))
+  } catch (e) {
+    if (e.stderr.match(/previously published/)) {
+      console.log(chalk.red(`Skipping already published: ${pkgName}`))
+    } else {
+      throw e
+    }
+  }
+}
+```
+## 2.9 推送到 github
+
+```js
+// push to GitHub
+step('\nPushing to GitHub...')
+// 打 tag
+await runIfNotDry('git', ['tag', `v${targetVersion}`])
+// 推送 tag
+await runIfNotDry('git', ['push', 'origin', `refs/tags/v${targetVersion}`])
+// git push 所有改动到 远程  - github
+await runIfNotDry('git', ['push'])
+```
+
+```js
+// yarn run release --dry
+// 如果传了这个参数则输出 可以用 git diff 看看更改
+
+// const isDryRun = args.dry
+if (isDryRun) {
+  console.log(`\nDry run finished - run git diff to see package changes.`)
+}
+
+// 如果 跳过的包，则输出以下这些包没有发布。不过代码 `skippedPackages` 里是没有包。
+// 所以这段代码也不会执行。
+// 我们习惯写 arr.length !== 0 其实 0 就是 false 。可以不写。
+if (skippedPackages.length) {
+  console.log(
+    chalk.yellow(
+      `The following packages are skipped and NOT published:\n- ${skippedPackages.join(
+        '\n- '
+      )}`
+    )
+  )
+}
+console.log()
+```
+
+我们 `yarn release --dry`后，这块函数在终端输出的如下：
+
+![发布到github](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011024016.jpg)
+
+到这里我们就拆解分析完 `main` 函数了。
+
+整个流程很清晰。
+
+```bash
+1. 确认要发布的版本
+2. 执行测试用例
+3. 更新所有包的版本号和内部 vue 相关依赖版本号
+    3.1 updatePackage 更新包的版本号
+    3.2 updateDeps 更新内部 vue 相关依赖的版本号
+4. 打包编译所有包
+5. 生成 changelog
+6. 提交代码
+7. 发布包
+8. 推送到 github
+```
+## 5. 总结
+
+通过本文学习，我们学会了这些。
+
+```bash
+1. 熟悉 vuejs 发布流程
+2. 学会调试 nodejs 代码
+3. 动手优化公司项目发布流程
+```
+
+`vuejs`发布的文件很多代码我们可以直接复制粘贴修改，优化我们自己发布的流程。
+
+当然也可以用开源的 [release-it](https://github.com/release-it/release-it)。
+
+同时，我们可以：
+
+引入 [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)，管理`git`分支。估计很多人不知道`windows` `git bash`已经默认支持 `git flow`命令。
+
+引入 [husky](https://github.com/typicode/husky) 和 [lint-staged](https://github.com/okonet/lint-staged) 提交`commit`时用`ESLint`等校验代码提交是否能够通过检测。
+
+引入 单元测试 [jest](https://github.com/facebook/jest)，测试关键的工具函数等。
+
+引入 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
+
+引入 [git-cz](https://github.com/streamich/git-cz) 交互式`git commit`。
+
+# 自己创建一个发布流程
+## 1.步骤
+思考：我们需要哪一些步骤？
+
+因为博客系统没有 packages 文件包，所以我们不需要打包，测试用例目前水平有限，也暂且搁置
+
+因为我们 npm istall xxx 或者 yarn add xxx 的时候，会自动在我们的 package.json 中加入相关依赖以及版本号
+
+所以我们也不需要更新依赖以及包版本号
+
+所以剩下来的总共有4步
+
+```bash
+1. 	确认要发布是否发布
+2.  发布哪个版本
+3. 	生成 changeLog
+4. 	提交代码
+5. 	推送到 github 和 gitee
+```
+## 2. 代码
+
+代码如下：
+
+```js
+const args = require('minimist')(process.argv.slice(2))
+const chalk = require('chalk')
+const { prompt } = require('enquirer')
+const execa = require('execa')
+  
+const isDryRun = args.dry
+
+const run = (bin, args, opts = {}) =>
+ execa(bin, args, { stdio: 'inherit', ...opts })
+const dryRun = (bin, args, opts = {}) =>
+ console.log(chalk.blue(`[dryrun] ${bin} ${args.join(' ')}`), opts)
+const runIfNotDry = isDryRun ? dryRun : run
+const step = msg => console.log(chalk.cyan(msg))  
+
+// 格式化日期，并把日期转成字符串
+Date.prototype.Format = function(formatStr) 
+{ 
+	 var str = formatStr; 
+	 var Week = ['日','一','二','三','四','五','六']; 
+	 str=str.replace(/yyyy|YYYY/,this.getFullYear()); 
+	 str=str.replace(/yy|YY/,(this.getYear() % 100)>9?(this.getYear() % 100).toString():'0' + (this.getYear() % 100)); 
+	 str=str.replace(/MM/,this.getMonth()>9?this.getMonth().toString():'0' + this.getMonth()); 
+	 str=str.replace(/M/g,this.getMonth()); 
+	 str=str.replace(/w|W/g,Week[this.getDay()]); 
+	 str=str.replace(/dd|DD/,this.getDate()>9?this.getDate().toString():'0' + this.getDate()); 
+	 str=str.replace(/d|D/g,this.getDate()); 
+	 str=str.replace(/hh|HH/,this.getHours()>9?this.getHours().toString():'0' + this.getHours()); 
+	 str=str.replace(/h|H/g,this.getHours()); 
+	 str=str.replace(/mm/,this.getMinutes()>9?this.getMinutes().toString():'0' + this.getMinutes()); 
+	 str=str.replace(/m/g,this.getMinutes()); 
+	 str=str.replace(/ss|SS/,this.getSeconds()>9?this.getSeconds().toString():'0' + this.getSeconds()); 
+	 str=str.replace(/s|S/g,this.getSeconds()); 
+	 return str; 
+} 
+
+  
+
+async function main() {
+	 let targetVersion = args._[0]
+	 let whereCK
+	 let now = new Date().Format('YYYY-MM-DD hh:mm:ss')
+
+	 // 是否发布远程仓库
+	 if (!targetVersion) {
+		 const { release } = await prompt ({
+			 type: 'select',
+			 name: 'release',
+			 message: '是否更新发布到云端仓库',
+			 choices: ['是','否']
+	 	 })  
+
+		 // 输入更新的内容
+		 if (release === '是') {
+			targetVersion = (
+				 await prompt({
+					 type: 'input',
+					 name: 'version',
+					 message: '请输入你的更新的内容',
+					 initial: now + ' 更新'
+				 })
+			 ).version
+		 } else {
+			 return
+		 }
+
+		 whereCK = await prompt ({
+			 type: 'select',
+			 name: 'whereCK',
+			 message: '发到哪个仓库',
+			 choices: ['全部','Github','Gitee']
+		 })
+	}
+
+	 // 产生 changelog
+	 await run(`yarn`, ['changelog'])
+	 const { stdout } = await run('git', ['diff'], { stdio: 'pipe' })
+	 if (stdout) {
+		 step('\n提交更改的内容...')
+		 await runIfNotDry('git', ['add', '-A'])
+		 await runIfNotDry('git', ['commit', '-m', `更新内容：${targetVersion}`])
+	 } else {
+		 console.log('No changes to commit.')
+	 }
+
+	 // 推送到 GitHub 和 Gitee
+	 step('\n推送到对应的仓库...')
+
+	 switch (whereCK.whereCK) {
+		 case '全部':
+			 await runIfNotDry('git', ['push', 'gitee', `master`])
+			 step('\n')
+			 await runIfNotDry('git', ['push', 'github', `master`])
+			 step('\n')
+			 break;
+		 case 'gitee':
+			 await runIfNotDry('git', ['push', 'gitee', `master`])
+			 step('\n')
+			 break;
+		 case 'github':
+			 await runIfNotDry('git', ['push', 'github', `master`])
+			 step('\n')
+			 break;
+		 default:
+			break;
+	 } 
+
+	 if (isDryRun) {
+		console.log(`\nDry run finished - run git diff to see package changes.`)
+	 }
+}
+  
+main().catch(err => {
+ 	console.error(err)
+})
+```
+> 如果你要进行同时上传 github 和 gitee 的话，需要做一些配置，详情请点击链接查看
+> [同步gitee和github](https://blog.csdn.net/aeoliancrazy/article/details/86541307)
+
+## 3. 功能
+
+功能如下：
+
+首先，我们点击调试，会问你是否发布到远端仓库（也就是 gitee 和 github ）
+
+![点击调试自动发布](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011534615.png)
+
+是，就下一步，否，就退出
+
+我们选了是之后，他会让你输入更新内容，默认的话就是当前时间加上更新二字
+
+![输入更新内容](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011536403.png)
+
+在继续，我们可以看见他会问你选择那个仓库，默认就全部发送
+
+如果有选择的话，就会发送到对应的仓库
+
+![选择仓库](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011538998.jpg)
+
+摁下回车，开始提交并推送到对应的仓库
+
+![提交和推送](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109011540960.jpg)
+
+<font color=cyan size=7>完结撒花</font>
