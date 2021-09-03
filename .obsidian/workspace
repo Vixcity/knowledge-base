@@ -102,14 +102,14 @@
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
     "代码/Vue/mini-vue/00.预习.md",
+    "代码/React/React中收集表单数据.md",
+    "代码/React/JSX语法规范.md",
+    "代码/React/组件.md",
+    "代码/React/事件处理.md",
     "代码/Vue/mini-vue/0.目录.md",
     "代码/Vue/mini-vue/02-reactivity 的核心流程.md",
     "代码/Vue/Vue-release 尤雨溪发布 Vue.js 的流程.md",
     "代码/Vue/mini-vue/其他知识.md",
-    "代码/Vue/mini-vue/01-vue3源码结构的介绍.md",
-    "代码/Vue/mini-vue/未命名.md",
-    "代码/React/组件.md",
-    "代码/React/React中收集表单数据.md",
-    "代码/React/JSX语法规范.md"
+    "代码/Vue/mini-vue/01-vue3源码结构的介绍.md"
   ]
 }
