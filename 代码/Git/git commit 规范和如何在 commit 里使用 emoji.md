@@ -2,14 +2,12 @@
 
 ## 前言
 
-今天Vixcity给大家带来的是关于 git commit 那些事儿，希望大家能够喜欢。
-
-对于 git commit message 我觉得可以大体上分成两种类型去看待。
+git commit message 可以大体上分成两种类型去看待。
 
 -   一是多人维护的，别人很容易来看 commit message ，对于通用库、开源项目这类多人维护，而且极大可能别人会来看这份代码的，一定要规范，特别是对于开源项目，往往会要列 Change Log，规范好 commit 节省自己整理 log 的时间，也方便了用户。    
 -   二是单人负责的，一般别人也不看 commit message 的，对于业务代码之类的，其实不搞问题也不大，因为极小可能会有人来看你的 commit message。但是这里我依然还是建议规范一下，不然一旦后面想去看就会花费很多的力气，毕竟规范一下也不麻烦。
     
-本篇文章主要讲了一下三部分内容：
+主要有以下三部分内容：
 ```bash
 	1.  了解 git commit 规范
 	2.  学到用工具 Commitizen 来规范 commit
@@ -21,7 +19,8 @@
 
 每次提交，commit message 都包括三个部分：header，body 和 footer，其中 header 有一个特殊的格式，包括了 type、scope、subject。
 
-```<type>(<scope>): <subject>  
+```bash
+<type>(<scope>): <subject>  
 <BLANK LINE>  
 <body>  
 <BLANK LINE>  
