@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
+            "file": "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
+            "file": "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
+                "file": "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
-    "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
-    "代码/Git/未命名.md",
-    "代码/JavaScript/代码段.md",
-    "代码/JavaScript/未命名.md",
-    "代码/CSS/未命名.md",
-    "代码/CSS/好玩的CSS属性.md",
-    "代码/JavaScript/Class 类.md",
-    "代码/未命名.md",
+    "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md",
+    "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md",
+    "代码/Vue/mini-vue/00.预习.md",
+    "代码/Vue/mini-vue/0.目录.md",
+    "代码/Vue/mini-vue/其他知识.md",
     "代码/Vue/mini-vue/setup&render 和 虚拟DOM.md",
-    "代码/Vue/mini-vue/其他知识.md"
+    "代码/Vue/mini-vue/01-vue3源码结构的介绍.md",
+    "代码/Vue/mini-vue/04-runtime-core 更新的核心流程.md",
+    "代码/Vue/mini-vue/03-runtime-core 初始化的核心流程.md",
+    "代码/Vue/mini-vue/02-reactivity 的核心流程.md"
   ]
 }
