@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/代码段.md",
+            "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/代码段.md",
+            "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/代码段.md",
+                "file": "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,8 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
+    "代码/Git/未命名.md",
     "代码/JavaScript/代码段.md",
     "代码/JavaScript/未命名.md",
     "代码/CSS/未命名.md",
@@ -108,8 +110,6 @@
     "代码/JavaScript/Class 类.md",
     "代码/未命名.md",
     "代码/Vue/mini-vue/setup&render 和 虚拟DOM.md",
-    "代码/Vue/mini-vue/其他知识.md",
-    "代码/Vue/mini-vue/02-reactivity 的核心流程.md",
-    "代码/Vue/mini-vue/00.预习.md"
+    "代码/Vue/mini-vue/其他知识.md"
   ]
 }
