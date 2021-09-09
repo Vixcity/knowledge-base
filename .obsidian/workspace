@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
+            "file": "代码/React/手把手带你10分钟手撸一个简易的Markdown编辑器.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
+            "file": "代码/React/手把手带你10分钟手撸一个简易的Markdown编辑器.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
+                "file": "代码/React/手把手带你10分钟手撸一个简易的Markdown编辑器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,8 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/React/手把手带你10分钟手撸一个简易的Markdown编辑器.md",
+    "代码/React/未命名.md",
     "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
     "代码/Vue/mini-vue/虚拟DOM与Diff算法.md",
     "代码/Vue/mini-vue/未命名.md",
@@ -108,8 +110,6 @@
     "代码/JavaScript/未命名.md",
     "代码/React/组件.md",
     "代码/React/JSX语法规范.md",
-    "代码/React/React中收集表单数据.md",
-    "代码/React/事件处理.md",
-    "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md"
+    "代码/React/React中收集表单数据.md"
   ]
 }
