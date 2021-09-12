@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/margin 塌陷和合并问题.md",
+            "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/margin 塌陷和合并问题.md",
+            "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/CSS/margin 塌陷和合并问题.md",
+                "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/JavaScript/未命名.md",
+    "代码/设计模式/Vue和React的框架设计.md",
+    "Pasted image 20210912155906.png",
+    "代码/Vue/未命名.md",
+    "代码/CSS/margin 塌陷和合并问题.md",
     "代码/CSS/未命名.md",
     "代码/CSS/好玩的CSS属性.md",
     "代码/CSS/代码段.md",
     "代码/编辑器/VS Code/你应该知道的 11 个 VS Code 特性和技巧.md",
-    "代码/编辑器/未命名.md",
-    "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
-    "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
-    "代码/Vue/mini-vue/07-实现 effect 返回 runner.md",
-    "代码/Vue/mini-vue/06-实现 effect & reactive & 依赖收集 & 触发依赖.md",
-    "代码/Vue/mini-vue/09-实现 effect 的 stop 功能.md"
+    "代码/编辑器/未命名.md"
   ]
 }
