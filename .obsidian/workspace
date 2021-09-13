@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
+            "file": "README.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         },
         "group": "f33d2df6129ced28"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/图解 JavaScript 继承，一文搞定继承相关知识.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
-    "代码/JavaScript/未命名.md",
-    "代码/设计模式/Vue和React的框架设计.md",
-    "Pasted image 20210912155906.png",
-    "代码/Vue/未命名.md",
-    "代码/CSS/margin 塌陷和合并问题.md",
-    "代码/CSS/未命名.md",
-    "代码/CSS/好玩的CSS属性.md",
-    "代码/CSS/代码段.md",
-    "代码/编辑器/VS Code/你应该知道的 11 个 VS Code 特性和技巧.md",
-    "代码/编辑器/未命名.md"
+    "README.md",
+    "原画/3.画好原画需要具备哪些特征.md",
+    "原画/1.什么是原画.md",
+    "代码/代码-总目录.md",
+    "代码/Python/Python.md",
+    "代码/看源码思路.md",
+    "代码/Node/Node.md",
+    "代码/jQuery/jQuery.md",
+    "代码/jQuery/未命名.md",
+    "代码/设计模式/未命名.md"
   ]
 }
