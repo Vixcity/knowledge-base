@@ -154,3 +154,129 @@ app.use('/__open-in-editor', openInEditor())
  ![进来了](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109132355684.png)
  
  接下来我们就可以愉快的调试了~
+ 
+开始调试！
+
+首先我们进来上图的位置
+
+这个是要在`launch-editor-middleware`中间件中
+
+最终是调用 `launch-editor` 打开文件
+
+```js
+launch(path.resolve(srcRoot, file), specifiedEditor, onErrorCallback)
+```
+
+因为 launch 是在 launch-editor 文件里面的
+
+我们点击函数名跳转进来该文件，并且打上断点
+
+![文件](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109141047648.jpg)
+
+我们慢慢的一步一步调试
+
+```js
+if (!fs.existsSync(fileName)) {
+	// 判断文件是否存在，不存在，直接返回。
+ 	return
+}
+
+if (typeof specifiedEditor === 'function') {
+	// 如果 specifiedEditor => 这里传递过来的则是函数 
+	// 那么和 onErrorCallback 切换下，把它赋值给错误回调函数
+	 onErrorCallback = specifiedEditor
+	 specifiedEditor = undefined
+}
+
+// 包裹一层函数
+onErrorCallback = wrapErrorCallback(onErrorCallback)
+// 猜测当前进程运行的是哪个编辑器
+const [editor, ...args] = guessEditor(specifiedEditor)
+if (!editor) {
+	 onErrorCallback(fileName, null)
+	 return
+}
+```
+
+↓这段的代码，就是传递错误回调函数
+
+`wrapErrorCallback` 返回给一个新的函数
+
+`wrapErrorCallback` 执行时，再去执行 onErrorCallback(cb)
+
+```js
+onErrorCallback = wrapErrorCallback(onErrorCallback)
+```
+
+guessEditor 猜测当前正在使用的编辑器
+
+我们再进去看看他具体是干啥的
+
+先是来了一个判断
+
+```js
+// 如果具体指明了编辑器，则解析下返回。
+// 如果指定了编辑器，则解析一下，这里没有传入。如果自己指定了路径。 
+// 比如 c/Users/lxchu/AppData/Local/Programs/Microsoft VS Code/bin/code 
+// 会根据空格切割成 c/Users/lxchu/AppData/Local/Programs/Microsoft
+
+if (specifiedEditor) {
+	return shellQuote.parse(specifiedEditor)
+}
+```
+ 
+ 然后在去调用 node 的原生 api 去看看调用他的平台是哪一个
+ 
+ ```js
+// 找出当前进程中哪一个编辑器正在运行。`macOS` 和 `Linux` 用 `ps x` 命令 `windows` 则用 `Get-Process` 命令
+
+try {
+	//  代码有删减
+	if (process.platform === 'darwin') {
+	  const output = childProcess.execSync('ps x').toString()
+	  // 省略
+	} else if (process.platform === 'win32') {
+	  const output = childProcess
+		.execSync('powershell -Command "Get-Process | Select-Object Path"', {
+		  stdio: ['pipe', 'pipe', 'ignore']
+		})
+		.toString()
+		// 省略
+	} else if (process.platform === 'linux') {
+	  const output = childProcess
+		.execSync('ps x --no-heading -o comm --sort=comm')
+		.toString()
+	}
+} catch (error) {
+	// Ignore...
+}
+ ```
+接着我们来看他的剩余部分
+
+```js
+const childProcess = require('child_process')
+
+if (process.platform === 'win32') {
+    // On Windows, launch the editor in a shell because spawn can only
+    // launch .exe files.
+    _childProcess = childProcess.spawn(
+        'cmd.exe',
+        ['/C', editor].concat(args),
+        { stdio: 'inherit' }
+    )
+    } else {
+    _childProcess = childProcess.spawn(editor, args, { stdio: 'inherit' })
+}
+```
+
+这段代码讲的是
+
+用子进程模块
+
+简单来说子进程模块有着执行命令的能力
+
+原理其实就是利用`nodejs`中的`child_process`
+
+执行了类似`code path/to/file`命令
+
+OK，本篇完~
