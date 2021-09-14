@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘.md",
+            "file": "代码/Vue/手摸手教你调试 vue-devtools ，你确定不来看看嘛~（上）.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘.md",
-            "mode": "source"
+            "file": "代码/Vue/手摸手教你调试 vue-devtools ，你确定不来看看嘛~（上）.md",
+            "mode": "preview"
           }
         },
         "group": "f33d2df6129ced28"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Vue/99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘.md",
+                "file": "代码/Vue/手摸手教你调试 vue-devtools ，你确定不来看看嘛~（上）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,14 +102,13 @@
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
     "代码/Vue/99% 的人不知道 vue-devtools 还能直接打开对应组件文件？本文原理揭秘.md",
-    "代码/Vue/0.Vue-目录.md",
-    "代码/看源码思路.md",
+    "Pasted image 20210913224829.png",
     "代码/Vue/未命名.md",
-    "代码/代码-总目录.md",
     "README.md",
     "原画/3.画好原画需要具备哪些特征.md",
     "原画/1.什么是原画.md",
     "代码/Python/Python.md",
+    "代码/看源码思路.md",
     "代码/Node/Node.md"
   ]
 }
