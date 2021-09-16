@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/妙用 background 实现花式文字效果.md",
+            "file": "代码/JavaScript/ES6/0.ES6 - 目录.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/妙用 background 实现花式文字效果.md",
-            "mode": "preview"
+            "file": "代码/JavaScript/ES6/0.ES6 - 目录.md",
+            "mode": "source"
           }
         },
         "group": "f33d2df6129ced28"
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/CSS/妙用 background 实现花式文字效果.md",
+                "file": "代码/JavaScript/ES6/0.ES6 - 目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/JavaScript/ES6/0.ES6 - 目录.md",
+    "代码/JavaScript/ES6/ES6 剩余参数.md",
+    "代码/JavaScript/ES6/未命名.md",
+    "代码/JavaScript/ES6/ES6 数组新方法.md",
+    "代码/JavaScript/0.JavaScript-目录.md",
     "代码/CSS/妙用 background 实现花式文字效果.md",
     "代码/CSS/0.css-目录.md",
     "代码/CSS/未命名.md",
     "代码/JavaScript/co.js - 让异步代码同步化.md",
-    "Pasted image 20210915152757.png",
-    "代码/JavaScript/未命名.md",
-    "代码/JavaScript/0.JavaScript-目录.md",
-    "代码/JavaScript/几个JavaScript极短日期时间代码片段（你值得拥有）.md",
-    "代码/Vue/mini-vue/09-实现 effect 的 stop 功能.md",
-    "代码/Vue/mini-vue/10-实现 readonly 功能.md"
+    "Pasted image 20210915152757.png"
   ]
 }
