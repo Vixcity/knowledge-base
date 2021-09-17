@@ -1,0 +1,2 @@
+proxyRefs 可以使你不用.value也可以拿到ref对象，也可以更改他的值
+vue3 用了很多的proxy，可以多吸收他的思想
