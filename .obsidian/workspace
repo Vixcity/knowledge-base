@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
+            "file": "代码/JavaScript/花里胡哨的 JS 装逼大法，直呼内行！！.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
+            "file": "代码/JavaScript/花里胡哨的 JS 装逼大法，直呼内行！！.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
+                "file": "代码/JavaScript/花里胡哨的 JS 装逼大法，直呼内行！！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/JavaScript/花里胡哨的 JS 装逼大法，直呼内行！！.md",
+    "代码/JavaScript/未命名.md",
+    "代码/JavaScript/0.JavaScript-目录.md",
     "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
     "代码/Vue/mini-vue/17-实现 isRef 和 unRef 功能.md",
     "代码/Vue/mini-vue/16-实现 ref 功能.md",
     "代码/Vue/mini-vue/0.mini-vue目录.md",
     "代码/Vue/mini-vue/未命名.md",
-    "代码/JavaScript/0.JavaScript-目录.md",
     "代码/看源码思路.md",
-    "代码/JavaScript/co.js - 让异步代码同步化.md",
-    "代码/编辑器/0.编辑器-目录.md",
-    "代码/代码-总目录.md"
+    "代码/JavaScript/co.js - 让异步代码同步化.md"
   ]
 }
