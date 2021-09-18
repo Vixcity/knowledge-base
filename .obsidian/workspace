@@ -103,13 +103,13 @@
   "lastOpenFiles": [
     "代码/Vue/mini-vue/09-实现 effect 的 stop 功能.md",
     "代码/Vue/mini-vue/10-实现 readonly 功能.md",
+    "代码/Vue/mini-vue/11-实现 isReactive 和 isReadonly.md",
     "代码/Vue/mini-vue/12-优化 stop 功能.md",
+    "代码/Vue/mini-vue/15-实现 isProxy 功能.md",
     "代码/Vue/mini-vue/00.预习.md",
     "代码/Vue/mini-vue/0.mini-vue目录.md",
     "代码/Vue/mini-vue/虚拟DOM与Diff算法.md",
     "代码/Vue/mini-vue/setup&render 和 虚拟DOM.md",
-    "代码/Vue/mini-vue/其他知识.md",
-    "代码/Vue/mini-vue/未命名.md",
-    "代码/Vue/未命名.md"
+    "代码/Vue/mini-vue/其他知识.md"
   ]
 }
