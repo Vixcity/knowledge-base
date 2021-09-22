@@ -18,7 +18,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/CSS 实现新拟态(Neumorphism) UI 风格.md",
+            "file": "README.md",
             "mode": "preview"
           }
         },
@@ -78,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "32aefe4ff4d3a817",
+  "active": "23b263b99a4e899b",
   "lastOpenFiles": [
-    "代码/CSS/CSS 实现新拟态(Neumorphism) UI 风格.md",
-    "代码/CSS/0.css-目录.md",
-    "代码/CSS/未命名.md",
-    "代码/代码-总目录.md",
-    "代码/Git/未命名.md",
-    "代码/看源码思路.md",
-    "代码/Go/0.Go-目录.md",
-    "代码/Go/未命名.md",
-    "代码/Go/0.目录.md",
-    "代码/JavaScript/花里胡哨的 JS 装逼大法，直呼内行！！.md"
+    "README.md",
+    "电脑/显卡/0.显卡.md",
+    "电脑/0.电脑总目录.md",
+    "电脑/显卡/未命名.md",
+    "电脑/未命名.md",
+    "认知/未命名.md",
+    "思考/思考.md",
+    "思维/未命名.md",
+    "写作/写作.md",
+    "代码/CSS/CSS 实现新拟态(Neumorphism) UI 风格.md"
   ]
 }
