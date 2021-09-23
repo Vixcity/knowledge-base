@@ -18,7 +18,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/0.阅读-目录.md",
+            "file": "代码/JavaScript/0.JavaScript-目录.md",
             "mode": "preview"
           }
         },
@@ -78,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/0.阅读-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23b263b99a4e899b",
+  "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/JavaScript/0.JavaScript-目录.md",
+    "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
+    "代码/JavaScript/一行代码实现/1.数组.md",
+    "代码/JavaScript/一行代码实现/未命名.md",
     "阅读/0.阅读-目录.md",
     "阅读/0.目录.md",
     "README.md",
     "阅读/未命名.md",
     "阅读/1.鬼谷子.md",
-    "阅读/2.菜根谭.md",
-    "代码/CSS/0.css-目录.md",
-    "代码/CSS/未命名.md",
-    "代码/Vue/0.Vue-目录.md",
-    "代码/Vue/未命名.md"
+    "阅读/2.菜根谭.md"
   ]
 }
