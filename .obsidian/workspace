@@ -7,8 +7,11 @@
         "id": "32aefe4ff4d3a817",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "阅读/3.决胜个人IP.md",
+            "mode": "source"
+          }
         },
         "group": "f33d2df6129ced28"
       },
@@ -18,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/0.JavaScript-目录.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "preview"
           }
         },
@@ -78,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +101,7 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "阅读/3.决胜个人IP.md",
     "代码/JavaScript/0.JavaScript-目录.md",
     "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
     "代码/JavaScript/一行代码实现/1.数组.md",
@@ -105,7 +110,6 @@
     "阅读/0.目录.md",
     "README.md",
     "阅读/未命名.md",
-    "阅读/1.鬼谷子.md",
-    "阅读/2.菜根谭.md"
+    "阅读/1.鬼谷子.md"
   ]
 }
