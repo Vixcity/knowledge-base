@@ -7,11 +7,8 @@
         "id": "32aefe4ff4d3a817",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/CSS/0.css-目录.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "f33d2df6129ced28"
       },
@@ -21,7 +18,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/0.css-目录.md",
+            "file": "阅读/0.阅读-目录.md",
             "mode": "preview"
           }
         },
@@ -81,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/CSS/0.css-目录.md",
+                "file": "阅读/0.阅读-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +96,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "32aefe4ff4d3a817",
+  "active": "23b263b99a4e899b",
   "lastOpenFiles": [
+    "阅读/0.阅读-目录.md",
+    "阅读/0.目录.md",
+    "README.md",
+    "阅读/未命名.md",
+    "阅读/1.鬼谷子.md",
+    "阅读/2.菜根谭.md",
     "代码/CSS/0.css-目录.md",
     "代码/CSS/未命名.md",
     "代码/Vue/0.Vue-目录.md",
-    "代码/Vue/未命名.md",
-    "README.md",
-    "电脑/显卡/0.显卡.md",
-    "电脑/0.电脑总目录.md",
-    "电脑/显卡/未命名.md",
-    "电脑/未命名.md",
-    "认知/未命名.md"
+    "代码/Vue/未命名.md"
   ]
 }
