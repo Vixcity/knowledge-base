@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
+            "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
+            "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
+                "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "32aefe4ff4d3a817",
   "lastOpenFiles": [
+    "代码/JavaScript/一行代码实现/2.DOM节点.md",
+    "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
+    "代码/JavaScript/一行代码实现/1.数组.md",
+    "代码/JavaScript/一行代码实现/未命名.md",
     "阅读/3.决胜个人IP.md",
     "代码/Go/0.Go-目录.md",
     "代码/Go/未命名.md",
     "代码/Go/const与iota知识点注意事项.md",
     "代码/Go/变量声明和多变量声明.md",
-    "代码/Go/go语言的优势.md",
-    "代码/JavaScript/0.JavaScript-目录.md",
-    "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
-    "代码/JavaScript/一行代码实现/1.数组.md",
-    "代码/JavaScript/一行代码实现/未命名.md"
+    "代码/Go/go语言的优势.md"
   ]
 }
