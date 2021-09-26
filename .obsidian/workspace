@@ -4,28 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "32aefe4ff4d3a817",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
-            "mode": "source"
-          }
-        },
-        "group": "f33d2df6129ced28"
-      },
-      {
         "id": "23b263b99a4e899b",
         "type": "leaf",
         "state": {
+          "type": "graph",
+          "state": {}
+        },
+        "group": "d2895be61c657fa0"
+      },
+      {
+        "id": "484455f61b664b16",
+        "type": "leaf",
+        "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         },
-        "group": "f33d2df6129ced28"
+        "group": "d2895be61c657fa0"
       }
     ],
     "direction": "vertical"
@@ -81,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/一行代码实现/2.DOM节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "32aefe4ff4d3a817",
+  "active": "23b263b99a4e899b",
   "lastOpenFiles": [
+    "README.md",
+    "React中收集表单数据.md",
+    "代码/重构/0.重构-目录.md",
+    "代码/重构/第1章　重构，第一个示例.md",
+    "代码/重构/未命名.md",
+    "阅读/0.阅读-目录.md",
+    "[[]].md",
+    "代码/代码-总目录.md",
     "代码/JavaScript/一行代码实现/2.DOM节点.md",
-    "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
-    "代码/JavaScript/一行代码实现/1.数组.md",
-    "代码/JavaScript/一行代码实现/未命名.md",
-    "阅读/3.决胜个人IP.md",
-    "代码/Go/0.Go-目录.md",
-    "代码/Go/未命名.md",
-    "代码/Go/const与iota知识点注意事项.md",
-    "代码/Go/变量声明和多变量声明.md",
-    "代码/Go/go语言的优势.md"
+    "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md"
   ]
 }
