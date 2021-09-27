@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/重构/第1章　重构，第一个示例.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/重构/第1章　重构，第一个示例.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/重构/第1章　重构，第一个示例.md",
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +99,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "068384ee9e1c3636",
+  "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
+    "阅读/3.决胜个人IP.md",
     "代码/重构/第1章　重构，第一个示例.md",
     "代码/重构/第2章　重构的原则.md",
     "代码/重构/第4章　构筑测试体系.md"
