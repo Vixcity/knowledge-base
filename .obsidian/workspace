@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/一行代码实现/5.数学.md",
+            "file": "代码/重构/0.重构-目录.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/一行代码实现/5.数学.md",
+            "file": "代码/重构/0.重构-目录.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/一行代码实现/5.数学.md",
+                "file": "代码/重构/0.重构-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
+    "代码/重构/0.重构-目录.md",
+    "代码/重构/未命名.md",
+    "代码/重构/第2章　重构的原则.md",
+    "代码/重构/第1章　重构，第一个示例.md",
     "代码/JavaScript/一行代码实现/5.数学.md",
     "代码/JavaScript/一行代码实现/8.目的.md",
     "代码/JavaScript/一行代码实现/4.函数.md",
     "代码/JavaScript/一行代码实现/0.一行代码实现-目录.md",
     "代码/JavaScript/一行代码实现/未命名.md",
-    "代码/JavaScript/一行代码实现/3.日期时间.md",
-    "阅读/3.决胜个人IP.md",
-    "代码/重构/第1章　重构，第一个示例.md",
-    "代码/重构/第2章　重构的原则.md",
-    "代码/重构/第4章　构筑测试体系.md"
+    "代码/JavaScript/一行代码实现/3.日期时间.md"
   ]
 }
