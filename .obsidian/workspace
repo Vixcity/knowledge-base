@@ -7,11 +7,8 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "321cb7a2265b49b4"
       },
@@ -21,7 +18,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
+            "file": "代码/重构/第5章　介绍重构名录.md",
             "mode": "preview"
           }
         },
@@ -81,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/一行代码实现/11.验证器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +97,15 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
+    "代码/重构/第5章　介绍重构名录.md",
+    "代码/重构/0.重构-目录.md",
+    "代码/重构/未命名.md",
+    "代码/重构/第4章　构筑测试体系.md",
+    "代码/重构/第3章　代码的坏味道.md",
+    "代码/重构/第2章　重构的原则.md",
+    "代码/重构/第1章　重构，第一个示例.md",
     "代码/JavaScript/一行代码实现/11.验证器.md",
     "代码/JavaScript/一行代码实现/10.字符串.md",
-    "代码/JavaScript/一行代码实现/9.随机.md",
-    "代码/JavaScript/一行代码实现/8.对象.md",
-    "代码/JavaScript/一行代码实现/7.数字.md",
-    "代码/JavaScript/一行代码实现/6.杂项.md",
-    "代码/JavaScript/一行代码实现/5.数学.md",
-    "代码/JavaScript/一行代码实现/4.函数.md",
-    "代码/JavaScript/一行代码实现/3.日期时间.md",
-    "代码/重构/0.重构-目录.md"
+    "代码/JavaScript/一行代码实现/9.随机.md"
   ]
 }
