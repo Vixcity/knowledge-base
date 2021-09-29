@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "法则/法则/0.法则-目录.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "法则/法则/0.法则-目录.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "法则/法则/0.法则-目录.md",
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
+    "阅读/3.决胜个人IP.md",
+    "代码/重构/第7章　封装.md",
+    "代码/重构/第8章　搬移特性.md",
     "法则/法则/0.法则-目录.md",
     "法则/法则/未命名.md",
     "阅读/阅读清单.md",
     "法则/法则/19.SOLID.md",
     "法则/法则/18.KISS 原则.md",
     "法则/法则/17.依赖反转原则.md",
-    "法则/法则/16.死海效应.md",
-    "法则/法则/15.舍基原理.md",
-    "法则/法则/14.切斯特森围栏.md",
-    "法则/法则/13.帕累托法则.md"
+    "法则/法则/16.死海效应.md"
   ]
 }
