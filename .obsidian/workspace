@@ -7,25 +7,20 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "阅读/3.决胜个人IP.md",
-            "mode": "source"
-          }
-        },
-        "group": "321cb7a2265b49b4"
+          "type": "graph",
+          "state": {}
+        }
       },
       {
-        "id": "f8c745a41fdf652f",
+        "id": "f06a8bb5b9dcfd11",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
-            "mode": "preview"
+            "file": "法则/定律/0.定律-目录.md",
+            "mode": "source"
           }
-        },
-        "group": "321cb7a2265b49b4"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +95,15 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
-    "阅读/3.决胜个人IP.md",
     "阅读/0.阅读-目录.md",
-    "阅读/5.乌合之众.md",
-    "阅读/4.教你做网红.md",
+    "法则/定律/0.定律-目录.md",
+    "法则/定律/36.契可尼效应（蔡格尼克效应）.md",
+    "阅读/3.决胜个人IP.md",
+    "阅读/6.刻意练习.md",
     "阅读/未命名.md",
-    "代码/Vue/mini-vue/21-使用 rollup 打包库.md",
-    "代码/Vue/mini-vue/20-实现初始化 component 主流程.md",
-    "代码/JavaScript/一行代码实现/8.对象.md",
-    "代码/JavaScript/一行代码实现/7.数字.md",
-    "代码/JavaScript/一行代码实现/6.杂项.md"
+    "法则/定律/未命名.md",
+    "时间管理/时间管理.md",
+    "法则/法则/19.SOLID.md",
+    "阅读/5.乌合之众.md"
   ]
 }
