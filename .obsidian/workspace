@@ -7,19 +7,25 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/重构/第7章　封装.md",
+            "mode": "source"
+          }
         },
-        "group": "b48cbf902a9dcbbf"
+        "group": "63077a6ccf4a29ab"
       },
       {
         "id": "9e9cdcc6c3185fff",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/重构/第7章　封装.md",
+            "mode": "preview"
+          }
         },
-        "group": "b48cbf902a9dcbbf"
+        "group": "63077a6ccf4a29ab"
       }
     ],
     "direction": "vertical"
@@ -59,7 +65,7 @@
             "id": "0fada493549e2530",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
+              "type": "empty",
               "state": {}
             }
           }
@@ -83,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/重构/第7章　封装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/重构/第7章　封装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/重构/第7章　封装.md"
+              }
             }
           },
           {
@@ -137,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,15 +156,15 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
-    "阅读/未命名.md",
+    "代码/重构/第7章　封装.md",
+    "代码/重构/第8章　搬移特性.md",
+    "代码/重构/第10章　简化条件逻辑.md",
+    "代码/重构/第2章　重构的原则.md",
+    "代码/重构/第1章　重构，第一个示例.md",
     "阅读/3.决胜个人IP.md",
+    "阅读/未命名.md",
     "阅读/2.菜根谭.md",
     "阅读/阅读.md",
-    "代码/代码.md",
-    "阅读/9.掌控习惯.md",
-    "README.md",
-    "阅读/7.微习惯.md",
-    "Day Planners/Day Planner-20211002.md",
-    "法则/法则/13.帕累托法则.md"
+    "代码/代码.md"
   ]
 }
