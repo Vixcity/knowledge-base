@@ -7,11 +7,8 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/重构/第7章　封装.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "63077a6ccf4a29ab"
       },
@@ -89,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/重构/第7章　封装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/重构/第7章　封装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "代码/重构/第7章　封装.md"
-              }
+              "state": {}
             }
           },
           {
