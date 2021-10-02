@@ -7,8 +7,11 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
+            "mode": "source"
+          }
         },
         "group": "63077a6ccf4a29ab"
       },
@@ -18,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/重构/第7章　封装.md",
+            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
             "mode": "preview"
           }
         },
@@ -86,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/JavaScript/一行代码实现/11.验证器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/JavaScript/一行代码实现/11.验证器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/JavaScript/一行代码实现/11.验证器.md"
+              }
             }
           },
           {
@@ -149,6 +156,8 @@
   },
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
+    "代码/JavaScript/一行代码实现/11.验证器.md",
+    "代码/JavaScript/一行代码实现/10.字符串.md",
     "代码/重构/第7章　封装.md",
     "代码/重构/第8章　搬移特性.md",
     "代码/重构/第10章　简化条件逻辑.md",
@@ -156,8 +165,6 @@
     "代码/重构/第1章　重构，第一个示例.md",
     "阅读/3.决胜个人IP.md",
     "阅读/未命名.md",
-    "阅读/2.菜根谭.md",
-    "阅读/阅读.md",
-    "代码/代码.md"
+    "阅读/2.菜根谭.md"
   ]
 }
