@@ -1,4 +1,6 @@
 {
-  "baseFontSize": 17,
-  "cssTheme": ""
+  "baseFontSize": 16,
+  "cssTheme": "Pisum",
+  "theme": "obsidian",
+  "translucency": false
 }

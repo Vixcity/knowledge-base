@@ -7,8 +7,11 @@
         "id": "c71e017425c7c3b5",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "阅读/3.决胜个人IP.md",
+            "mode": "source"
+          }
         },
         "group": "b48cbf902a9dcbbf"
       },
@@ -62,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298
   },
   "right": {
     "id": "d35d92d5502e207b",
@@ -78,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,14 +102,14 @@
   "active": "c71e017425c7c3b5",
   "lastOpenFiles": [
     "阅读/3.决胜个人IP.md",
+    "阅读/9.掌控习惯.md",
+    "法则/法则/13.帕累托法则.md",
+    "法则/法则/1.90-9-1法则.md",
     "阅读/未命名.md",
     "阅读/0.阅读-目录.md",
     "法则/定律/0.定律-目录.md",
     "代码/JavaScript/一行代码实现/10.字符串.md",
     "代码/JavaScript/一行代码实现/11.验证器.md",
-    "代码/JavaScript/一行代码实现/9.随机.md",
-    "法则/定律/36.契可尼效应（蔡格尼克效应）.md",
-    "阅读/6.刻意练习.md",
-    "法则/定律/未命名.md"
+    "代码/JavaScript/一行代码实现/9.随机.md"
   ]
 }
