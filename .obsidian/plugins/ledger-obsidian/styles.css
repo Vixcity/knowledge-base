@@ -1,0 +1,35 @@
+/*
+Transaction Entry Modal
+*/
+
+.is-mobile .remove-row {
+  margin: 11px 4px 11px 0 !important;
+}
+
+.is-mobile input[type='number'] {
+  padding: 8px 14px;
+  height: auto;
+  font-size: 17px;
+}
+
+.is-mobile button {
+  margin: 5px 0;
+}
+
+/*
+Settings Page
+*/
+
+.ledger-input-error {
+  border-color: var(--text-error) !important;
+}
+
+.ledger-donation {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ledger-donate-button {
+  margin: 10px;
+}
