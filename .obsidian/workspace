@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c71e017425c7c3b5",
+        "id": "bc6fd43ad65953c2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
-            "mode": "source"
-          }
-        },
-        "group": "63077a6ccf4a29ab"
-      },
-      {
-        "id": "9e9cdcc6c3185fff",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/JavaScript/一行代码实现/11.验证器.md",
-            "mode": "preview"
-          }
-        },
-        "group": "63077a6ccf4a29ab"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/一行代码实现/11.验证器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/JavaScript/一行代码实现/11.验证器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "代码/JavaScript/一行代码实现/11.验证器.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,32 +119,32 @@
             }
           },
           {
-            "id": "2908dc2eaf53e22d",
+            "id": "65e5c93dd0e8532c",
             "type": "leaf",
             "state": {
-              "type": "reminder-list",
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "c71e017425c7c3b5",
+  "active": "bc6fd43ad65953c2",
   "lastOpenFiles": [
+    "每日计划/2021-10-03.md",
+    "2021-10-04.md",
+    "阅读/3.决胜个人IP.md",
+    "阅读/4.教你做网红.md",
+    "2021-10-03.md",
     "代码/JavaScript/一行代码实现/11.验证器.md",
     "代码/JavaScript/一行代码实现/10.字符串.md",
     "代码/重构/第7章　封装.md",
     "代码/重构/第8章　搬移特性.md",
-    "代码/重构/第10章　简化条件逻辑.md",
-    "代码/重构/第2章　重构的原则.md",
-    "代码/重构/第1章　重构，第一个示例.md",
-    "阅读/3.决胜个人IP.md",
-    "阅读/未命名.md",
-    "阅读/2.菜根谭.md"
+    "代码/重构/第10章　简化条件逻辑.md"
   ]
 }
