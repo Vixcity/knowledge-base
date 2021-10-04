@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6fd43ad65953c2",
+        "id": "afa724197b5a2f74",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "阅读/3.决胜个人IP.md",
-            "mode": "source"
-          }
-        },
-        "group": "aee06ab01fe9336f"
-      },
-      {
-        "id": "01c679419b4212a1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "阅读/3.决胜个人IP.md",
-            "mode": "preview"
-          }
-        },
-        "group": "aee06ab01fe9336f"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "阅读/3.决胜个人IP.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,24 +135,24 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "bc6fd43ad65953c2",
+  "active": "afa724197b5a2f74",
   "lastOpenFiles": [
+    "每日计划/2021-10-04.md",
+    "代码/CSS/CSS 代码重构与优化之路.md",
+    "代码/CSS/0.css-目录.md",
+    "代码/CSS/未命名.md",
     "阅读/3.决胜个人IP.md",
     "每日计划/2021-10-03.md",
     "2021-10-04.md",
     "阅读/4.教你做网红.md",
     "2021-10-03.md",
-    "代码/JavaScript/一行代码实现/11.验证器.md",
-    "代码/JavaScript/一行代码实现/10.字符串.md",
-    "代码/重构/第7章　封装.md",
-    "代码/重构/第8章　搬移特性.md",
-    "代码/重构/第10章　简化条件逻辑.md"
+    "代码/JavaScript/一行代码实现/11.验证器.md"
   ]
 }
