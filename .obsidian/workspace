@@ -7,9 +7,25 @@
         "id": "bc6fd43ad65953c2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "阅读/3.决胜个人IP.md",
+            "mode": "source"
+          }
+        },
+        "group": "aee06ab01fe9336f"
+      },
+      {
+        "id": "01c679419b4212a1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "阅读/3.决胜个人IP.md",
+            "mode": "preview"
+          }
+        },
+        "group": "aee06ab01fe9336f"
       }
     ],
     "direction": "vertical"
@@ -73,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "阅读/3.决胜个人IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "阅读/3.决胜个人IP.md"
+              }
             }
           },
           {
@@ -125,6 +145,14 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "a15d3f71ac6f6682",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -136,9 +164,9 @@
   },
   "active": "bc6fd43ad65953c2",
   "lastOpenFiles": [
+    "阅读/3.决胜个人IP.md",
     "每日计划/2021-10-03.md",
     "2021-10-04.md",
-    "阅读/3.决胜个人IP.md",
     "阅读/4.教你做网红.md",
     "2021-10-03.md",
     "代码/JavaScript/一行代码实现/11.验证器.md",
