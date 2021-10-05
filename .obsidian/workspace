@@ -7,8 +7,11 @@
         "id": "afa724197b5a2f74",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/CSS/好玩的CSS属性.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/CSS/好玩的CSS属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/CSS/好玩的CSS属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/CSS/好玩的CSS属性.md"
+              }
             }
           },
           {
@@ -144,6 +151,7 @@
   },
   "active": "afa724197b5a2f74",
   "lastOpenFiles": [
+    "代码/CSS/好玩的CSS属性.md",
     "每日计划/2021-10-04.md",
     "代码/CSS/CSS 代码重构与优化之路.md",
     "代码/CSS/0.css-目录.md",
@@ -152,7 +160,6 @@
     "每日计划/2021-10-03.md",
     "2021-10-04.md",
     "阅读/4.教你做网红.md",
-    "2021-10-03.md",
-    "代码/JavaScript/一行代码实现/11.验证器.md"
+    "2021-10-03.md"
   ]
 }
