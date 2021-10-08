@@ -7,11 +7,8 @@
         "id": "afa724197b5a2f74",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "阅读/3.决胜个人IP.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "179273e3b412587b"
       },
@@ -89,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +112,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "阅读/3.决胜个人IP.md"
-              }
+              "state": {}
             }
           },
           {
