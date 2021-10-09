@@ -7,8 +7,11 @@
         "id": "afa724197b5a2f74",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/JavaScript/前端换肤的N种方案，请收下.md",
+            "mode": "source"
+          }
         },
         "group": "179273e3b412587b"
       },
@@ -18,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
+            "file": "代码/JavaScript/前端换肤的N种方案，请收下.md",
             "mode": "preview"
           }
         },
@@ -86,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/JavaScript/前端换肤的N种方案，请收下.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/JavaScript/前端换肤的N种方案，请收下.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,11 +117,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/JavaScript/前端换肤的N种方案，请收下.md"
+              }
             }
           },
           {
-            "id": "4dc943e55b3b5878",
+            "id": "3df9f948bf83eb0b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -124,7 +131,7 @@
             }
           },
           {
-            "id": "808dfa58e85a0d8e",
+            "id": "8e506d52f0333406",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -132,15 +139,7 @@
             }
           },
           {
-            "id": "65e5c93dd0e8532c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "a15d3f71ac6f6682",
+            "id": "0cde11c336fc5163",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -148,14 +147,16 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "afa724197b5a2f74",
   "lastOpenFiles": [
+    "代码/JavaScript/未命名.md",
     "阅读/3.决胜个人IP.md",
     "代码/CSS/好玩的CSS属性.md",
     "每日计划/2021-10-04.md",
@@ -164,7 +165,6 @@
     "代码/CSS/未命名.md",
     "每日计划/2021-10-03.md",
     "2021-10-04.md",
-    "阅读/4.教你做网红.md",
-    "2021-10-03.md"
+    "阅读/4.教你做网红.md"
   ]
 }
