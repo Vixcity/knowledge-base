@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思维/学习方法.md",
+            "file": "阅读/4.教你做网红.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思维/学习方法.md",
+            "file": "阅读/4.教你做网红.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思维/学习方法.md",
+                "file": "阅读/4.教你做网红.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思维/学习方法.md",
+                "file": "阅读/4.教你做网红.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思维/学习方法.md"
+                "file": "阅读/4.教你做网红.md"
               }
             }
           },
@@ -156,8 +156,8 @@
   },
   "active": "afa724197b5a2f74",
   "lastOpenFiles": [
-    "思维/未命名.md",
     "阅读/4.教你做网红.md",
+    "思维/未命名.md",
     "代码/JavaScript/前端换肤的N种方案，请收下.md",
     "代码/JavaScript/未命名.md",
     "阅读/3.决胜个人IP.md",
