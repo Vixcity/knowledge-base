@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "经济学/0.经济学总目录.md",
+            "file": "代码/Vue/mini-vue/00.预习.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "经济学/0.经济学总目录.md",
+                "file": "代码/Vue/mini-vue/00.预习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "经济学/0.经济学总目录.md",
+                "file": "代码/Vue/mini-vue/00.预习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "经济学/0.经济学总目录.md"
+                "file": "代码/Vue/mini-vue/00.预习.md"
               }
             }
           },
@@ -143,15 +143,15 @@
   },
   "active": "547043c8a5a5f34b",
   "lastOpenFiles": [
-    "经济学/未命名.md",
-    "经济学/经济学.md",
-    "时间管理/未命名.md",
-    "未命名.md",
-    "时间管理/时间管理.md",
-    "写作/未命名.md",
-    "写作/写作.md",
-    "思考/学习方法.md",
-    "思考/0.思考总目录.md",
-    "思考/思考.md"
+    "代码/Vue/mini-vue/00.预习.md",
+    "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md",
+    "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
+    "代码/Vue/mini-vue/15-实现 isProxy 功能.md",
+    "代码/Vue/mini-vue/13-实现 reactive 和 readonly 嵌套对象转换功能.md",
+    "代码/Vue/mini-vue/17-实现 isRef 和 unRef 功能.md",
+    "代码/Vue/mini-vue/20-实现初始化 component 主流程.md",
+    "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
+    "代码/Vue/mini-vue/虚拟DOM与Diff算法.md",
+    "代码/Vue/mini-vue/19-实现 computed 计算属性.md"
   ]
 }
