@@ -7,8 +7,11 @@
         "id": "720ea63ab944de2a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "思考/做up主的一些要点.md",
+            "mode": "source"
+          }
         },
         "group": "d772243aaf835f35"
       },
@@ -18,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/CSS/0.css-目录.md",
+            "file": "思考/做up主的一些要点.md",
             "mode": "preview"
           }
         },
@@ -86,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "思考/做up主的一些要点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "思考/做up主的一些要点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "思考/做up主的一些要点.md"
+              }
             }
           },
           {
@@ -149,6 +156,7 @@
   },
   "active": "720ea63ab944de2a",
   "lastOpenFiles": [
+    "思考/未命名.md",
     "代码/CSS/0.css-目录.md",
     "代码/CSS/未命名.md",
     "思考/学习方法.md",
@@ -157,7 +165,6 @@
     "代码/代码-总目录.md",
     "学习方法分享.md",
     "思考/0.思考总目录.md",
-    "代码/Vue/mini-vue/00.预习.md",
-    "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md"
+    "代码/Vue/mini-vue/00.预习.md"
   ]
 }
