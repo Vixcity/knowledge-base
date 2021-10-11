@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/做up主的一些要点.md",
+            "file": "思考/0.思考总目录.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/做up主的一些要点.md",
+            "file": "思考/0.思考总目录.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/做up主的一些要点.md",
+                "file": "思考/0.思考总目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/做up主的一些要点.md",
+                "file": "思考/0.思考总目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/做up主的一些要点.md"
+                "file": "思考/0.思考总目录.md"
               }
             }
           },
@@ -156,6 +156,7 @@
   },
   "active": "720ea63ab944de2a",
   "lastOpenFiles": [
+    "思考/0.思考总目录.md",
     "思考/未命名.md",
     "代码/CSS/0.css-目录.md",
     "代码/CSS/未命名.md",
@@ -164,7 +165,6 @@
     "README.md",
     "代码/代码-总目录.md",
     "学习方法分享.md",
-    "思考/0.思考总目录.md",
     "代码/Vue/mini-vue/00.预习.md"
   ]
 }
