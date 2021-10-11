@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "547043c8a5a5f34b",
+        "id": "720ea63ab944de2a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/00.预习.md",
+            "file": "思考/学习方法.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "d772243aaf835f35"
+      },
+      {
+        "id": "9f3abfc11a04c877",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "思考/学习方法.md",
+            "mode": "preview"
+          }
+        },
+        "group": "d772243aaf835f35"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "二八",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Vue/mini-vue/00.预习.md",
+                "file": "思考/学习方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Vue/mini-vue/00.预习.md",
+                "file": "思考/学习方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Vue/mini-vue/00.预习.md"
+                "file": "思考/学习方法.md"
               }
             }
           },
@@ -141,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "547043c8a5a5f34b",
+  "active": "720ea63ab944de2a",
   "lastOpenFiles": [
+    "思考/学习方法.md",
+    "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png",
+    "README.md",
+    "代码/代码-总目录.md",
+    "学习方法分享.md",
+    "思考/0.思考总目录.md",
     "代码/Vue/mini-vue/00.预习.md",
     "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md",
     "代码/Vue/mini-vue/08-实现 effect.scheduler 功能.md",
-    "代码/Vue/mini-vue/15-实现 isProxy 功能.md",
-    "代码/Vue/mini-vue/13-实现 reactive 和 readonly 嵌套对象转换功能.md",
-    "代码/Vue/mini-vue/17-实现 isRef 和 unRef 功能.md",
-    "代码/Vue/mini-vue/20-实现初始化 component 主流程.md",
-    "代码/Vue/mini-vue/18-实现 proxyRefs 功能.md",
-    "代码/Vue/mini-vue/虚拟DOM与Diff算法.md",
-    "代码/Vue/mini-vue/19-实现 computed 计算属性.md"
+    "代码/Vue/mini-vue/15-实现 isProxy 功能.md"
   ]
 }
