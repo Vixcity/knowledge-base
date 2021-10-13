@@ -1320,7 +1320,7 @@ export default {
 
 这个方法可以获取到当前组件的实例，相当于`Vue2`中的`this`最后，毕竟是个人总结，难免会出现纰漏和错误，期待各路大神的补充和纠正。
 
-我的开源项目:
+原文作者的开源项目:
 
 https://juejin.cn/post/6963945204965441550"
 
@@ -1329,6 +1329,3 @@ https://juejin.cn/post/6963945204965441550"
 [1]
 
 https://github.com/vuejs/rfcs/pull/210
-
-> 作者：一尾流莺
-> https://juejin.cn/post/6977004323742220319

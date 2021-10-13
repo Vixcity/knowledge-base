@@ -7,8 +7,11 @@
         "id": "9f3abfc11a04c877",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/Vue/整理的一些 Vue3 知识点.md",
+            "mode": "source"
+          }
         },
         "group": "bba89d3616631ec6"
       },
@@ -18,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Vue/0.Vue-目录.md",
+            "file": "代码/Vue/整理的一些 Vue3 知识点.md",
             "mode": "preview"
           }
         },
@@ -86,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +117,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md"
+              }
             }
           },
           {
@@ -149,6 +156,7 @@
   },
   "active": "9f3abfc11a04c877",
   "lastOpenFiles": [
+    "代码/Vue/整理的一些 Vue3 知识点.md",
     "代码/Vue/0.Vue-目录.md",
     "代码/Vue/未命名.md",
     "README.md",
@@ -157,7 +165,6 @@
     "阅读/3.决胜个人IP.md",
     "法则/定律/25.帕金森定理.md",
     "思考/做up主的一些要点.md",
-    "思考/0.思考总目录.md",
-    "思考/未命名.md"
+    "思考/0.思考总目录.md"
   ]
 }
