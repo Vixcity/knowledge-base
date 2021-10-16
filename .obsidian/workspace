@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/0.阅读-目录.md",
+            "file": "阅读/3.决胜个人IP.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/0.阅读-目录.md",
-            "mode": "source"
+            "file": "阅读/3.决胜个人IP.md",
+            "mode": "preview"
           }
         },
         "group": "888cf15f1e3c0147"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/0.阅读-目录.md",
+                "file": "阅读/3.决胜个人IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/0.阅读-目录.md",
+                "file": "阅读/3.决胜个人IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读/0.阅读-目录.md"
+                "file": "阅读/3.决胜个人IP.md"
               }
             }
           },
@@ -156,6 +156,7 @@
   },
   "active": "cdffd7f8f507aeb3",
   "lastOpenFiles": [
+    "阅读/3.决胜个人IP.md",
     "阅读/0.阅读-目录.md",
     "阅读/10.卡片笔记写作法.md",
     "阅读/未命名.md",
@@ -164,7 +165,6 @@
     "代码/Node/0.NodeJs-目录.md",
     "代码/Vue/Node.js + Vue 实现 Excel 导出与保存.md",
     "代码/Vue/未命名.md",
-    "代码/CSS/全兼容的毛玻璃效果.md",
-    "代码/CSS/0.css-目录.md"
+    "代码/CSS/全兼容的毛玻璃效果.md"
   ]
 }
