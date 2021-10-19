@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cdffd7f8f507aeb3",
+        "id": "cca63e70368515f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
+            "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
             "mode": "source"
           }
         },
-        "group": "888cf15f1e3c0147"
+        "group": "bcde2257466d1496"
       },
       {
-        "id": "e1ad0f839725bde9",
+        "id": "9822ad58f5e0bd09",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "阅读/3.决胜个人IP.md",
+            "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
             "mode": "preview"
           }
         },
-        "group": "888cf15f1e3c0147"
+        "group": "bcde2257466d1496"
       }
     ],
     "direction": "vertical"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
+                "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/3.决胜个人IP.md",
+                "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读/3.决胜个人IP.md"
+                "file": "代码/JavaScript/co.js - 让异步代码同步化.md"
               }
             }
           },
@@ -154,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cdffd7f8f507aeb3",
+  "active": "cca63e70368515f0",
   "lastOpenFiles": [
+    "代码/JavaScript/co.js - 让异步代码同步化.md",
+    "代码/JavaScript/Co.js源码解读.md",
+    "代码/JavaScript/未命名.md",
     "阅读/3.决胜个人IP.md",
     "思维/0.思维总目录.md",
     "阅读/0.阅读-目录.md",
     "阅读/10.卡片笔记写作法.md",
     "阅读/未命名.md",
     "代码/Vue/0.Vue-目录.md",
-    "代码/0.代码-总目录.md",
-    "代码/Node/0.NodeJs-目录.md",
-    "代码/Vue/Node.js + Vue 实现 Excel 导出与保存.md",
-    "代码/Vue/未命名.md"
+    "代码/0.代码-总目录.md"
   ]
 }
