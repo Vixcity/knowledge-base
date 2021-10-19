@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
+            "file": "代码/JavaScript/0.JavaScript-目录.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
+            "file": "代码/JavaScript/0.JavaScript-目录.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
+                "file": "代码/JavaScript/0.JavaScript-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/JavaScript/co.js - 让异步代码同步化.md",
+                "file": "代码/JavaScript/0.JavaScript-目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/JavaScript/co.js - 让异步代码同步化.md"
+                "file": "代码/JavaScript/0.JavaScript-目录.md"
               }
             }
           },
@@ -156,6 +156,7 @@
   },
   "active": "cca63e70368515f0",
   "lastOpenFiles": [
+    "代码/JavaScript/0.JavaScript-目录.md",
     "代码/JavaScript/co.js - 让异步代码同步化.md",
     "代码/JavaScript/Co.js源码解读.md",
     "代码/JavaScript/未命名.md",
@@ -164,7 +165,6 @@
     "阅读/0.阅读-目录.md",
     "阅读/10.卡片笔记写作法.md",
     "阅读/未命名.md",
-    "代码/Vue/0.Vue-目录.md",
-    "代码/0.代码-总目录.md"
+    "代码/Vue/0.Vue-目录.md"
   ]
 }
