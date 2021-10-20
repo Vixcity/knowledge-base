@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cca63e70368515f0",
+        "id": "ee5385537038608a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/0.JavaScript-目录.md",
+            "file": "代码/Node/0.NodeJs-目录.md",
             "mode": "source"
           }
         },
-        "group": "bcde2257466d1496"
+        "group": "7ac29a9901225ccc"
       },
       {
-        "id": "9822ad58f5e0bd09",
+        "id": "3bcd77045a76483c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/JavaScript/0.JavaScript-目录.md",
+            "file": "代码/Node/0.NodeJs-目录.md",
             "mode": "preview"
           }
         },
-        "group": "bcde2257466d1496"
+        "group": "7ac29a9901225ccc"
       }
     ],
     "direction": "vertical"
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/JavaScript/0.JavaScript-目录.md",
+                "file": "代码/Node/0.NodeJs-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/JavaScript/0.JavaScript-目录.md",
+                "file": "代码/Node/0.NodeJs-目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/JavaScript/0.JavaScript-目录.md"
+                "file": "代码/Node/0.NodeJs-目录.md"
               }
             }
           },
@@ -154,17 +154,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cca63e70368515f0",
+  "active": "ee5385537038608a",
   "lastOpenFiles": [
+    "代码/Node/0.NodeJs-目录.md",
+    "代码/Node/50行代码串行Promise，koa洋葱模型原来是这么实现？.md",
+    "Pasted image 20211020134025.png",
+    "Pasted image 20211020134024.png",
+    "Pasted image 20211020133349.png",
+    "代码/Node/koa-compose.md",
+    "代码/Node/未命名.md",
     "代码/JavaScript/0.JavaScript-目录.md",
     "代码/JavaScript/co.js - 让异步代码同步化.md",
-    "代码/JavaScript/Co.js源码解读.md",
-    "代码/JavaScript/未命名.md",
-    "阅读/3.决胜个人IP.md",
-    "思维/0.思维总目录.md",
-    "阅读/0.阅读-目录.md",
-    "阅读/10.卡片笔记写作法.md",
-    "阅读/未命名.md",
-    "代码/Vue/0.Vue-目录.md"
+    "代码/JavaScript/Co.js源码解读.md"
   ]
 }

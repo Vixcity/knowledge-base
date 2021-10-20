@@ -2,5 +2,5 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showFrontmatter": false,
-  "showLineNumber": false
+  "showLineNumber": true
 }
