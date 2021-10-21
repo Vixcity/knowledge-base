@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Node/0.NodeJs-目录.md",
+            "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Node/0.NodeJs-目录.md",
+            "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
             "mode": "preview"
           }
         },
@@ -60,14 +60,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "0fada493549e2530",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -89,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md",
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md",
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md"
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知.md"
               }
             }
           },
@@ -156,15 +148,15 @@
   },
   "active": "ee5385537038608a",
   "lastOpenFiles": [
+    "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
+    "思维/0.思维总目录.md",
+    "思维/5w1h分析法.md",
     "代码/Node/0.NodeJs-目录.md",
     "代码/Node/50行代码串行Promise，koa洋葱模型原来是这么实现？.md",
     "Pasted image 20211020134025.png",
     "Pasted image 20211020134024.png",
     "Pasted image 20211020133349.png",
     "代码/Node/koa-compose.md",
-    "代码/Node/未命名.md",
-    "代码/JavaScript/0.JavaScript-目录.md",
-    "代码/JavaScript/co.js - 让异步代码同步化.md",
-    "代码/JavaScript/Co.js源码解读.md"
+    "代码/JavaScript/0.JavaScript-目录.md"
   ]
 }
