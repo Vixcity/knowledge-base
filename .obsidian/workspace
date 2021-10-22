@@ -7,9 +7,10 @@
         "id": "ee5385537038608a",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png"
+            "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md",
+            "mode": "source"
           }
         },
         "group": "7ac29a9901225ccc"
@@ -18,9 +19,10 @@
         "id": "3bcd77045a76483c",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png"
+            "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md",
+            "mode": "preview"
           }
         },
         "group": "7ac29a9901225ccc"
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png",
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png",
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png"
+                "file": "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md"
               }
             }
           },
@@ -146,15 +148,15 @@
   },
   "active": "ee5385537038608a",
   "lastOpenFiles": [
+    "代码/Node/update-notifier 更新 CLI 应用程序的通知-详解.md",
+    "代码/Vue/Vue-release 尤雨溪发布 Vue.js 的流程.md",
+    "代码/Vue/手摸手教你调试 vue-devtools ，你确定不来看看嘛~.md",
     "代码/Vue/mini-vue/37925b966e8659db9be2b570b2241e0.png",
     "代码/Vue/mini-vue/26-实现组件 props 逻辑.md",
     "代码/Vue/mini-vue/25-实现注册事件功能.md",
     "代码/Vue/mini-vue/24-实现 shapeFlags.md",
     "代码/Vue/mini-vue/0.mini-vue目录.md",
     "代码/Vue/mini-vue/00.预习.md",
-    "代码/Vue/mini-vue/未命名.md",
-    "代码/Node/update-notifier 更新 CLI 应用程序的通知.md",
-    "思维/0.思维总目录.md",
-    "思维/5w1h分析法.md"
+    "代码/Vue/mini-vue/未命名.md"
   ]
 }
