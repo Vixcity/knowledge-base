@@ -101,3 +101,34 @@ Vue3中尤大说了移除中央事件总线这一消息
 点击调试，运行 build 命令
 
 ![build](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111041106020.jpg)
+
+等它运行完，我们就会发现
+
+![生成](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052125120.png)
+
+他生成了一个 dist 文件夹和一个 index.d.ts 文件
+
+接下来我们调试一下，打上断点
+
+同 build 方法运行 test 方法
+
+![断点](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052134251.png)
+
+可以发现他没进来
+
+那么我们是哪里出问题了呢
+
+我们在测试里面随意找一个和 mitt 有关的地方打上断点
+
+![断点](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052136670.png)
+
+在进行一下调试
+
+发现他在这里进来了，我们点击↓箭头进入方法内去看看
+
+![进来](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052138637.png)
+
+发现他进到了 src 里面的 index 里面
+
+![index](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052149760.png)
+
