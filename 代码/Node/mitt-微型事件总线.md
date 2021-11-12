@@ -133,3 +133,4 @@ Vue3中尤大说了移除中央事件总线这一消息
 ![index](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202111052149760.png)
 
 
+
