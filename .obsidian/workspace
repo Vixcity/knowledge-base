@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/0.思考总目录.md",
+            "file": "思考/抖音知识点.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/0.思考总目录.md",
+            "file": "思考/抖音知识点.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/0.思考总目录.md",
+                "file": "思考/抖音知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/0.思考总目录.md",
+                "file": "思考/抖音知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/0.思考总目录.md"
+                "file": "思考/抖音知识点.md"
               }
             }
           },
@@ -148,8 +148,8 @@
   },
   "active": "ee5385537038608a",
   "lastOpenFiles": [
-    "思考/0.思考总目录.md",
     "思考/抖音知识点.md",
+    "思考/0.思考总目录.md",
     "代码/Node/mitt-微型事件总线.md",
     "代码/Node/0.NodeJs-目录.md",
     "代码/重构/0.重构-目录.md",
