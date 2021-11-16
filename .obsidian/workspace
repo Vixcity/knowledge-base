@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/抖音知识点.md",
+            "file": "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/抖音知识点.md",
+            "file": "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/抖音知识点.md",
+                "file": "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/抖音知识点.md",
+                "file": "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/抖音知识点.md"
+                "file": "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md"
               }
             }
           },
@@ -148,15 +148,15 @@
   },
   "active": "ee5385537038608a",
   "lastOpenFiles": [
+    "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
+    "知乎/要怎样努力，才能成为很厉害的人？.md",
+    "知乎/哪些技能，经较短时间的学习，就可以给人的生活带来巨大帮助？.md",
+    "写作/0.写作总目录.md",
+    "写作/名人名言.md",
     "思考/抖音知识点.md",
     "思考/0.思考总目录.md",
     "代码/Node/mitt-微型事件总线.md",
     "代码/Node/0.NodeJs-目录.md",
-    "代码/重构/0.重构-目录.md",
-    "代码/Node/validate-npm-package-name 验证是否是个有效的 npm 包名.md",
-    "README.md",
-    "代码/Vue/mini-vue/0.mini-vue目录.md",
-    "代码/Vue/mini-vue/00.预习.md",
-    "代码/Vue/mini-vue/28-实现组件 slots 功能.md"
+    "代码/重构/0.重构-目录.md"
   ]
 }
