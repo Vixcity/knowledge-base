@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b762e79305243909",
+        "id": "e60282d061770ee9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "写作/名人名言.md",
-            "mode": "source"
-          }
-        },
-        "group": "5a61135321a6268d"
-      },
-      {
-        "id": "c1c0f04f0d86e7d3",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "写作/名人名言.md",
-            "mode": "preview"
-          }
-        },
-        "group": "5a61135321a6268d"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "写作/名人名言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "写作/名人名言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "写作/名人名言.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,8 +126,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b762e79305243909",
+  "active": "e60282d061770ee9",
   "lastOpenFiles": [
+    "知乎/如何把 Evernote 用好，变成系统性的知识管理工具？.md",
     "写作/名人名言.md",
     "知乎/百万年薪的人都是怎么过日子的？.md",
     "知乎/怎么投资自己？.md",
@@ -156,7 +137,6 @@
     "知乎/官场里，酒桌上有哪些规矩？.md",
     "知乎/平面排版时，突出中文的美感有哪些方法？.md",
     "知乎/你有什么相见恨晚的知识想推荐给年轻人？.md",
-    "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md",
-    "知乎/哪些技能，经较短时间的学习，就可以给人的生活带来巨大帮助？.md"
+    "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md"
   ]
 }
