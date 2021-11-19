@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "82a350c5b8fb3325",
+    "id": "7d2ab0615353552b",
     "type": "split",
     "children": [
       {
-        "id": "e60282d061770ee9",
+        "id": "6188cf257c39af29",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/如何开发一门新技能.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/如何开发一门新技能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/如何开发一门新技能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/如何开发一门新技能.md"
+              }
             }
           },
           {
@@ -126,8 +133,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e60282d061770ee9",
+  "active": "6188cf257c39af29",
   "lastOpenFiles": [
+    "代码/如何开发一门新技能.md",
     "知乎/如何把 Evernote 用好，变成系统性的知识管理工具？.md",
     "写作/名人名言.md",
     "知乎/百万年薪的人都是怎么过日子的？.md",
@@ -136,7 +144,6 @@
     "知乎/当前时代，穷人怎么变成富人？.md",
     "知乎/官场里，酒桌上有哪些规矩？.md",
     "知乎/平面排版时，突出中文的美感有哪些方法？.md",
-    "知乎/你有什么相见恨晚的知识想推荐给年轻人？.md",
-    "知乎/那些年入上百万的人是如何做到的？他们的平均年龄是多少？白手起家的到底多不多？.md"
+    "知乎/你有什么相见恨晚的知识想推荐给年轻人？.md"
   ]
 }
