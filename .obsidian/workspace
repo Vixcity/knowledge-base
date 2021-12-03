@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/怎么给宝子洗头.md",
+            "file": "写作/名人名言.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/怎么给宝子洗头.md",
+            "file": "写作/名人名言.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/怎么给宝子洗头.md",
+                "file": "写作/名人名言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/怎么给宝子洗头.md",
+                "file": "写作/名人名言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/怎么给宝子洗头.md"
+                "file": "写作/名人名言.md"
               }
             }
           },
@@ -146,10 +146,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5a2adc1296b91d3",
+  "active": "6188cf257c39af29",
   "lastOpenFiles": [
-    "思考/怎么给宝子洗头.md",
     "写作/名人名言.md",
+    "思考/怎么给宝子洗头.md",
     "思考/抖音知识点.md",
     "思考/做up主的一些要点.md",
     "代码/如何开发一门新技能.md",
