@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/0.Java-目录.md",
+            "file": "代码/Vue/整理的一些 Vue3 知识点.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/0.Java-目录.md",
+            "file": "代码/Vue/整理的一些 Vue3 知识点.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Java/0.Java-目录.md",
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Java/0.Java-目录.md",
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Java/0.Java-目录.md"
+                "file": "代码/Vue/整理的一些 Vue3 知识点.md"
               }
             }
           },
@@ -148,6 +148,7 @@
   },
   "active": "6188cf257c39af29",
   "lastOpenFiles": [
+    "代码/Vue/整理的一些 Vue3 知识点.md",
     "代码/Java/0.Java-目录.md",
     "写作/名人名言.md",
     "思考/怎么给宝子洗头.md",
@@ -156,7 +157,6 @@
     "代码/如何开发一门新技能.md",
     "知乎/如何把 Evernote 用好，变成系统性的知识管理工具？.md",
     "知乎/百万年薪的人都是怎么过日子的？.md",
-    "知乎/怎么投资自己？.md",
-    "知乎/如何成为一个聪明的人？.md"
+    "知乎/怎么投资自己？.md"
   ]
 }

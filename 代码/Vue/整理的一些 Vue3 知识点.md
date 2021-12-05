@@ -1329,3 +1329,5 @@ https://juejin.cn/post/6963945204965441550"
 [1]
 
 https://github.com/vuejs/rfcs/pull/210
+
+this.$refs.xxx 如果在普通的DOM元素当中使用，那么指向的就是DOM元素，如果在子组件当中使用，指向的就是组件实例，不是响应式数据
