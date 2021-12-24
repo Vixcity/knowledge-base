@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "aba0358efc45af56",
+        "id": "31c92d4f8b81a3e0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/0.TypeScript-目录.md",
+            "file": "代码/TypeScript/1.TypeScript-概述.md",
             "mode": "source",
             "source": false
           }
         },
-        "group": "6d5ddd8bf7bb0372"
+        "group": "54a2bcf4319a9cc3"
       },
       {
-        "id": "0d68cda8105cf0bd",
+        "id": "d4cea898e2133097",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/0.TypeScript-目录.md",
+            "file": "代码/TypeScript/1.TypeScript-概述.md",
             "mode": "preview",
             "source": false
           }
         },
-        "group": "6d5ddd8bf7bb0372"
+        "group": "54a2bcf4319a9cc3"
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/TypeScript/0.TypeScript-目录.md",
+                "file": "代码/TypeScript/1.TypeScript-概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/TypeScript/0.TypeScript-目录.md",
+                "file": "代码/TypeScript/1.TypeScript-概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/TypeScript/0.TypeScript-目录.md"
+                "file": "代码/TypeScript/1.TypeScript-概述.md"
               }
             }
           },
@@ -148,8 +148,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aba0358efc45af56",
+  "active": "31c92d4f8b81a3e0",
   "lastOpenFiles": [
+    "代码/TypeScript/1.TypeScript-概述.md",
+    "Pasted image 20211224150506.png",
     "代码/TypeScript/0.TypeScript-目录.md",
     "知乎/富人的思 考方式是什么？.md",
     "知乎/0.知乎-总目录.md",
@@ -157,8 +159,6 @@
     "法则/法则/21.四象限法则  艾森豪威尔法则.md",
     "法则/0.法则-总目录.md",
     "知乎/如何开发一门新技能.md",
-    "知乎/百万年薪的人都是怎么过日子的？.md",
-    "README.md",
-    "思考/0.思考总目录.md"
+    "知乎/百万年薪的人都是怎么过日子的？.md"
   ]
 }
