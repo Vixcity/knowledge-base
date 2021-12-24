@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "代码/Java/1.Java基础.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         },
         "group": "6d5ddd8bf7bb0372"
@@ -22,7 +23,8 @@
           "type": "markdown",
           "state": {
             "file": "代码/Java/1.Java基础.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         },
         "group": "6d5ddd8bf7bb0372"
