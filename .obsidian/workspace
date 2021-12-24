@@ -7,8 +7,12 @@
         "id": "2b8c07b6715598db",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代码/Java/1.Java基础.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/Java/1.Java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/Java/1.Java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/Java/1.Java基础.md"
+              }
             }
           }
         ]
@@ -126,5 +134,7 @@
     "collapsed": true
   },
   "active": "2b8c07b6715598db",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "代码/Java/1.Java基础.md"
+  ]
 }
