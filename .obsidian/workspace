@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/1.Java基础.md",
+            "file": "代码/TypeScript/0.TypeScript-目录.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/1.Java基础.md",
+            "file": "代码/TypeScript/0.TypeScript-目录.md",
             "mode": "preview",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
+                "file": "代码/TypeScript/0.TypeScript-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
+                "file": "代码/TypeScript/0.TypeScript-目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Java/1.Java基础.md"
+                "file": "代码/TypeScript/0.TypeScript-目录.md"
               }
             }
           },
@@ -150,15 +150,15 @@
   },
   "active": "aba0358efc45af56",
   "lastOpenFiles": [
-    "代码/Java/1.Java基础.md",
-    "Pasted image 20211222210012.png",
-    "代码/Java/0.Java-目录.md",
-    "代码/Vue/整理的一些 Vue3 知识点.md",
-    "写作/名人名言.md",
-    "思考/怎么给宝子洗头.md",
-    "思考/抖音知识点.md",
-    "思考/做up主的一些要点.md",
-    "代码/如何开发一门新技能.md",
-    "知乎/如何把 Evernote 用好，变成系统性的知识管理工具？.md"
+    "代码/TypeScript/0.TypeScript-目录.md",
+    "知乎/富人的思 考方式是什么？.md",
+    "知乎/0.知乎-总目录.md",
+    "法则/法则/0.法则-目录.md",
+    "法则/法则/21.四象限法则  艾森豪威尔法则.md",
+    "法则/0.法则-总目录.md",
+    "知乎/如何开发一门新技能.md",
+    "知乎/百万年薪的人都是怎么过日子的？.md",
+    "README.md",
+    "思考/0.思考总目录.md"
   ]
 }
