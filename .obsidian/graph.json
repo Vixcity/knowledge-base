@@ -62,6 +62,20 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "path:知乎",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:写作",
+      "color": {
+        "a": 1,
+        "rgb": 2715736
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +88,6 @@
   "repelStrength": 9.10112359550562,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1634837056722065,
+  "scale": 0.2292013594174956,
   "close": true
 }

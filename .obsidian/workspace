@@ -1,47 +1,29 @@
 {
   "main": {
-    "id": "7d2ab0615353552b",
+    "id": "ddee87ff40e6beb0",
     "type": "split",
     "children": [
       {
-        "id": "aba0358efc45af56",
+        "id": "2b8c07b6715598db",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/Java/1.Java基础.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "6d5ddd8bf7bb0372"
-      },
-      {
-        "id": "0d68cda8105cf0bd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/Java/1.Java基础.md",
-            "mode": "preview",
-            "source": false
-          }
-        },
-        "group": "6d5ddd8bf7bb0372"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ff1a9cde0001a1d6",
+    "id": "3914d636e93b4fc8",
     "type": "split",
     "children": [
       {
-        "id": "620ab59ace941a8f",
+        "id": "9cd6aa9c11a47aa3",
         "type": "tabs",
         "children": [
           {
-            "id": "944e174597b5e145",
+            "id": "f7c97b62ad1e0a6d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,12 +31,12 @@
             }
           },
           {
-            "id": "2b3ae8bde42cd3a5",
+            "id": "f69ab9dff048314c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "二八",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,23 +49,46 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 300
   },
   "right": {
-    "id": "d35d92d5502e207b",
+    "id": "573630fbbfe99ec3",
     "type": "split",
     "children": [
       {
-        "id": "3ce1b8251fd0bbf5",
+        "id": "311678c1f25aed03",
         "type": "tabs",
         "children": [
           {
-            "id": "2d7b76cc516f4d7a",
+            "id": "059c9cad8255c1c4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0fc3c33ac8e45175",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c2a45bcee17d93a",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "4e21ced2246733db",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,70 +100,31 @@
             }
           },
           {
-            "id": "79a71dea69f25989",
+            "id": "92e34da1c9165980",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8982a5d36b810fc6",
+            "id": "717545ac39f880fc",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "代码/Java/1.Java基础.md"
-              }
-            }
-          },
-          {
-            "id": "8648e4f7c8eb6784",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "d57a0f0b2ba8282d",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "8d2f06aa22cf15e0",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "aba0358efc45af56",
-  "lastOpenFiles": [
-    "代码/Java/1.Java基础.md",
-    "Pasted image 20211222210012.png",
-    "代码/Java/0.Java-目录.md",
-    "代码/Vue/整理的一些 Vue3 知识点.md",
-    "写作/名人名言.md",
-    "思考/怎么给宝子洗头.md",
-    "思考/抖音知识点.md",
-    "思考/做up主的一些要点.md",
-    "代码/如何开发一门新技能.md",
-    "知乎/如何把 Evernote 用好，变成系统性的知识管理工具？.md"
-  ]
+  "active": "2b8c07b6715598db",
+  "lastOpenFiles": []
 }
