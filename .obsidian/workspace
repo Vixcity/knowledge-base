@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "2b8c07b6715598db",
+        "id": "fff8199f455557ce",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/1.Java基础.md",
+            "file": "代码/TypeScript/2.变量和数据类型.md",
             "mode": "source",
             "source": false
           }
         },
-        "group": "09cfd6a9823be6d1"
+        "group": "d241472104229326"
       },
       {
-        "id": "6f186d7d565aed9b",
+        "id": "0280c84adc11ef33",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/Java/1.Java基础.md",
+            "file": "代码/TypeScript/2.变量和数据类型.md",
             "mode": "preview",
             "source": false
           }
         },
-        "group": "09cfd6a9823be6d1"
+        "group": "d241472104229326"
       }
     ],
     "direction": "vertical"
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
+                "file": "代码/TypeScript/2.变量和数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Java/1.Java基础.md",
+                "file": "代码/TypeScript/2.变量和数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Java/1.Java基础.md"
+                "file": "代码/TypeScript/2.变量和数据类型.md"
               }
             }
           }
@@ -147,8 +147,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b8c07b6715598db",
+  "active": "fff8199f455557ce",
   "lastOpenFiles": [
+    "代码/TypeScript/2.变量和数据类型.md",
+    "Pasted image 20211224222619.png",
+    "代码/TypeScript/1.TypeScript-概述.md",
     "代码/Java/1.Java基础.md"
   ]
 }
