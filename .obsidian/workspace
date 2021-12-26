@@ -23,7 +23,7 @@
           "type": "markdown",
           "state": {
             "file": "代码/TypeScript/2.变量和数据类型.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         },
@@ -150,8 +150,12 @@
   "active": "fff8199f455557ce",
   "lastOpenFiles": [
     "代码/TypeScript/2.变量和数据类型.md",
+    "代码/Java/1.Java基础.md",
+    "思维/副业机器.md",
+    "思维/5w1h分析法.md",
+    "Pasted image 20211226133007.png",
+    "思维/0.思维总目录.md",
     "Pasted image 20211224222619.png",
-    "代码/TypeScript/1.TypeScript-概述.md",
-    "代码/Java/1.Java基础.md"
+    "代码/TypeScript/1.TypeScript-概述.md"
   ]
 }
