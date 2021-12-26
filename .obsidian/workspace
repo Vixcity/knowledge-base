@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/2.变量和数据类型.md",
+            "file": "代码/Java/1.Java基础.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/2.变量和数据类型.md",
+            "file": "代码/Java/1.Java基础.md",
             "mode": "source",
             "source": false
           }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/TypeScript/2.变量和数据类型.md",
+                "file": "代码/Java/1.Java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/TypeScript/2.变量和数据类型.md",
+                "file": "代码/Java/1.Java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/TypeScript/2.变量和数据类型.md"
+                "file": "代码/Java/1.Java基础.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "fff8199f455557ce",
   "lastOpenFiles": [
-    "代码/TypeScript/2.变量和数据类型.md",
     "代码/Java/1.Java基础.md",
+    "代码/Java/0.Java-目录.md",
+    "代码/TypeScript/3.运算符.md",
+    "代码/TypeScript/2.变量和数据类型.md",
     "思维/副业机器.md",
     "思维/5w1h分析法.md",
     "Pasted image 20211226133007.png",
