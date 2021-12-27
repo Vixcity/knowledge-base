@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/1.TypeScript-概述.md",
+            "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/1.TypeScript-概述.md",
+            "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
             "mode": "preview",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/TypeScript/1.TypeScript-概述.md",
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/TypeScript/1.TypeScript-概述.md",
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/TypeScript/1.TypeScript-概述.md"
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md"
               }
             }
           },
@@ -150,6 +150,7 @@
   },
   "active": "31c92d4f8b81a3e0",
   "lastOpenFiles": [
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
     "代码/TypeScript/1.TypeScript-概述.md",
     "Pasted image 20211224150506.png",
     "代码/TypeScript/0.TypeScript-目录.md",
@@ -158,7 +159,6 @@
     "法则/法则/0.法则-目录.md",
     "法则/法则/21.四象限法则  艾森豪威尔法则.md",
     "法则/0.法则-总目录.md",
-    "知乎/如何开发一门新技能.md",
-    "知乎/百万年薪的人都是怎么过日子的？.md"
+    "知乎/如何开发一门新技能.md"
   ]
 }
