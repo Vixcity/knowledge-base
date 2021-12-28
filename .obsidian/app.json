@@ -4,5 +4,6 @@
   "showFrontmatter": false,
   "showLineNumber": true,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "defaultViewMode": "source"
 }

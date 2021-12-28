@@ -11,8 +11,8 @@
     --font-size-h4:                  20px;
     --font-size-h5:                  19px;
     --font-size-h6:                  18px;
-    --font-family-editor:            Avenir, Avenir Next, sans-serif;
-    --font-family-preview:           Avenir, Avenir Next, sans-serif;
+    --font-family-editor:            Fira Code,Avenir, Avenir Next, sans-serif;
+    --font-family-preview:            Fira Code, Avenir Next, sans-serif;
 } 
 
 .theme-light,
