@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/4.TypeScript-语句.md",
+            "file": "代码/TypeScript/5.TypeScript-数组.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/4.TypeScript-语句.md",
+            "file": "代码/TypeScript/5.TypeScript-数组.md",
             "mode": "preview",
             "source": false
           }
@@ -86,28 +86,12 @@
             }
           },
           {
-            "id": "0fc3c33ac8e45175",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "0c2a45bcee17d93a",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
-            }
-          },
-          {
             "id": "4e21ced2246733db",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/TypeScript/4.TypeScript-语句.md",
+                "file": "代码/TypeScript/5.TypeScript-数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/TypeScript/4.TypeScript-语句.md",
+                "file": "代码/TypeScript/5.TypeScript-数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,8 +120,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/TypeScript/4.TypeScript-语句.md"
+                "file": "代码/TypeScript/5.TypeScript-数组.md"
               }
+            }
+          },
+          {
+            "id": "2c83c1cd04250b05",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
             }
           }
         ]
@@ -149,6 +141,7 @@
   },
   "active": "02bfb3f81dded46a",
   "lastOpenFiles": [
+    "代码/TypeScript/5.TypeScript-数组.md",
     "代码/TypeScript/4.TypeScript-语句.md",
     "代码/TypeScript/3.TypeScript-运算符.md",
     "思维/副业机器.md",
@@ -157,7 +150,6 @@
     "代码/TypeScript/0.TypeScript-目录.md",
     "代码/Java/1.Java基础.md",
     "代码/TypeScript/2.TypeScript-变量和数据类型.md",
-    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
-    "代码/TypeScript/1.TypeScript-概述.md"
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md"
   ]
 }
