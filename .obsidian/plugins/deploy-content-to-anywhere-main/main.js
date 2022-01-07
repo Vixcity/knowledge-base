@@ -71,7 +71,8 @@ class SettingTab extends obsidian.PluginSettingTab {
                 .setPlaceholder("Enter git username")
                 .setValue(config.owner)
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                console.log("git username: " + value.trim());
+                value = value.trim();
+                console.log("git username: " + value);
                 config.owner = value;
                 yield plugin.saveSettings();
             })));
@@ -84,7 +85,8 @@ class SettingTab extends obsidian.PluginSettingTab {
                 .setPlaceholder("Enter git repoName")
                 .setValue(config.repo)
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                console.log("git repoName:" + value.trim());
+                value = value.trim();
+                console.log("git repoName:" + value);
                 config.repo = value;
                 yield plugin.saveSettings();
             })));
