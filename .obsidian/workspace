@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-01/2022-01-07日计划.md",
+            "file": "代码/TypeScript/6.TypeScript-函数.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-01/2022-01-07日计划.md",
+                "file": "代码/TypeScript/6.TypeScript-函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-01/2022-01-07日计划.md",
+                "file": "代码/TypeScript/6.TypeScript-函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-01/2022-01-07日计划.md"
+                "file": "代码/TypeScript/6.TypeScript-函数.md"
               }
             }
           },
@@ -144,6 +144,8 @@
   },
   "active": "d0b2b626feba7454",
   "lastOpenFiles": [
+    "代码/TypeScript/6.TypeScript-函数.md",
+    "代码/TypeScript/0.TypeScript-目录.md",
     "每日计划/22-01/2022-01-07日计划.md",
     "代码/Git/github token 问题.md",
     "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
@@ -151,8 +153,6 @@
     "每日计划/22-01/2022-01-目录.md",
     "每日计划/每日计划模板.md",
     "每日计划/0.每日计划-目录.md",
-    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
-    "代码/TypeScript/1.TypeScript-概述.md",
-    "代码/TypeScript/4.TypeScript-语句.md"
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md"
   ]
 }
