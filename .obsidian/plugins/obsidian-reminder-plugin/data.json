@@ -1,6 +1,7 @@
 {
   "scanned": false,
   "reminders": {},
+  "debug": false,
   "settings": {
     "reminderTime": "09:00",
     "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
@@ -10,6 +11,7 @@
     "enableReminderPluginReminderFormat": true,
     "dateFormat": "YYYY-MM-DD",
     "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
     "linkDatesToDailyNotes": false,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,

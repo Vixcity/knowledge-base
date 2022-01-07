@@ -76,6 +76,27 @@
         "a": 1,
         "rgb": 2715736
       }
+    },
+    {
+      "query": "path:每日计划",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:每周计划",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:年度总结",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": true,

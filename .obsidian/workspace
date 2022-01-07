@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "02bfb3f81dded46a",
+        "id": "d0b2b626feba7454",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代码/TypeScript/5.TypeScript-数组.md",
+            "file": "代码/TypeScript/6.TypeScript-函数.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "8ce8fd9a9a1a2cbe"
-      },
-      {
-        "id": "41ad410d8c0c7960",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/TypeScript/5.TypeScript-数组.md",
-            "mode": "preview",
-            "source": false
-          }
-        },
-        "group": "8ce8fd9a9a1a2cbe"
+        }
       }
     ],
     "direction": "vertical"
@@ -39,6 +25,7 @@
       {
         "id": "9cd6aa9c11a47aa3",
         "type": "tabs",
+        "dimension": 59.91902834008097,
         "children": [
           {
             "id": "f7c97b62ad1e0a6d",
@@ -64,6 +51,21 @@
             }
           }
         ]
+      },
+      {
+        "id": "e2867c8734124ce0",
+        "type": "tabs",
+        "dimension": 40.08097165991903,
+        "children": [
+          {
+            "id": "059c9cad8255c1c4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,20 +80,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "059c9cad8255c1c4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "4e21ced2246733db",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/TypeScript/5.TypeScript-数组.md",
+                "file": "代码/TypeScript/6.TypeScript-函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/TypeScript/5.TypeScript-数组.md",
+                "file": "代码/TypeScript/6.TypeScript-函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,36 +114,45 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/TypeScript/5.TypeScript-数组.md"
+                "file": "代码/TypeScript/6.TypeScript-函数.md"
               }
             }
           },
           {
-            "id": "2c83c1cd04250b05",
+            "id": "8a1af251ce2ad45d",
             "type": "leaf",
             "state": {
-              "type": "todo",
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff4a2e45b718eaec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "02bfb3f81dded46a",
+  "active": "d0b2b626feba7454",
   "lastOpenFiles": [
-    "代码/TypeScript/5.TypeScript-数组.md",
-    "代码/TypeScript/4.TypeScript-语句.md",
-    "代码/TypeScript/3.TypeScript-运算符.md",
-    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
-    "代码/TypeScript/1.TypeScript-概述.md",
-    "思维/副业机器.md",
-    "思考/原神队伍配置.md",
-    "思考/0.思考总目录.md",
+    "代码/TypeScript/6.TypeScript-函数.md",
     "代码/TypeScript/0.TypeScript-目录.md",
-    "代码/Java/1.Java基础.md"
+    "每日计划/22-01/2022-01-07日计划.md",
+    "代码/Git/github token 问题.md",
+    "代码/Git/git commit 规范和如何在 commit 里使用 emoji.md",
+    "代码/TypeScript/5.TypeScript-数组.md",
+    "每日计划/22-01/2022-01-目录.md",
+    "每日计划/每日计划模板.md",
+    "每日计划/0.每日计划-目录.md",
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md"
   ]
 }

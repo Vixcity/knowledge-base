@@ -3,7 +3,6 @@
   "table-editor-obsidian",
   "obsidian-mind-map",
   "obsidian-admonition",
-  "obsidian-checklist-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "hotkeysplus-obsidian",
   "obsidian-icons-plugin",
@@ -20,5 +19,6 @@
   "obsidian-auto-pair-chinese-symbol",
   "obsidian-react-components",
   "folder-note-plugin",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "obsidian-plugin-deploy-content-to-anywhere"
 ]
