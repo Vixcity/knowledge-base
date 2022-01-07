@@ -25,7 +25,7 @@
       {
         "id": "9cd6aa9c11a47aa3",
         "type": "tabs",
-        "dimension": 70.62314540059347,
+        "dimension": 59.91902834008097,
         "children": [
           {
             "id": "f7c97b62ad1e0a6d",
@@ -55,7 +55,7 @@
       {
         "id": "e2867c8734124ce0",
         "type": "tabs",
-        "dimension": 29.376854599406528,
+        "dimension": 40.08097165991903,
         "children": [
           {
             "id": "059c9cad8255c1c4",
@@ -135,23 +135,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "d0b2b626feba7454",
   "lastOpenFiles": [
     "每日计划/22-01/2022-01-07日计划.md",
+    "每日计划/22-01/2022-01-目录.md",
+    "每日计划/每日计划模板.md",
+    "每日计划/0.每日计划-目录.md",
     "代码/TypeScript/2.TypeScript-变量和数据类型.md",
     "代码/TypeScript/1.TypeScript-概述.md",
     "代码/TypeScript/5.TypeScript-数组.md",
     "代码/TypeScript/4.TypeScript-语句.md",
     "README.md",
-    "每日计划/22-01/2022-01-目录.md",
-    "每日计划/0.每日计划-目录.md",
-    "每日计划/每日计划模板.md",
     "年度总结/0.年度总结-目录.md"
   ]
 }
