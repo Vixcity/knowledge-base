@@ -119,14 +119,6 @@
             }
           },
           {
-            "id": "2c83c1cd04250b05",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "8a1af251ce2ad45d",
             "type": "leaf",
             "state": {
@@ -147,20 +139,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "d0b2b626feba7454",
   "lastOpenFiles": [
     "每日计划/22-01/2022-01-07日计划.md",
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
+    "代码/TypeScript/1.TypeScript-概述.md",
+    "代码/TypeScript/5.TypeScript-数组.md",
+    "代码/TypeScript/4.TypeScript-语句.md",
     "README.md",
     "每日计划/22-01/2022-01-目录.md",
     "每日计划/0.每日计划-目录.md",
     "每日计划/每日计划模板.md",
-    "年度总结/0.年度总结-目录.md",
-    "年度总结/2021年总结.md",
-    "每周计划/0.每周计划-目录.md",
-    "每周计划/周复盘模板.md",
-    "周计划/周复盘-2022年第01周.md"
+    "年度总结/0.年度总结-目录.md"
   ]
 }
