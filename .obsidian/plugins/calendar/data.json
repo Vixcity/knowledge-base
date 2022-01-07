@@ -2,9 +2,9 @@
   "shouldConfirmBeforeCreate": true,
   "weekStart": "locale",
   "wordsPerDot": 250,
-  "showWeeklyNote": false,
-  "weeklyNoteFormat": "",
-  "weeklyNoteTemplate": "",
-  "weeklyNoteFolder": "",
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "周复盘-YYYY年第WW周",
+  "weeklyNoteTemplate": "周计划/周复盘模板",
+  "weeklyNoteFolder": "周计划",
   "localeOverride": "system-default"
 }

@@ -21,8 +21,6 @@
     --yellow: #ebcb8b;
     --green:  #a3be8c;
     --purple: #b48ead;
-
-    --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
 }
 
 .theme-dark
@@ -39,12 +37,14 @@
     --text-title-h3:              var(--yellow);
     --text-title-h4:              var(--green);
     --text-title-h5:              var(--purple);
+    --text-title-h6:              var(--orange);
     --text-link:                  var(--frost0);
     --text-a:                     var(--frost3);
     --text-a-hover:               var(--frost2);
     --text-mark:                  rgba(136, 192, 208, 0.3); /* frost1 */
     --pre-code:                   var(--dark1);
-    --text-highlight-bg:          var(--dark3);
+    --text-highlight-bg:          var(--red);
+    --text-highlight-bg-active:   var(--green);
     --interactive-accent:         var(--frost0);
     --interactive-before:         var(--dark3);
     --background-modifier-border: var(--dark2);
@@ -54,6 +54,8 @@
     --code-block:                 var(--frost1);
     --vim-cursor:                 var(--orange);
     --text-selection:             var(--dark3);
+    --text-tag:                   var(--frost0);
+    --task-checkbox:              var(--frost0);
 }
 .theme-light
 {
@@ -69,12 +71,14 @@
 	--text-title-h3:              var(--yellow);
 	--text-title-h4:              var(--green);
 	--text-title-h5:              var(--purple);
+	--text-title-h6:              var(--orange);
 	--text-link:                  var(--frost0);
 	--text-a:                     var(--frost3);
 	--text-a-hover:               var(--frost1);
 	--text-mark:                  rgba(136, 192, 208, 0.3); /* frost1 */
 	--pre-code:                   var(--light2);
-	--text-highlight-bg:          var(--light0);
+	--text-highlight-bg:          var(--green);
+    --text-highlight-bg-active:   var(--yellow);
 	--interactive-accent:         var(--frost0);
 	--interactive-before:         var(--light0);
 	--background-modifier-border: var(--light1);
@@ -84,6 +88,26 @@
 	--code-block:                 var(--frost1);
 	--vim-cursor:                 var(--orange);
 	--text-selection:             var(--light0);
+    --text-tag:                   var(--frost2);
+    --task-checkbox:              var(--frost0);
+}
+
+:root {
+  --default-font: -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica, Arial, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji;
+
+  --editor-font: 'Hack Nerd Font', 'Source Code Pro',
+    ui-monospace, SFMono-Regular, SF Mono, Menlo,
+    Consolas, Liberation Mono, monospace;
+}
+
+.markdown-source-view {
+  font-family: var(--editor-font);
+}
+
+.markdown-preview-view {
+  font-family: var(--default-font);
 }
 
 .theme-dark code[class*="language-"],
@@ -119,7 +143,7 @@
 html,
 body
 {
-    font-size: 16px !important;
+    /* font-size: 16px !important; */
 }
 
 strong
@@ -142,9 +166,24 @@ a:hover,
     text-decoration: none !important;
 }
 
+a.tag, a.tag:hover {
+  color: var(--text-tag) !important;
+  background-color: var(--background-secondary-alt);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
 mark
 {
     background-color: var(--text-mark) !important;
+}
+
+.titlebar {
+  background-color: var(--background-secondary-alt);
+}
+
+.titlebar-inner {
+  color: var(--text-normal);
 }
 
 .view-actions a
@@ -228,29 +267,19 @@ thead
     border-top-right-radius: 0 !important;
 }
 
-img
-{
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
 .HyperMD-list-line
 {
     padding-top: 0 !important;
 }
 
-.CodeMirror-linenumber,
-.cm-formatting
+.cm-hashtag
 {
-    font-family: var(--font-monospace) !important;
-    color: var(--frost2) !important;
+    color: var(--text-tag) !important;
 }
 
-.cm-hashtag,
 .search-result-file-matched-text
 {
-    color: var(--frost2) !important;
+    color: var(--light3) !important;
 }
 
 .markdown-preview-section pre code,
@@ -360,7 +389,7 @@ img
 .markdown-preview-section h1
 {
     font-weight: 500 !important;
-    font-size: 34px !important;
+    font-size: 2.2em !important;
     color: var(--text-title-h1) !important;
 }
 
@@ -368,7 +397,7 @@ img
 .markdown-preview-section h2
 {
     font-weight: 500 !important;
-    font-size: 26px !important;
+    font-size: 2.0em !important;
     color: var(--text-title-h2) !important;
 }
 
@@ -376,7 +405,7 @@ img
 .markdown-preview-section h3
 {
     font-weight: 500 !important;
-    font-size: 22px !important;
+    font-size: 1.8em !important;
     color: var(--text-title-h3) !important;
 }
 
@@ -384,18 +413,24 @@ img
 .markdown-preview-section h4
 {
     font-weight: 500 !important;
-    font-size: 20px !important;
+    font-size: 1.6em !important;
     color: var(--text-title-h4) !important;
 }
 
 .cm-header-5,
+.markdown-preview-section h5
+{
+    font-weight: 500 !important;
+    font-size: 1.4em !important;
+    color: var(--text-title-h5) !important;
+}
+
 .cm-header-6,
-.markdown-preview-section h5,
 .markdown-preview-section h6
 {
     font-weight: 500 !important;
-    font-size: 18px !important;
-    color: var(--text-title-h5) !important;
+    font-size: 1.2em !important;
+    color: var(--text-title-h6) !important;
 }
 
 .suggestion-item.is-selected
@@ -403,10 +438,9 @@ img
     background-color: var(--background-secondary);
 }
 
-.empty-state-container:hover
+.empty-state-action:hover
 {
-    background-color: var(--background-secondary-alt);
-    border: 5px solid var(--interactive-accent) !important;
+    color: var(--interactive-accent);
 }
 
 .checkbox-container
@@ -438,13 +472,13 @@ img
 }
 
 input.task-list-item-checkbox {
-    border: 1px solid var(--frost3);
+    border: 1px solid var(--task-checkbox);
     appearance: none;
     -webkit-appearance: none;
 }
 
 input.task-list-item-checkbox:checked {
-    background-color: var(--frost2);
+    background-color: var(--task-checkbox);
     box-shadow: inset 0 0 0 2px var(--background-primary);
 }
 
@@ -453,3 +487,9 @@ input.task-list-item-checkbox:checked {
     fill: var(--frost3) !important;
 }
 
+.setting-item-control input[type="text"] {
+    color: var(--text-normal);
+}
+.setting-item-control input[type="text"]::placeholder {
+    color: var(--dark3);
+}

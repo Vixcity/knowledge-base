@@ -1,38 +1,45 @@
+/* MODIFIED 2021-10-01 */
 
 .theme-dark
 {
   --background-primary: #2f3136;
   --background-primary-alt: #36393f;
-  --background-secondary: #141414; /*202225*/ /*141414*/
+  --background-secondary: #141414;
   --background-secondary-alt: #222222;
   --text-normal: #5dbcd2;
   --text-faint: #999999;
-  --text-title-h1: rgb(252, 246, 1, 0.75);
+  --text-muted: #aaaaaa;
+  --text-selection: #164f92;
+  --text-on-accent: #5dbcd2;
+  --text-accent: #319cb4;
+  --text-title-h1: #c7c400; /* CyberYellow: fcf601, FullYellow: fffb00, H1Yellow: c7c400 */
   --text-title-h2: #b9adff; 
   --text-title-h3: #52c1da;
-  --text-title-h4: #8ebe8e;
-  --text-title-h5: #d8d8d8;
-  --text-title-h6: #afafaf;
+  --text-title-h4: #67c073; /*6fcf7f*/
+  --text-title-h5: #de87ca; /*d8d8d8*/
+  --text-title-h6: #b4b4b4;
   --text-link: #99ff99;
   --text-a: #d669bc;
-  --text-a-hover: #b3a14b;
-  --text-mark: rgb(252, 246, 1, 0.45); /* SEE HIGHLIGHTER */
-  --pre-code: #272524d9;
+  --text-a-hover: #ec9ad9; /*previous: b3a14b */
+  --text-mark: transparent; /* SEE HIGHLIGHTER */
+  --pre-code: #40444d;
   --text-highlight-bg: rgba(252, 246, 1, 0.4); /* SEE HIGHLIGHTER */
   --interactive-accent: rgb(252, 246, 1, 0.95);
+  --interactive-accent-muted: rgb(252, 246, 1, 0.55);
+  --interactive-accent-hover: #9e8aff; /* for Calendar Plugin*/
   --interactive-before: #5e6565;
+  --interactive-hover: #36393f; /* for Calendar Plugin*/
   --background-modifier-border: #595959; /*595959*/
   --blockquote-border: #9e8aff;
-  --text-accent: #319cb4;
   --interactive-accent-rgb: #fe8019;
   --font-family-editor: Avenir, Avenir Next, var(--default-font), sans-serif;
   --font-family-preview: Avenir, Avenir Next, var(--default-font), sans-serif;
-  --text-selection: #164f92;
-  --text-on-accent: #2f3136;
   --scrollbar-bg: rgb(20, 20, 20, 0.0);
   --scrollbar-thumb-bg: #595959;
   --background-modifier-error: #36393f;
   --background-modifier-success: #36393f;
+  --background-modifier-form-field: #2f3136;
+  --background-modifier-form-field-highlighted: #2f3136;
 }
 #graph-view-canvas .links
 {
@@ -93,13 +100,13 @@
 
 
 strong {
-  color: rgb(179, 153, 255, 0.95);
-  font-weight: 700;
+  color: #9e8aff;
+  font-weight: 700; /*previous bold purple: b399fff2 ; alt: red cf6f6f ; alt: yellow bdba2d*/
 }
 
 
 em {
-  color: #b8b894;
+  color: #bac04f; /*previous italic vegas gold: b8b894 ; alt: red ; alt: orange d6b456*/
 }
 
 
@@ -111,35 +118,64 @@ em {
 mark
 {
   background-color: var(--text-mark) !important;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 
 .cm-s-obsidian span.cm-highlight {
-    color: #0c0c0e;
+    color: #6CE4FF;
     font-weight: 500;
-    background-color: rgb(252, 246, 1, 0.49);
+    background-color: transparent;
+    text-shadow: 0 0 0.6em #FCF60159;
 }
 
 .markdown-preview-view mark {
-    color: #0c0c0e;
+    color: #6CE4FF;
     font-weight: 500;
+    text-shadow: 0 0 0.6em #FCF60159;
     }
 
 
-
+/*settings pop-up*/
 
 .modal-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(252, 246, 1, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 246, 1, 0.1);
 }
+.modal {
+  background-color: var(--background-primary);
+  border-radius: 4px;
+  border: 1px solid var(--background-primary);
+  box-shadow: 0 2px 8px var(--background-modifier-box-shadow);
+  padding: 30px 50px;
+  position: relative;
+  min-width: 560px;
+  }
+
+.vertical-tab-content {
+background-color: var(--background-primary);
+padding: 5px 30px;
+}
+
+.u-pop {
+  color: var(--text-title-h2);
+}
+
+.mod-settings .setting-item {
+  padding: 0;
+}
+
+.setting-item-name {
+  color: #b9adff;
+}
+
 
 /**********************/
 /* links and brackets */
@@ -150,20 +186,25 @@ mark
 
 
 /***************************************/
-/*             Blockquote              */
+/*          Blockquote                */
 /***************************************/
-
 /* for preview */
 .markdown-preview-view blockquote {
-    background-color: #1A1B24;
+    background-color: #222229;
     border: 0px solid;
-    border-color: rgb(252, 246, 1, 0.70) !important;
+    border-color: #8272d0 !important;
     border-left-width: 2px !important;
     border-radius: 0 0px 0px 0;
     /* font-family: merriwether, georgia, serif; */
-    font-size: 1em;
+    font-family: var(--font-family-preview);
+    font-size: 0.95em;
+    color: #5dbcd2;
     line-height: 1.5em;
-    margin: 0 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+/* background alt: 1a1b24  vertical line alt: rgb(252, 246, 1, 0.70) */
     }
 
 
@@ -201,6 +242,12 @@ a:not(.internal-link) {
 {
   color: var(--text-normal) !important;
 }
+
+.cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-quote.cm-quote-1
+{
+  color: #9e8aff !important;
+}
+
 
 blockquote /* for preview */
 {
@@ -286,8 +333,6 @@ thead
 img
 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* horizontal line in preview */
@@ -338,13 +383,12 @@ img
     -webkit-appearance: none;
     top: 1.8px !important;
     box-sizing: border-box;
-    border: .5px solid  #5e922d;
+    border: 1px solid  #888888;
     position: relative;
     width: 1em;
     height: 1em;
     margin: 0;
     margin-right: .7em;
-    box-shadow: 0 0 0.15em #ccc900;
 }
 
 
@@ -356,7 +400,7 @@ img
     line-height: 1em;
     width:1em;
     text-align:center;
-    text-shadow: 0 0 0.1em #aaa701;
+    text-shadow: 0 0 0.1em #8d8d8d;
 }
 
 
@@ -384,33 +428,21 @@ img
 }
 
 
-element.style {
-}
-.workspace-leaf-content[data-type='search'] .nav-action-button.is-active {
-    background-color: rgb(252, 246, 1, 0.25);
-    color: var(--text--accent);
-}
-
-.workspace-leaf-content[data-type='search'] .nav-action-button.is-active, .workspace-leaf-content[data-type='backlink'] .nav-action-button.is-active {
-    background-color: rgb(252, 246, 1, 0.25);
-    color: var(--text--accent);
-}
-
 .list-item-ending-flair {
     position: absolute;
     top: 7px;
     right: 10px;
     font-size: 12px;
-    color: var(--text--accent);
-    background-color: #141414;
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
     line-height: 12px;
     border-radius: 3px;
     padding: 2px 4px;
 }
 
 .list-item:hover .list-item-ending-flair {
-    color: var(--text--accent);
-    background-color: #141414;
+    color: var(--text-accent);
+    background-color: var(--background-secondary-alt);
 }
 
 
@@ -504,6 +536,8 @@ side-dock-ribbon-tab-inner is-after-active {
   color: #cccccc;
   background-color: #141414;
   font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: -2px;
   }
 
 .nav-file-title {  
@@ -555,7 +589,7 @@ side-dock-ribbon-tab-inner is-after-active {
 
 
 .side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
-    color: #5dbcd2 !important;
+    color: var(--text-normal) !important;
     background-color: #1a1a1a;
 }
 
@@ -565,8 +599,8 @@ side-dock-ribbon-tab-inner is-after-active {
     background-color: #1a1a1a;
 }
 
-.nav-file-tag{ color: #5dbcd2; } for the PNG text, but can't specifically target "PNG", just all of those filetype tags.
-.nav-file.is-active .nav-file-tag { color: #5dbcd2; }
+.nav-file-tag{ color: var(--text-normal); }  /* for the PNG text, but can't specifically target "PNG", just all of those filetype tags. */
+.nav-file.is-active .nav-file-tag { color: var(--text-normal); }
 
 
 
@@ -661,8 +695,6 @@ side-dock-ribbon-tab-inner is-after-active {
 
 
 
-
-
 /* EDITOR Text (outside of headings and code) */
 
 .cm-s-obsidian
@@ -670,8 +702,8 @@ side-dock-ribbon-tab-inner is-after-active {
   font-family: var(--font-family-editor);
   font-size: 15px;
   color: var(--text-normal);
-  padding-left: 8% !important;
-  padding-right: 4% !important;
+  padding-left: 3% !important;
+  padding-right: 0% !important;
 }
 
 .mod-single-child .cm-s-obsidian
@@ -719,8 +751,9 @@ side-dock-ribbon-tab-inner is-after-active {
 {
   font-family: var(--font-family-editor);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
+  line-height: 30px;
   color: var(--text-title-h4);
 }
 
@@ -730,6 +763,7 @@ side-dock-ribbon-tab-inner is-after-active {
   font-weight: 500;
   font-size: 18px;
   font-weight: bold;
+  line-height: 30px;
   color: var(--text-title-h5);
 }
 
@@ -739,16 +773,17 @@ side-dock-ribbon-tab-inner is-after-active {
   font-weight: 500;
   font-size: 16px;
   font-weight: bold;
+  line-height: 30px;
   color: var(--text-title-h6);
 }
 
 .cm-strong {
-  color: rgb(179, 153, 255, 0.95);
+  color: #9e8aff;
   font-weight: 700;
 }
 
 .cm-em {
-  color: #b8b894;
+  color: #bac04f;
 }
 
 .cm-s-obsidian span.cm-hashtag {
@@ -782,6 +817,11 @@ but font weight does. */
 }
 
 
+.cm-s-obsidian span.cm-formatting-list {
+  color: #b9adff !important;
+}
+
+
 
 
 /******************/
@@ -791,7 +831,14 @@ but font weight does. */
 
 
 
+
+
+
 /* PREVIEW - normal text (outside of headings and code) */
+
+p {
+  margin-block-start: 0px;
+}
 
 
 .markdown-preview-view
@@ -801,6 +848,8 @@ but font weight does. */
   color: var(--text-normal);
   padding-left: 10% !important;
   padding-right: 10% !important;
+    line-height: 22px;
+
 }
 
 .mod-single-child .markdown-preview-view
@@ -820,8 +869,10 @@ but font weight does. */
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
+  line-height: 36px;
+  margin-bottom: 15px;
   color: var(--text-title-h1);
 }
 
@@ -829,8 +880,9 @@ but font weight does. */
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
+  line-height: 34px;
   color: var(--text-title-h2);
 }
 
@@ -838,8 +890,9 @@ but font weight does. */
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 23px;
+  font-size: 22px;
   font-weight: bold;
+  line-height: 32px;
   color: var(--text-title-h3);
 }
 
@@ -847,8 +900,9 @@ but font weight does. */
 {
   font-family: var(--font-family-preview);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
+  line-height: 28px;
   color: var(--text-title-h4);
 }
 
@@ -858,6 +912,7 @@ but font weight does. */
   font-weight: 500;
   font-size: 18px;
   font-weight: bold;
+  line-height: 27px;
   color: var(--text-title-h5);
 }
 
@@ -867,6 +922,8 @@ but font weight does. */
   font-weight: 500;
   font-size: 16px;
   font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 3px;
   color: var(--text-title-h6);
   
 }
@@ -890,7 +947,7 @@ code
 .code {
     background-color: var(--grey) !important;
     border: 1px solid var(--background-modifier-border) !important;
-    border-color: #ba6ea0; !important;
+    border-color: #ba6ea0!important;
 }
 
 
@@ -972,14 +1029,14 @@ code
 /******************/
 
 .CodeMirror-code span.cm-inline-code {     
-	color: #f1f2f3 !important;
+	color: #d4d4d4 !important;
 }
 
 
 
 /* Editor CodeBlock TEXT Appearance - */
 .cm-s-obsidian pre.HyperMD-codeblock {     
-	color: #f1f2f3 !important;
+	color: #d4d4d4 !important;
 }
 
 
@@ -987,6 +1044,7 @@ code
     padding-top: 0.0em;
     min-height: 1.0em;
 }
+
 
 
 /******************/
@@ -998,8 +1056,8 @@ br + .internal-embed {
 }
 
 .markdown-preview-view code {
-color: #cccccc !important;
-background-color: #2f3136 !important;
+color: #d4d4d4 !important;
+background-color: var(--pre-code) !important;
 bottom: -0.1px !important;
 }
 
@@ -1100,7 +1158,7 @@ color: #38dc7f !important;
 }
 .markdown-embed .markdown-preview-section:last-child p,
 .markdown-embed .markdown-preview-section:last-child ul {
-  margin-block-end:2px;
+  margin-block-end:15px;
 }
 .markdown-embed-link,
 .file-embed-link {
@@ -1136,7 +1194,7 @@ color: #38dc7f !important;
     transform: translate3d(0px, -3px, 0px);
 }
 br + .internal-embed {
-    margin-top: -1.75rem;
+    margin-top: 1rem;
 }
 .markdown-embed-title ~ .markdown-embed-link,
 .internal-embed[src*="#"] .markdown-embed-link {
@@ -1215,14 +1273,28 @@ li .internal-embed .markdown-embed {
 ul ul { position: relative; }
 ul ul::before {
   content:'';
-  border-left: 1px solid #2c8ba0;
+  border-left: 0px solid #2c8ba0;
   position: absolute;
 }
 ul ul::before { left: -1em; top: 0; bottom: 0; }
 
 /* rule line when there are checkboxes*/
-ul .task-list-item ul::before {left: 0.15em !important}
+ul .task-list-item ul::before {left: -1.03em !important}
 
+
+li::marker {
+  color: var(--text-title-h2);
+}
+
+.markdown-preview-view li .collapse-indicator {
+  display: flex;
+  margin-top: 6px;
+}
+
+.markdown-preview-view .collapse-indicator {
+  display: flex;
+  margin-top: .5em;
+}
 
 /***************************************/
 /*    Tiny Tweaks now that Nick knows a smidgen more */
@@ -1276,7 +1348,7 @@ color: var(--text-normal);
 ::-webkit-scrollbar {
   width: 9px;
   height: 8px;
-  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -1286,7 +1358,7 @@ color: var(--text-normal);
   background: transparent;
 }
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:active {
-  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1323,15 +1395,157 @@ color: var(--text-normal);
   color: rgb(252, 246, 1, 0.75);
 }
 
-/* Settings Popup */
+
+
+
+/* CALIFORNIA COAST MODIFIED MODALS */
+
+
+
+
+.progress-bar-message {
+  color: var(--text-faint);
+}
+.modal.mod-sync-history {
+  background-color: var(--shade-0);
+}
+.modal {
+  border-top: 1px solid #8272d0;
+  border-bottom: 1px solid #8272d0;
+  background: var(--background-primary);
+  border-radius: 0px;
+  max-width: 1000px;
+  max-height: 90vh;
+}
+.modal.mod-settings .vertical-tab-content-container {
+  border-left: var(--border-width) solid var(--background-modifier-border);
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.modal.mod-settings {
+  max-width: 1000px;
+  width: 90vw;
+  height: 90vh;
+}
+
+.modal.mod-settings .vertical-tab-header {
+  height: 90vh;
+}
+
+.modal.mod-settings .vertical-tab-content-container {
+  height: 90vh;
+}
+
+.modal.mod-community-theme,
+.modal.mod-community-plugin {
+  width: 90vw;
+}
+
+.modal,
+.prompt,
+.suggestion-container {
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-instructions {
+  color: var(--text-title-h6);
+}
+
+
+
+
+
+
+
+ /* CALIFORNIA COAST MODIFIED SETTINGS  */
+
+
+ .modal-close-button:before {
+  font-weight: 200;
+}
+
+.horizontal-tab-content,
+.vertical-tab-content {
+  background: var(--background-primary);
+}
+
+.modal.mod-settings .vertical-tab-header {
+  background: var(--background-secondary-alt);
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+.vertical-tab-header-group-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 6px 18px;
+  background: var(--background-secondary-alt);
+}
+
+
+.vertical-tab-nav-item {
+  font-size: 15px;
+  padding: 7px 6px;
+  line-height: 1;
+  cursor: var(--cursor);
+  color: var(--text-normal);
+  border-radius: var(--radius-s);
+  background: var(--background-secondary-alt);
+}
+
+
+.vertical-tab-nav-item:hover {
+  background: var(--background-secondary);
+}
+
+.vertical-tab-nav-item.is-active {
+  color: var(--text-normal);
+  background: var(--background-secondary);
+}
+
+.hotkey-list-container,
+.hotkey-search-container {
+  padding-left: 2px;
+}
+.setting-hotkey {
+  background-color: var(--background-modifier-border);
+  padding: 4px 0 4px 0;
+  line-height: 8px;
+  min-height: 0;
+}
+.setting-add-hotkey-button, .setting-restore-hotkey-button {
+  color: var(--text-muted);
+}
+.setting-hotkey.mod-empty {
+  background: transparent;
+}
+
+/*    Settings Popup   */
+/*                    */
+
+
 button.mod-cta {
-  background-color: rgb(252, 246, 1, 0.90);
+  background-color: var(--background-primary);
   color: var(--text-on-accent);
+  border: 1px solid var(--background-modifier-border);
 }
 
 button.mod-cta:hover {
-  background-color: #9e8aff;
-  color: rgb(252, 246, 1, 0.95);
+  background-color: var(--background-primary);
+  color: var(--text-on-accent);
+  border: 1px solid var(--interactive-accent);
+}
+
+.tree-item-self:hover .tree-item-flair {
+  background-color: var(--interactive-accent);
+  color: var(--background-secondary-alt)
+}
+
+.flair.mod-pop {
+  background-color: var(--background-primary);
+  color: var(--text-on-accent);
 }
 
 /* Tag List in Right Sidebar*/
@@ -1364,70 +1578,146 @@ button.mod-warning:hover {
   color: #ff7575;
 }
 
-/* Death-au Realistic Highlighting*/
-body{
-  --fluro-yellow-rgb: 255, 255, 0;
-  --fluro-pink-rgb: 255, 0, 255;
-  --fluro-blue-rgb: 0, 255, 255;
-  --fluro-green-rgb: 0, 255, 0;
-  --text-highlight-rgb: var(--fluro-yellow-rgb);
+
+
+
+
+/* This is to hide queries in Preview Mode. Thanks Kassapa!*/
+.markdown-preview-view .internal-query.is-embed .internal-query-header{ display:none; }
+
+
+/*TAG PANE selected button thing
+
+.nav-action-button.is-active {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-mark.yellow{ --text-highlight-rgb: var(--fluro-yellow-rgb); }
-mark.pink{ --text-highlight-rgb: var(--fluro-pink-rgb); }
-mark.blue{ --text-highlight-rgb: var(--fluro-blue-rgb); }
-mark.green{ --text-highlight-rgb: var(--fluro-green-rgb); }
+.nav-action-button.is-active:hover {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+/*fixing YAML tag color*/
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+  text-decoration: none;
+  background-color: var(--background-secondary-alt);
+  border-radius: 30px;
+  color: var(--text-a);
+  font-size: 0.9em;
+  padding: 2px 8px;
+  margin: 2px 4px;
+  line-height: 19px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+/*less rounded tag pills*/
+.frontmatter-container .tag, .frontmatter-container .frontmatter-alias {
+  text-decoration: none;
+  background-color: var(--background-secondary-alt);
+  border-radius: 8px;
+  color: var(--text-a);
+  font-size: 0.9em;
+  padding: 2px 8px;
+  margin: 2px 4px;
+  line-height: 19px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+/*  EMOJI INLINE FIX   */
+img.emoji {
+  display: inline-block;
+}
+
+
+/* Active buttons */
+/*
+.workspace-leaf-content[data-type='search'] 
+.nav-action-button.is-active {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.workspace-leaf-content[data-type='backlink'] 
+.nav-action-button.is-active {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+*/
+
+.nav-action-button.is-active {
+  background-color: transparent;
+  color: var(--text-on-accent);
+}
+
+
+/* Making the search dropdown box have smaller fonts */
+.suggestion-container.mod-search-suggestion {
+  font-family: var(--font-family-preview);
+  font-size: 16px; /* doesn't work */
+  line-height: 18px; /* this works, which is good enough */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************/
+/* HIGHLIGHTER UPDATES */
+/**********************/
+
+mark
+{
+  background-color: var(--text-mark) !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 
 .markdown-preview-view mark {
-  margin: 0 -0.4em;
-  padding: 0.1em 0.4em;
-  border-radius: 0.8em 0.3em;
-  background: transparent;
-  background-image: linear-gradient(105deg,
-    transparent 0,
-    transparent 0.3em,
-    rgba(var(--text-highlight-rgb), 0.7) 0.5em,
-    rgba(var(--text-highlight-rgb), 0.4) 1.6em,
-    rgba(var(--text-highlight-rgb), 0.4) calc(100% - 1.4em),
-    rgba(var(--text-highlight-rgb), 0.7) calc(100% - 0.5em),
-    transparent calc(100% - 0.3em),
-    transparent 100%);
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  text-shadow: 0 0 0.75em var(--background-primary-alt);
-}
+    color: #6CE4FF;
+    font-weight: 500;
+    text-shadow: 0 0 0.6em #FCF60159;
+    }
+
 
 .cm-s-obsidian span.cm-highlight {
-  padding:0.1em 0;
-  background: rgba(var(--text-highlight-rgb), 0.4);
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  text-shadow: 0 0 0.75em var(--background-primary-alt);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 0.1rem;
+  background-image: linear-gradient(60deg, #86c3ff 0%, #ddb9ff 100%) !important;
+  text-shadow: 0 0 0.6em #fcf80118;
 }
 
-.cm-s-obsidian span.cm-formatting-highlight{
-  margin: 0 0 0 -0.4em;
-  padding: 0.1em 0 0.1em 0.4em;
-  border-radius: 0.8em 0 0 0.4em;
-  background: none;
-  background-image: linear-gradient(105deg,
-    transparent 0,
-    transparent 0.3em,
-    rgba(var(--text-highlight-rgb), 0.7) 0.5em,
-    rgba(var(--text-highlight-rgb), 0.4) 1.6em);
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-.cm-s-obsidian .cm-highlight+span.cm-formatting-highlight {
-  margin: 0 -0.4em 0 0;
-  padding: 0.1em 0.4em 0.1em 0;
-  border-radius: 0 0.4em 0.8em 0;
-  background: none;
-  background-image: linear-gradient(105deg,
-    rgba(var(--text-highlight-rgb), 0.4) calc(100% - 1.4em),
-    rgba(var(--text-highlight-rgb), 0.7) calc(100% - 0.5em),
-    transparent calc(100% - 0.3em),
-    transparent 100%);
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
+.markdown-preview-view mark {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 0.1rem;
+  background-image: linear-gradient(60deg, #86c3ff 0%, #ddb9ff 100%) !important;
+  text-shadow: 0 0 0.6em #fcf80118;
+  }
