@@ -111,6 +111,13 @@
         "a": 1,
         "rgb": 2392238
       }
+    },
+    {
+      "query": "path:学习方法",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": true,
