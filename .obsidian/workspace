@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-01/2022-01-17日计划.md",
+            "file": "学习方法/1.卡片盒笔记法+obsidian.md",
             "mode": "source",
             "source": false
           }
@@ -17,17 +17,62 @@
         "group": "8c23bbc0cc345057"
       },
       {
-        "id": "589c3aa09a75b14a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "每日计划/22-01/2022-01-17日计划.md",
-            "mode": "preview",
-            "source": false
+        "id": "a8909252be9fd33d",
+        "type": "split",
+        "children": [
+          {
+            "id": "589c3aa09a75b14a",
+            "type": "leaf",
+            "dimension": 64.87854251012146,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习方法/1.卡片盒笔记法+obsidian.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "8c23bbc0cc345057"
+          },
+          {
+            "id": "f2ea1e918cad5659",
+            "type": "leaf",
+            "dimension": 35.121457489878544,
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "学习方法/1.卡片盒笔记法+obsidian.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224425,
+                  "close": true
+                }
+              }
+            },
+            "group": "8c23bbc0cc345057"
           }
-        },
-        "group": "8c23bbc0cc345057"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -39,7 +84,7 @@
       {
         "id": "9cd6aa9c11a47aa3",
         "type": "tabs",
-        "dimension": 57.01559020044543,
+        "dimension": 60.22267206477733,
         "children": [
           {
             "id": "f7c97b62ad1e0a6d",
@@ -69,7 +114,7 @@
       {
         "id": "e2867c8734124ce0",
         "type": "tabs",
-        "dimension": 42.98440979955457,
+        "dimension": 39.77732793522267,
         "children": [
           {
             "id": "059c9cad8255c1c4",
@@ -99,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-01/2022-01-17日计划.md",
+                "file": "学习方法/1.卡片盒笔记法+obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-01/2022-01-17日计划.md",
+                "file": "学习方法/1.卡片盒笔记法+obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-01/2022-01-17日计划.md"
+                "file": "学习方法/1.卡片盒笔记法+obsidian.md"
               }
             }
           },
@@ -156,8 +201,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "589c3aa09a75b14a",
+  "active": "4e886a6e8977171a",
   "lastOpenFiles": [
+    "学习方法/1.卡片盒笔记法+obsidian.md",
     "每日计划/22-01/2022-01-17日计划.md",
     "每日计划/22-01/2022-01-目录.md",
     "README.md",
@@ -166,7 +212,6 @@
     "每日计划/22-01/2022-01-16日计划.md",
     "每周复盘/2022/周复盘-2022年第02周.md",
     "学习方法/0.学习方法-目录.md",
-    "学习方法/1.卡片盒笔记法+obsidian.md",
     "每日计划/22-01/2022-01-12日计划.md"
   ]
 }
