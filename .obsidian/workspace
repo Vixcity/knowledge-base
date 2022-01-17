@@ -9,11 +9,25 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "每日计划/22-01/2022-01-17日计划.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "8c23bbc0cc345057"
+      },
+      {
+        "id": "589c3aa09a75b14a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "每日计划/22-01/2022-01-17日计划.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "8c23bbc0cc345057"
       }
     ],
     "direction": "vertical"
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "每日计划/22-01/2022-01-17日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "每日计划/22-01/2022-01-17日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "每日计划/22-01/2022-01-17日计划.md"
               }
             }
           },
@@ -142,8 +156,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4e886a6e8977171a",
+  "active": "589c3aa09a75b14a",
   "lastOpenFiles": [
+    "每日计划/22-01/2022-01-17日计划.md",
+    "每日计划/22-01/2022-01-目录.md",
     "README.md",
     "思考/学习的方法.md",
     "思考/0.思考总目录.md",
@@ -151,8 +167,6 @@
     "每周复盘/2022/周复盘-2022年第02周.md",
     "学习方法/0.学习方法-目录.md",
     "学习方法/1.卡片盒笔记法+obsidian.md",
-    "每日计划/22-01/2022-01-12日计划.md",
-    "每日计划/22-01/2022-01-15日计划.md",
-    "每日计划/22-01/2022-01-14日计划.md"
+    "每日计划/22-01/2022-01-12日计划.md"
   ]
 }
