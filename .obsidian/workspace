@@ -7,8 +7,12 @@
         "id": "4e886a6e8977171a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "每日计划/22-01/2022-01-21日计划.md",
+            "mode": "source",
+            "source": false
+          }
         },
         "group": "8c23bbc0cc345057"
       },
@@ -18,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-01/2022-01-20日计划.md",
+            "file": "每日计划/22-01/2022-01-21日计划.md",
             "mode": "preview",
             "source": false
           }
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "每日计划/22-01/2022-01-21日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "每日计划/22-01/2022-01-21日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "每日计划/22-01/2022-01-21日计划.md"
+              }
             }
           },
           {
@@ -150,15 +158,15 @@
   },
   "active": "4e886a6e8977171a",
   "lastOpenFiles": [
-    "每日计划/22-01/2022-01-20日计划.md",
+    "每日计划/22-01/2022-01-21日计划.md",
     "每日计划/22-01/2022-01-目录.md",
+    "每日计划/22-01/2022-01-20日计划.md",
     "每日计划/22-01/2022-01-19日计划.md",
     "学习方法/1.卡片盒笔记法+obsidian.md",
     "法则/法则/21.四象限法则  艾森豪威尔法则.md",
     "法则/法则/12.你不需要它原则.md",
     "代码/0.代码-总目录.md",
     "代码/看源码思路.md",
-    "代码/小程序/0.小程序-目录.md",
-    "每日计划/22-01/2022-01-18日计划.md"
+    "代码/小程序/0.小程序-目录.md"
   ]
 }
