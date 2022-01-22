@@ -7,8 +7,12 @@
         "id": "4e886a6e8977171a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "每日计划/22-01/2022-01-22日计划.md",
+            "mode": "source",
+            "source": false
+          }
         },
         "group": "8c23bbc0cc345057"
       },
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "每日计划/22-01/2022-01-22日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "每日计划/22-01/2022-01-22日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "每日计划/22-01/2022-01-22日计划.md"
+              }
             }
           },
           {
