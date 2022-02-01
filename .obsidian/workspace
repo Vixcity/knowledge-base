@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4e886a6e8977171a",
+        "id": "52ada7da208face5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "每日计划/22-01/2022-01-30日计划.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "8c23bbc0cc345057"
-      },
-      {
-        "id": "589c3aa09a75b14a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "每日计划/22-01/2022-01-30日计划.md",
-            "mode": "preview",
-            "source": false
-          }
-        },
-        "group": "8c23bbc0cc345057"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-01/2022-01-30日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-01/2022-01-30日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "每日计划/22-01/2022-01-30日计划.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,17 +126,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4e886a6e8977171a",
+  "active": "52ada7da208face5",
   "lastOpenFiles": [
+    "每日计划/22-02/2022-02-01日计划.md",
+    "每日计划/22-01/2022-01-31日计划.md",
+    "每日计划/22-01/2022-01-目录.md",
+    "每日计划/22-02/2022-02-目录.md",
+    "每日计划/0.每日计划-目录.md",
+    "每日计划/22-02/2022-01-01日计划.md",
+    "每日计划/每日计划模板.md",
+    "每日计划/未命名.md",
     "每日计划/22-01/2022-01-30日计划.md",
-    "每日计划/22-01/2022-01-24日计划.md",
-    "每日计划/22-01/2022-01-29日计划.md",
-    "每日计划/22-01/2022-01-26日计划.md",
-    "每日计划/22-01/2022-01-27日计划.md",
-    "每日计划/22-01/2022-01-28日计划.md",
-    "每周复盘/2022/周复盘-2022年第04周.md",
-    "每日计划/22-01/2022-01-25日计划.md",
-    "每周复盘/2022/周复盘-2022年第03周.md",
-    "每周复盘/2022/2022-周复盘目录.md"
+    "每日计划/22-01/2022-01-29日计划.md"
   ]
 }
