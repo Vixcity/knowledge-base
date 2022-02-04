@@ -7,8 +7,12 @@
         "id": "52ada7da208face5",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "每日计划/22-02/2022-02-04日计划.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "每日计划/22-02/2022-02-04日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "每日计划/22-02/2022-02-04日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "每日计划/22-02/2022-02-04日计划.md"
+              }
             }
           },
           {
@@ -128,15 +136,15 @@
   },
   "active": "52ada7da208face5",
   "lastOpenFiles": [
+    "每日计划/22-02/2022-02-04日计划.md",
+    "每日计划/22-02/2022-02-目录.md",
+    "每日计划/22-02/2022-02-03日计划.md",
     "每日计划/22-02/2022-02-02日计划.md",
     "每日计划/22-01/2022-01-目录.md",
-    "每日计划/22-02/2022-02-目录.md",
     "每日计划/22-02/2022-02-01日计划.md",
     "每日计划/22-01/2022-01-31日计划.md",
     "每日计划/0.每日计划-目录.md",
     "每日计划/22-02/2022-01-01日计划.md",
-    "每日计划/每日计划模板.md",
-    "每日计划/未命名.md",
-    "每日计划/22-01/2022-01-30日计划.md"
+    "每日计划/每日计划模板.md"
   ]
 }
