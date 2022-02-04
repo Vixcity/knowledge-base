@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "52ada7da208face5",
+        "id": "9f6040a3e08e0b97",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-02/2022-02-04日计划.md",
+            "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-02/2022-02-04日计划.md",
+                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-02/2022-02-04日计划.md",
+                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-02/2022-02-04日计划.md"
+                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md"
               }
             }
           },
@@ -134,17 +134,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "52ada7da208face5",
+  "active": "9f6040a3e08e0b97",
   "lastOpenFiles": [
+    "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
+    "Pasted image 20220204172036.png",
+    "思考/0.思考-总目录.md",
+    "思考/抖音知识点.md",
+    "思考/0.思考总目录.md",
+    "思考/做up主的一些要点.md",
     "每日计划/22-02/2022-02-04日计划.md",
     "每日计划/22-02/2022-02-目录.md",
     "每日计划/22-02/2022-02-03日计划.md",
-    "每日计划/22-02/2022-02-02日计划.md",
-    "每日计划/22-01/2022-01-目录.md",
-    "每日计划/22-02/2022-02-01日计划.md",
-    "每日计划/22-01/2022-01-31日计划.md",
-    "每日计划/0.每日计划-目录.md",
-    "每日计划/22-02/2022-01-01日计划.md",
-    "每日计划/每日计划模板.md"
+    "每日计划/22-02/2022-02-02日计划.md"
   ]
 }
