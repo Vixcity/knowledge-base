@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
+            "file": "阅读/阅读清单.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
+                "file": "阅读/阅读清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
+                "file": "阅读/阅读清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/B站内容创业如何从个人兴趣到百万粉丝.md"
+                "file": "阅读/阅读清单.md"
               }
             }
           },
@@ -136,6 +136,7 @@
   },
   "active": "9f6040a3e08e0b97",
   "lastOpenFiles": [
+    "阅读/阅读清单.md",
     "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
     "Pasted image 20220204172036.png",
     "思考/0.思考-总目录.md",
@@ -144,7 +145,6 @@
     "思考/做up主的一些要点.md",
     "每日计划/22-02/2022-02-04日计划.md",
     "每日计划/22-02/2022-02-目录.md",
-    "每日计划/22-02/2022-02-03日计划.md",
-    "每日计划/22-02/2022-02-02日计划.md"
+    "每日计划/22-02/2022-02-03日计划.md"
   ]
 }
