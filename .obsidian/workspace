@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-02/2022-02-07日计划.md",
+            "file": "写作/名人名言.md",
             "mode": "source",
             "source": false
           }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "决胜个人",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-02/2022-02-07日计划.md",
+                "file": "写作/名人名言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-02/2022-02-07日计划.md",
+                "file": "写作/名人名言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-02/2022-02-07日计划.md"
+                "file": "写作/名人名言.md"
               }
             }
           },
@@ -144,6 +144,8 @@
   },
   "active": "a108b94acbcfb3c6",
   "lastOpenFiles": [
+    "写作/名人名言.md",
+    "写作/0.写作-总目录.md",
     "每日计划/22-02/2022-02-07日计划.md",
     "阅读/3.决胜个人IP.md",
     "思维/副业机器.md",
@@ -151,8 +153,6 @@
     "思考/抖音知识点.md",
     "思考/学习的方法.md",
     "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
-    "每日计划/22-02/2022-02-目录.md",
-    "每日计划/22-02/2022-02-06日计划.md",
-    "每日计划/22-02/2022-02-05日计划.md"
+    "每日计划/22-02/2022-02-目录.md"
   ]
 }
