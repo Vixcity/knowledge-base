@@ -7,8 +7,12 @@
         "id": "a108b94acbcfb3c6",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "阅读/11.小狗钱钱.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "阅读/11.小狗钱钱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "阅读/11.小狗钱钱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "阅读/11.小狗钱钱.md"
+              }
             }
           },
           {
@@ -136,15 +144,15 @@
   },
   "active": "a108b94acbcfb3c6",
   "lastOpenFiles": [
-    "思维/金钱与我纪录片.md",
-    "每日计划/22-02/2022-02-09日计划.md",
-    "思维/0.思维-总目录.md",
-    "认知/0.认知-总目录.md",
-    "每周复盘/2022/周复盘-2022年第06周.md",
-    "每周复盘/2022/2022-周复盘目录.md",
-    "每日计划/22-02/2022-02-07日计划.md",
-    "思考/抖音知识点.md",
+    "阅读/11.小狗钱钱.md",
+    "每日计划/22-02/2022-02-10日计划.md",
+    "阅读/10.卡片笔记写作法.md",
+    "法则/定律/0.定律-目录.md",
+    "法则/定律/37.72小时规定.md",
+    "阅读/3.决胜个人IP.md",
     "写作/名人名言.md",
-    "写作/0.写作-总目录.md"
+    "阅读/5.乌合之众.md",
+    "阅读/4.教你做网红.md",
+    "阅读/6.刻意练习.md"
   ]
 }
