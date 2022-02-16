@@ -125,6 +125,13 @@
         "a": 1,
         "rgb": 5419488
       }
+    },
+    {
+      "query": "path:摄影",
+      "color": {
+        "a": 1,
+        "rgb": 3853535
+      }
     }
   ],
   "collapse-display": true,
@@ -138,5 +145,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.2292013594174956,
-  "close": true
+  "close": false
 }
