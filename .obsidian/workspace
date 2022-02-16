@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a108b94acbcfb3c6",
+        "id": "8d5d501e4531763c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-02/2022-02-15日计划.md",
+            "file": "摄影/短视频网红班.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-02/2022-02-15日计划.md",
+                "file": "摄影/短视频网红班.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-02/2022-02-15日计划.md",
+                "file": "摄影/短视频网红班.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-02/2022-02-15日计划.md"
+                "file": "摄影/短视频网红班.md"
               }
             }
           },
@@ -142,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a108b94acbcfb3c6",
+  "active": "8d5d501e4531763c",
   "lastOpenFiles": [
-    "每日计划/22-02/2022-02-15日计划.md",
+    "摄影/短视频网红班.md",
+    "摄影/0.摄影-总目录.md",
+    "Pasted image 20220216102910.png",
+    "README.md",
+    "思考/做up主的一些要点.md",
+    "每日计划/22-02/2022-02-16日计划.md",
     "每日计划/22-02/2022-02-目录.md",
-    "每日计划/0.每日计划-目录.md",
+    "每日计划/22-02/2022-02-15日计划.md",
     "每日计划/22-02/2022-02-14日计划.md",
-    "每周复盘/2022/周复盘-2022年第06周.md",
-    "每日计划/22-02/2022-02-13日计划.md",
-    "每日计划/22-02/2022-02-12日计划.md",
-    "每日计划/22-02/2022-02-11日计划.md",
-    "每日计划/22-02/2022-02-10日计划.md",
-    "每日计划/22-02/2022-02-09日计划.md"
+    "每日计划/0.每日计划-总目录.md"
   ]
 }
