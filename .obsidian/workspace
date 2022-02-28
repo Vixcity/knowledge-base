@@ -7,12 +7,8 @@
         "id": "2ffc332505773c49",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "摄影/修图/4.ACR相机校准&混色器&色彩分级.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "摄影/修图/4.ACR相机校准&混色器&色彩分级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "摄影/修图/4.ACR相机校准&混色器&色彩分级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "摄影/修图/4.ACR相机校准&混色器&色彩分级.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,15 +136,15 @@
   },
   "active": "2ffc332505773c49",
   "lastOpenFiles": [
+    "每日计划/0.每日计划-总目录.md",
+    "每日计划/每日计划模板.md",
+    "每日计划/22-03/2022-03-目录.md",
     "摄影/修图/4.ACR相机校准&混色器&色彩分级.md",
     "摄影/修图/0.修图-总目录.md",
     "每日计划/22-02/2022-02-28日计划.md",
     "每月总结/2022/2022-月总结目录.md",
     "每周复盘/2022/周复盘-2022年第01周.md",
     "每月总结/2022/未命名.md",
-    "每周复盘/2022/2022-周复盘目录.md",
-    "每月总结/0.每月总结-总目录.md",
-    "每周复盘/0.每周复盘-总目录.md",
-    "每月总结/月总结模板.md"
+    "每周复盘/2022/2022-周复盘目录.md"
   ]
 }
