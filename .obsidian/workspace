@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "摄影/摄影/6.镜头设计.md",
+            "file": "摄影/修图/2.ACR曝光校正&蒙版运用.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "摄影/摄影/6.镜头设计.md",
+                "file": "摄影/修图/2.ACR曝光校正&蒙版运用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "摄影/摄影/6.镜头设计.md",
+                "file": "摄影/修图/2.ACR曝光校正&蒙版运用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "摄影/摄影/6.镜头设计.md"
+                "file": "摄影/修图/2.ACR曝光校正&蒙版运用.md"
               }
             }
           },
@@ -144,6 +144,7 @@
   },
   "active": "a32f7fba1d78287f",
   "lastOpenFiles": [
+    "摄影/修图/2.ACR曝光校正&蒙版运用.md",
     "摄影/摄影/6.镜头设计.md",
     "每日计划/22-03/2022-03-02日计划.md",
     "每日计划/22-03/2022-03-03日计划.md",
@@ -152,7 +153,6 @@
     "摄影/摄影/0.摄影-总目录.md",
     "摄影/修图/5.拓展工具运用及介绍（LR&BR).md",
     "摄影/修图/0.修图-总目录.md",
-    "摄影/修图/1.色彩.md",
-    "每日计划/22-03/2022-03-01日计划.md"
+    "摄影/修图/1.色彩.md"
   ]
 }
