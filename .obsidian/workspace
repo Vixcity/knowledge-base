@@ -7,8 +7,12 @@
         "id": "a32f7fba1d78287f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "摄影/PR/3.MV剪辑.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/PR/3.MV剪辑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/PR/3.MV剪辑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "摄影/PR/3.MV剪辑.md"
+              }
             }
           },
           {
@@ -136,15 +144,15 @@
   },
   "active": "a32f7fba1d78287f",
   "lastOpenFiles": [
+    "摄影/PR/3.MV剪辑.md",
+    "摄影/PR/0.PR-总目录.md",
+    "摄影/PR/1.调色.md",
+    "摄影/0.摄影-总目录.md",
+    "摄影/摄影/6.镜头设计.md",
+    "摄影/摄影/4.摄影画面的设计与内容安排.md",
     "每日计划/22-03/2022-03-04日计划.md",
     "每日计划/22-03/2022-03-05日计划.md",
-    "摄影/PR/0.PR-总目录.md",
     "摄影/PR/2.多机位剪辑.md",
-    "摄影/PR/1.调色.md",
-    "每日计划/22-03/2022-03-目录.md",
-    "每日计划/22-03/2022-03-03日计划.md",
-    "每日计划/22-03/2022-03-02日计划.md",
-    "摄影/修图/2.ACR曝光校正&蒙版运用.md",
-    "摄影/摄影/6.镜头设计.md"
+    "每日计划/22-03/2022-03-目录.md"
   ]
 }
