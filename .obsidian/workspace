@@ -7,12 +7,8 @@
         "id": "a32f7fba1d78287f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "每日计划/22-03/2022-03-07日计划.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-03/2022-03-07日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-03/2022-03-07日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "每日计划/22-03/2022-03-07日计划.md"
-              }
+              "state": {}
             }
           },
           {
