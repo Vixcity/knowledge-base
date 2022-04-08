@@ -7,8 +7,12 @@
         "id": "91fe9e07426fd660",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "每日计划/22-04/2022-04-08日计划.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "每日计划/22-04/2022-04-08日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "每日计划/22-04/2022-04-08日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "每日计划/22-04/2022-04-08日计划.md"
+              }
             }
           },
           {
@@ -136,15 +144,15 @@
   },
   "active": "91fe9e07426fd660",
   "lastOpenFiles": [
+    "每日计划/22-04/2022-04-08日计划.md",
+    "每日计划/22-04/2022-04-目录.md",
+    "每日计划/0.每日计划-总目录.md",
     "摄影/摄影/0.摄影-总目录.md",
     "摄影/摄影/16.影棚古风拍摄定制.md",
     "每日计划/22-04/2022-04-07日计划.md",
-    "每日计划/22-04/2022-04-目录.md",
     "每日计划/22-04/2022-04-06日计划.md",
     "每日计划/22-04/2022-04-05日计划.md",
     "摄影/摄影/15.古风人像户外拍摄.md",
-    "摄影/摄影/6.镜头设计.md",
-    "摄影/摄影/10.动作设计和指导.md",
-    "摄影/摄影/13.少女写真.md"
+    "摄影/摄影/6.镜头设计.md"
   ]
 }
