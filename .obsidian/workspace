@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-04/2022-04-14日计划.md",
+            "file": "思考/学习动力公式.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-04/2022-04-14日计划.md",
+                "file": "思考/学习动力公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-04/2022-04-14日计划.md",
+                "file": "思考/学习动力公式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-04/2022-04-14日计划.md"
+                "file": "思考/学习动力公式.md"
               }
             }
           },
@@ -144,6 +144,8 @@
   },
   "active": "aac351d6d6c881f2",
   "lastOpenFiles": [
+    "思考/学习动力公式.md",
+    "思考/0.思考-总目录.md",
     "每日计划/22-04/2022-04-14日计划.md",
     "每日计划/22-04/2022-04-目录.md",
     "摄影/摄影/17.超越平凡的人文影像.md",
@@ -151,8 +153,6 @@
     "思维/拍摄计划.md",
     "每日计划/22-04/2022-04-13日计划.md",
     "摄影/修图/进阶2、照片黑白灰关系详解析.md",
-    "摄影/摄影/0.摄影-总目录.md",
-    "每日计划/22-04/2022-04-12日计划.md",
-    "每日计划/每日计划模板.md"
+    "摄影/摄影/0.摄影-总目录.md"
   ]
 }
