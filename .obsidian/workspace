@@ -7,11 +7,9 @@
         "id": "a72087873960094e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "阅读/0.阅读-目录.md",
-            "mode": "source",
-            "source": false
+            "file": "图集/低短调/低短调-1.jpg"
           }
         }
       }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读/0.阅读-目录.md",
+                "file": "图集/低短调/低短调-1.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读/0.阅读-目录.md",
+                "file": "图集/低短调/低短调-1.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读/0.阅读-目录.md"
+                "file": "图集/低短调/低短调-1.jpg"
               }
             }
           },
@@ -144,15 +142,15 @@
   },
   "active": "a72087873960094e",
   "lastOpenFiles": [
+    "图集/低短调/低短调-1.jpg",
+    "每日计划/22-04/2022-04-15日计划.md",
+    "README.md",
     "阅读/0.阅读-目录.md",
     "阅读/10.卡片笔记写作法.md",
     "阅读/小狗钱钱.md",
     "阅读/9.掌控习惯.md",
     "阅读/8.故事思维.md",
     "阅读/7.微习惯.md",
-    "阅读/6.刻意练习.md",
-    "阅读/5.乌合之众.md",
-    "阅读/教你做网红.md",
-    "阅读/决胜个人IP.md"
+    "阅读/6.刻意练习.md"
   ]
 }
