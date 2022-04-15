@@ -7,9 +7,11 @@
         "id": "a72087873960094e",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "图集/低短调/低短调-1.jpg"
+            "file": "每日计划/22-04/2022-04-15日计划.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图集/低短调/低短调-1.jpg",
+                "file": "每日计划/22-04/2022-04-15日计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图集/低短调/低短调-1.jpg",
+                "file": "每日计划/22-04/2022-04-15日计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图集/低短调/低短调-1.jpg"
+                "file": "每日计划/22-04/2022-04-15日计划.md"
               }
             }
           },
@@ -142,8 +144,8 @@
   },
   "active": "a72087873960094e",
   "lastOpenFiles": [
-    "图集/低短调/低短调-1.jpg",
     "每日计划/22-04/2022-04-15日计划.md",
+    "图集/低短调/低短调-1.jpg",
     "README.md",
     "阅读/0.阅读-目录.md",
     "阅读/10.卡片笔记写作法.md",
