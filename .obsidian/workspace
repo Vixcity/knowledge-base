@@ -7,8 +7,12 @@
         "id": "f2d29911cb8e60d9",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "摄影/摄影/19.游记的拍摄.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/摄影/19.游记的拍摄.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/摄影/19.游记的拍摄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "摄影/摄影/19.游记的拍摄.md"
+              }
             }
           },
           {
@@ -136,6 +144,8 @@
   },
   "active": "f2d29911cb8e60d9",
   "lastOpenFiles": [
+    "摄影/摄影/19.游记的拍摄.md",
+    "摄影/摄影/0.摄影-总目录.md",
     "每日计划/22-04/2022-04-20日计划.md",
     "每日计划/22-04/2022-04-19日计划.md",
     "每日计划/22-04/2022-04-目录.md",
@@ -143,8 +153,6 @@
     "摄影/修图/进阶4、高级黑白照片质感层次强化.md",
     "Pasted image 20220419205808.png",
     "每日计划/22-04/2022-04-18日计划.md",
-    "摄影/修图/进阶3、亚当斯分区曝光后期控制技法.md",
-    "思考/0.思考-总目录.md",
-    "思考/怎样才能成为牛人.md"
+    "摄影/修图/进阶3、亚当斯分区曝光后期控制技法.md"
   ]
 }
