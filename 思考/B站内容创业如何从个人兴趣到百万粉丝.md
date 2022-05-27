@@ -237,3 +237,69 @@ do it now 现在就做，马上就做，或者就有输出，专注于内容
 兴趣是最好的老师，坚持是最好的见证，做好最好的服务
 
 ![建议](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202202042255936.jpg)
+
+脚本 > 后期
+
+### 视频价值是什么？
+
+选题决定了一半 > 流量与分区
+#### 爆款五要素
+##### 热点
+跟热点是最好的选题，也是起量的最好方式
+##### 选题
+受众群体
+
+市场供给
+
+价值共鸣
+
+![要素](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271349672.png)
+
+![爆款](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271351291.png)
+
+![选题](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271352127.png)
+
+![如何选题](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271353027.png)
+
+![喜好](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271355645.png)
+
+顺着情绪去找选题
+
+##### 幽默
+
+不会讲段子的up主不是好老师
+
+幽默 => 不太认真，荒谬，背理
+
+打破惯性
+
+不按套路出牌
+
+![如何幽默](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271402665.png)
+
+关注梗：例如让子弹飞等
+
+先加脚本在想加梗
+
+![幽默的方式](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271404749.png)
+
+![幽默的方式](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271404026.png)
+
+##### 获得感与价值
+
+![获得感](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271405535.png)
+
+##### 节奏与信息密度
+
+![吸引注意力](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271407211.png)
+
+前三十秒用户留存率
+
+可以试试删掉一些话或者片段
+
+![故事剧情](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271413364.png)
+
+![信息密度](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271413182.png)
+
+### 内容规划
+
