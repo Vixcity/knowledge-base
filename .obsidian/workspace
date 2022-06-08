@@ -7,12 +7,8 @@
         "id": "62fa35cfd4caf91b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "日记/2022-06-08日记.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2022-06-08日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2022-06-08日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "日记/2022-06-08日记.md"
-              }
+              "state": {}
             }
           },
           {
