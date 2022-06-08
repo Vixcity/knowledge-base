@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f9d1dbe0ae7ca721",
+        "id": "62fa35cfd4caf91b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每日计划/22-06/2022-06-02日计划.md",
+            "file": "日记/2022-06-08日记.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每日计划/22-06/2022-06-02日计划.md",
+                "file": "日记/2022-06-08日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每日计划/22-06/2022-06-02日计划.md",
+                "file": "日记/2022-06-08日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日计划/22-06/2022-06-02日计划.md"
+                "file": "日记/2022-06-08日记.md"
               }
             }
           },
@@ -142,17 +142,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9d1dbe0ae7ca721",
+  "active": "62fa35cfd4caf91b",
   "lastOpenFiles": [
-    "每日计划/22-06/2022-06-02日计划.md",
+    "日记/2022-06-08日记.md",
+    "每月总结/2022/月总结-2022年6月.md",
+    "日记/0.日记-目录.md",
+    "README.md",
+    "每月总结/2022/2022-月总结目录.md",
+    "每月总结/0.每月总结-总目录.md",
+    "每月总结/2022/月总结-2022年2月.md",
     "每月总结/2022/月总结-2022年5月.md",
-    "每日计划/22-05/2022-05-31日计划.md",
-    "每周复盘/2022/周复盘-2022年第22周.md",
-    "每日计划/0.每日计划-总目录.md",
-    "每日计划/22-06/2022-06-目录.md",
-    "每日计划/22-05/2022-05-01日计划.md",
-    "每日计划/22-05/2022-05-目录.md",
-    "每日计划/22-06/2022-06-01日计划.md",
-    "每月总结/2022/月总结-2022年4月.md"
+    "每日计划/22-06/2022-06-08日计划.md",
+    "每日计划/0.每日计划-总目录.md"
   ]
 }
