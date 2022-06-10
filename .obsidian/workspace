@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62fa35cfd4caf91b",
+        "id": "03f5e11510b402ed",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "摄影/摄影/15.古风人像户外拍摄.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -37,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "遗忘曲线",
+                "query": "202204062037380",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -46,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f7416c93a0d1cb24",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/摄影/15.古风人像户外拍摄.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/摄影/15.古风人像户外拍摄.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "摄影/摄影/15.古风人像户外拍摄.md"
+              }
             }
           },
           {
@@ -134,17 +143,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "62fa35cfd4caf91b",
+  "active": "03f5e11510b402ed",
   "lastOpenFiles": [
-    "日记/2022-06-08日记.md",
-    "每月总结/2022/月总结-2022年6月.md",
-    "日记/0.日记-目录.md",
-    "README.md",
-    "每月总结/2022/2022-月总结目录.md",
-    "每月总结/0.每月总结-总目录.md",
-    "每月总结/2022/月总结-2022年2月.md",
-    "每月总结/2022/月总结-2022年5月.md",
-    "每日计划/22-06/2022-06-08日计划.md",
-    "每日计划/0.每日计划-总目录.md"
+    "摄影/摄影/15.古风人像户外拍摄.md",
+    "摄影/修图/进阶2、照片黑白灰关系详解析.md",
+    "摄影/摄影/22.自然风光.md",
+    "思考/拍摄与后期.md",
+    "摄影/修图/进阶4、高级黑白照片质感层次强化.md",
+    "思考/怎样才能成为牛人.md",
+    "代码/Java/0.Java-目录.md",
+    "思考/抖音知识点.md",
+    "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
+    "摄影/修图/1.色彩.md"
   ]
 }

@@ -47,7 +47,7 @@ div.father div.son{
 ```
 代码看上去没有什么问题，看下效果
 
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120033110.webp)
+![](https://s2.loli.net/2022/06/10/vstTKwqAOZd1L5f.webp)
 
 惊奇的发现，结果出乎我们意料！
 
@@ -149,7 +149,7 @@ div.father div.son{
 ```
 结果如下
 
-![触发bfc](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120038737.webp)
+![](https://s2.loli.net/2022/06/10/dBiHpZIuksYU3Rn.webp)
 
 理想的结果
 
@@ -182,7 +182,7 @@ div.father div.son{
 ```
 结果如下
 
-![margin合并](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120039074.webp)
+![](https://s2.loli.net/2022/06/10/IeBVrgUQ2XsFpYm.webp)
 
 我们发现这两个元素之间，他们的`margin-bottom`和`margin-top`合并了，并且显示的是较大值
 
@@ -221,7 +221,7 @@ div.father div.son{
 ```
 结果如下：
 
-![触发bfc](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120040107.webp)
+![](https://s2.loli.net/2022/06/10/XbNyI9T8DQatEhO.webp)
 
 解决问题！但是一般不这么解决，为什么？
 

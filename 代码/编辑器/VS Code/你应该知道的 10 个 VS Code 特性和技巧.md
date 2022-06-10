@@ -48,7 +48,7 @@
 
 ### 4.Turbo Console.log()
 
-![Turbo](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120004187.webp)
+![](https://s2.loli.net/2022/06/10/Jpq9OL3tBPFzRon.webp)
 
 当我们只需要快速输出某些内容时，我们便应该节省时间，而不是重复键入 **console.log**
 
@@ -68,7 +68,7 @@
 - **SHIFT-ALT-Drag**：使用此组合键可以创建矩形选区
 ### 6.Polacode
 
-![Polacode](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120007241.webp)
+![](https://s2.loli.net/2022/06/10/toRlTjnmN8EAbrG.webp)
 
 如果你熟悉分享源代码截图的著名工具（**Carbon.sh**）
 
@@ -109,7 +109,7 @@
 
 那么你可以使用下面给出的特定菜单的键盘快捷方式
 
-![键盘快捷方式](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120012964.webp)
+![](https://s2.loli.net/2022/06/10/5WXmVFbJjPpYUkw.webp)
 ### 10.自定义片段
 
 没有人喜欢一遍又一遍地输入相同的代码，片段扩展为我们做了这项工作
@@ -122,4 +122,4 @@
 - 转到设置图标并选择**User Snippets**，现在选择您想要创建的片段的语言。
 - 例如，如果你想为 JavaScript 项目创建自定义代码段。你必须编写key/value对，其中key包含定义的数据。**prefix**（前缀）定义了代码段的触发词，**body**（正文）是将要插入的代码，**description**（描述）是可选的，由 IntelliSense 显示。
 
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109120014898.webp)
+- [ ] ![](https://s2.loli.net/2022/06/10/1ruKvnhEbINMUkg.webp)

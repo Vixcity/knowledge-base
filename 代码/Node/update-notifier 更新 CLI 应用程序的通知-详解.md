@@ -259,7 +259,7 @@ node example
 
 进去的第一目光我们的卡姿兰大眼睛就可以看到好几个判断
 
-![卡姿兰大眼睛表情包](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110222306777.jpeg)
+![卡姿兰大眼睛表情包](https://s2.loli.net/2022/06/10/SQzO6JKpUEA3Mil.jpg)
 
 ![判断](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110222303556.png)
 

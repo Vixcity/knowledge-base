@@ -419,12 +419,13 @@ export const darkTheme = { 
 ```
 
 然后点击色块进行试验，发现并没有生效，这是why？然后就去看了其文档，原来它会找到所有如下的less 样式标签，并且使用已编译的css同步创建 style 标签。也就是说我们必须吧代码中所有的less 都以下面这种link的方式来引入，这样`less.js` 才能在浏览器端实现编译。
-
+- [ ] 
 > `<link rel="stylesheet/less" type="text/css" href="index.less" />`
 
-这里我用了vue，所以直接把 `less` 文件放在了`public`目录下，然后在html中直接引入：![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091356761.webp)![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091356521.webp)
-
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091356606.webp)点击切换按钮，可见background和color确实都变了![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091356093.webp)![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091357342.webp)
+这里我用了vue，所以直接把 `less` 文件放在了`public`目录下，然后在html中直接引入：
+![](https://s2.loli.net/2022/06/10/6OZEPvkJzL7nwDp.webp)
+![](https://s2.loli.net/2022/06/10/ovdncf4WROksA9P.webp)
+![](https://s2.loli.net/2022/06/10/G6cEWKUZfuB5Pis.webp)点击切换按钮，可见background和color确实都变了![](https://s2.loli.net/2022/06/10/IjTONM2hL1YF89V.webp)![](https://s2.loli.net/2022/06/10/aqnNhUHroYBiXDk.webp)
 
 > 注：使用less 来实现换肤要注意 `less 文件`在 `html` 中编写的位置，不然很可能被其他css 文件所干扰导致换肤失败。如果less文件特别大，会存在编译性能问题。
 
@@ -432,7 +433,9 @@ export const darkTheme = { 
 
 ---
 
-以上的方案---只是对background-color和color进行的换肤，如果要对图片进行换肤该怎么办呐？                                     ![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091357214.webp)
+以上的方案---只是对background-color和color进行的换肤，如果要对图片进行换肤该怎么办呐？
+
+![](https://s2.loli.net/2022/06/10/6g5SOLe1CbyjvsN.webp)
 
 **图片切换**
 
@@ -487,4 +490,4 @@ export const darkTheme = { 
 
 在点击切换主题时，会发射一个 `changeTheme` 事件，各组件接收到 `changeTheme` 事件，就会为图片重新赋值，也就达到了切换图片的效果。
 
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091400731.gif)
+![](https://s2.loli.net/2022/06/10/IZrqSftAhLxed8o.gif)

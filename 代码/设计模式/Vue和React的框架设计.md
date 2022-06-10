@@ -54,7 +54,7 @@ vue2以组件颗粒度为划分，保证性能
 
 ![最简单的情况](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121607532.png)
 
-![React的骚包操作-时间切片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121610073.png)
+![](https://s2.loli.net/2022/06/10/71q4OCWeHlM8dGi.png)
 
 ![react fiber](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121611510.jpg)
 
@@ -64,16 +64,16 @@ vue2以组件颗粒度为划分，保证性能
 
 ![React 和 Vue](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121614358.png)
 
-![继承 组合](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121616064.png)
+![](https://s2.loli.net/2022/06/10/6VEJTkpoufRY7gA.png)
 
 ![option和composition](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121617003.png)
 
-![VDOM跨平台](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121618797.png)
+![](https://s2.loli.net/2022/06/10/7KgXijNqCbz93oA.png)
 
 vue和react不是竞品，angular和svelet都可以相互学习，吸收设计理念，达到面试拿到更多的offer
 
 了解他是怎么来的，怎么执行的
 
-![认真学习框架](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121621690.png)
+![](https://s2.loli.net/2022/06/10/H2SPV3ez97A4bgE.png)
 
 ![设计思想的维度](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109121621993.png)

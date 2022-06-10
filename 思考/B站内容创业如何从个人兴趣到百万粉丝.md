@@ -69,7 +69,7 @@
 
 B站变现能力稳定，对于一个初创期的内容创作者是非常重要的
 
-![B站与抖音的对比](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202202041738048.png)
+![](https://s2.loli.net/2022/06/10/Sf8JzWvKYItdTC6.png)
 
 B站的弹幕文化非常重要，要重视弹幕和评论
 
@@ -252,16 +252,15 @@ do it now 现在就做，马上就做，或者就有输出，专注于内容
 市场供给
 
 价值共鸣
+![](https://s2.loli.net/2022/06/10/KqEeQ64VRmgCzbU.png)
 
-![要素](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271349672.png)
+![](https://s2.loli.net/2022/06/10/Y1J4rkKaEDPeN6x.png)
 
-![爆款](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271351291.png)
+![](https://s2.loli.net/2022/06/10/HWysRNUIuoerq59.png)
 
-![选题](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271352127.png)
+![](https://s2.loli.net/2022/06/10/fPXqcukQ2KBOYro.png)
 
-![如何选题](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271353027.png)
-
-![喜好](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271355645.png)
+![](https://s2.loli.net/2022/06/10/rzEaAUvtdDRfVpK.png)
 
 顺着情绪去找选题
 
@@ -275,31 +274,30 @@ do it now 现在就做，马上就做，或者就有输出，专注于内容
 
 不按套路出牌
 
-![如何幽默](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271402665.png)
+![](https://s2.loli.net/2022/06/10/RamLOeSqWVsrohZ.png)
 
 关注梗：例如让子弹飞等
 
 先加脚本在想加梗
 
-![幽默的方式](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271404749.png)
+![](https://s2.loli.net/2022/06/10/rgWhYFpPGkAjXcL.png)
 
-![幽默的方式](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271404026.png)
+![](https://s2.loli.net/2022/06/10/k1Yd6PiBf849zLv.png)
 
 ##### 获得感与价值
 
-![获得感](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271405535.png)
+![](https://s2.loli.net/2022/06/10/Ooqj8k9iIeTupsK.png)
 
 ##### 节奏与信息密度
 
-![吸引注意力](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271407211.png)
+![](https://s2.loli.net/2022/06/10/Vq7dSjCDwYkMuR5.png)
 
 前三十秒用户留存率
 
 可以试试删掉一些话或者片段
 
-![故事剧情](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271413364.png)
+![](https://s2.loli.net/2022/06/10/LmkDXW6dNGl9s8R.png)
 
-![信息密度](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202205271413182.png)
+![](https://s2.loli.net/2022/06/10/fgKoxjthIL9UJbA.png)
 
 ### 内容规划
-

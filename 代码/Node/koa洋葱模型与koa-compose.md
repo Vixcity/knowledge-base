@@ -63,7 +63,7 @@ function compose (middleware) {
 
 俗话说的好，鲁迅曾经说过：<font color=#ff0000>好的测试是一切的开始</font>
 
-![鲁迅没说过](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110201104712.jpg)
+- [ ] ![](https://s2.loli.net/2022/06/10/ITeqc4QgmEyN8bs.jpg)
 
 既然鲁迅先生都这么说了
 
@@ -291,7 +291,7 @@ if (i <= index) return Promise.reject(new Error('next() called multiple times'))
 
 简化抽象一下，洋葱模型大概长这样
 
-![洋葱模型](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110201358391.webp)
+![洋葱模型](https://s2.loli.net/2022/06/10/4SalIsmNV6BtnQq.webp)
 
 这里我们写一个小的Demo，来方便大家理解什么洋葱模型
 
