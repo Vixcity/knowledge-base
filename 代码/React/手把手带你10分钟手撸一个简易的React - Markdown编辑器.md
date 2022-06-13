@@ -172,7 +172,7 @@ markdown语法的解析已经完成了，并且也有对应的样式了，但是
 
 `highlight.js` 默认是检测它所支持的所有语言的语法的，我们就不需要关心了，并且其提供了很多的代码高亮主题，我们可以在官网进行预览，如下图所示：
 
-![img](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109091924752.png)
+![](https://s2.loli.net/2022/06/10/fKdp2zJtAgX8Z1G.webp)
 
 更大的好消息来了！`markdown-it`已经将`highlight.js`集成进去了，直接设定一些配置即可，并且我们需要先将该库下载下来。具体的可以看[markdown-it中文官网 - 高亮语法配置](https://markdown-it.docschina.org/#用法示例)
 

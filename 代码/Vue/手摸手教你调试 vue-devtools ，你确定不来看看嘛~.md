@@ -8,7 +8,7 @@
 
 首先点击右上角的 Gride 或者点击中间的 Get Star 按钮
 
-![Guide](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202109132216417.png)
+- [ ] ![](https://s2.loli.net/2022/06/10/7EZq3Qau8IYMVxL.png)
 
 点击我们会来到这个界面
 

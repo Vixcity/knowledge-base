@@ -196,11 +196,14 @@ root {
 }
 ```
 
-具体的实现效果：![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091340872.gif)
+具体的实现效果：
+![](https://s2.loli.net/2022/06/10/QUPAdnM29EJ8DRh.gif)
 
 > 问题点：css变量会存在兼容性问题
 
-css变量兼容性如下：![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091340862.webp)虽然现在大部分主流浏览器都可以兼容，但是还要考虑更多的兼容性这块的请往下看：
+css变量兼容性如下：
+- [ ] ![](https://s2.loli.net/2022/06/10/ord8OTEav7BJeyb.webp)
+虽然现在大部分主流浏览器都可以兼容，但是还要考虑更多的兼容性这块的请往下看：
 
 ### CSS变量兼容性实现-1
 
@@ -226,7 +229,8 @@ module.exports = {
 
 postcss 会将css自定义变量直接编译为`确定值`，而`不是保留`
 
-这时就需要 `postcss 插件` 来为我们保留这些自定义变量，使用 postcss-custom-properties效果如下：![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091341447.webp)
+这时就需要 `postcss 插件` 来为我们保留这些自定义变量，使用 postcss-custom-properties效果如下：
+![](https://s2.loli.net/2022/06/10/2vP8MBwXDeYN1mR.webp)
 
 -   优点：会生成一套与css变量对应的css
     
@@ -235,7 +239,7 @@ postcss 会将css自定义变量直接编译为`确定值`，而`不是保留`
 
 换肤后样式：
 
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091341552.webp)
+![](https://s2.loli.net/2022/06/10/VTryRn2NkFMbela.webp)
 
 ### CSS变量兼容性实现-2
 
@@ -309,9 +313,11 @@ export const initTheme = (theme) => {
 };
 ```
 
-![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091349852.webp)在切换主题的按钮组件中调用![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091349207.webp)
+![](https://s2.loli.net/2022/06/10/zw9TuQZMepU2OVF.webp)在切换主题的按钮组件中调用
+![](https://s2.loli.net/2022/06/10/VTryRn2NkFMbela.webp)
 
-总结：css自定义属性 + css-vars-ponyfill(解决兼容性) 预览效果![图片](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202110091350408.gif)
+总结：css自定义属性 + css-vars-ponyfill(解决兼容性) 预览效果
+![](https://s2.loli.net/2022/06/10/Jytju3lpASThaQ4.gif)
 
 > 细心的小伙伴们，一定发现了这里的css变量已经编译成浏览器可识别的css样式了。
 
