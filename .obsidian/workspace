@@ -1,19 +1,15 @@
 {
   "main": {
-    "id": "ddee87ff40e6beb0",
+    "id": "8c8f5ca061875fc4",
     "type": "split",
     "children": [
       {
-        "id": "03f5e11510b402ed",
+        "id": "567e729045ba4090",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "摄影/摄影/21.经典日出日落的拍摄.md",
-=======
-            "file": "日记/2022-06-10日记.md",
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+            "file": "日记/2022-06-20日记.md",
             "mode": "source",
             "source": false
           }
@@ -23,16 +19,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3914d636e93b4fc8",
+    "id": "4f3d3d60c760b923",
     "type": "split",
     "children": [
       {
-        "id": "9cd6aa9c11a47aa3",
+        "id": "cad35d8d48cd00ab",
         "type": "tabs",
         "dimension": 60.22267206477733,
         "children": [
           {
-            "id": "f7c97b62ad1e0a6d",
+            "id": "a2ddd9e49b26a271",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,16 +36,12 @@
             }
           },
           {
-            "id": "f69ab9dff048314c",
+            "id": "5fc589ddd1bfbc4c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "202204272054191",
-=======
-                "query": "",
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+                "query": "font",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,12 +53,12 @@
         ]
       },
       {
-        "id": "f7416c93a0d1cb24",
+        "id": "2d4798b97fa76153",
         "type": "tabs",
         "dimension": 39.77732793522267,
         "children": [
           {
-            "id": "cb72ed61e6139c05",
+            "id": "b806dbc51c21b488",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -80,24 +72,28 @@
     "width": 300
   },
   "right": {
-    "id": "573630fbbfe99ec3",
+    "id": "6767cac89b054a0c",
     "type": "split",
     "children": [
       {
-        "id": "311678c1f25aed03",
+        "id": "315cdb2d7bb52240",
         "type": "tabs",
         "children": [
           {
-            "id": "4e21ced2246733db",
+            "id": "91e04f2526471f96",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "71db44e9b6ca4ae8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "摄影/摄影/21.经典日出日落的拍摄.md",
-=======
-                "file": "日记/2022-06-10日记.md",
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+                "file": "日记/2022-06-20日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,83 +105,42 @@
             }
           },
           {
-            "id": "92e34da1c9165980",
+            "id": "dc79137ed0d25963",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "摄影/摄影/21.经典日出日落的拍摄.md",
-=======
-                "file": "日记/2022-06-10日记.md",
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+                "file": "日记/2022-06-20日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "717545ac39f880fc",
+            "id": "3c589111c6280712",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "摄影/摄影/21.经典日出日落的拍摄.md"
-=======
-                "file": "日记/2022-06-10日记.md"
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+                "file": "日记/2022-06-20日记.md"
               }
             }
-          },
-          {
-            "id": "aaa862341c971409",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
-            }
-          },
-          {
-            "id": "125664271e2fd37c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "03f5e11510b402ed",
+  "active": "567e729045ba4090",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "摄影/摄影/21.经典日出日落的拍摄.md",
-    "思考/怎样才能成为牛人.md",
-    "代码/CSS/CSS 代码重构与优化之路.md",
-    "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
-    "阅读/决胜个人IP.md",
-    "代码/JavaScript/前端换肤的N种方案，请收下.md",
-    "代码/CSS/全兼容的毛玻璃效果.md",
-    "代码/Vue/手摸手教你调试 vue-devtools ，你确定不来看看嘛~.md",
-    "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
-    "阅读/阅读清单.md"
-=======
+    "日记/2022-06-20日记.md",
+    "日记/0.日记-目录.md",
     "日记/2022-06-10日记.md",
-    "日记/2022-06-08日记.md",
-    "每月总结/2022/月总结-2022年5月.md",
-    "每月总结/2022/月总结-2022年6月.md",
-    "每月总结/0.每月总结-总目录.md",
-    "摄影/摄影/15.古风人像户外拍摄.md",
-    "摄影/修图/进阶2、照片黑白灰关系详解析.md",
-    "摄影/摄影/22.自然风光.md",
-    "思考/拍摄与后期.md",
-    "摄影/修图/进阶4、高级黑白照片质感层次强化.md"
->>>>>>> 7ed7b0af45b468b324e19430d5410c9b4660b993
+    "阅读/暗时间.md",
+    "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md",
+    "代码/JavaScript/co.js - 让异步代码同步化.md",
+    "阅读/0.阅读-目录.md"
   ]
 }

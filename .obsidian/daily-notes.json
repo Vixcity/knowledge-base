@@ -1,5 +1,6 @@
 {
   "format": "YYYY-MM-DD日记",
   "folder": "日记",
-  "template": ""
+  "template": "",
+  "autorun": false
 }
