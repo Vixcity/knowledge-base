@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "日记/2022-06-20日记.md",
+            "file": "日记/2022-06-22日记.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2022-06-20日记.md",
+                "file": "日记/2022-06-22日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2022-06-20日记.md",
+                "file": "日记/2022-06-22日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2022-06-20日记.md"
+                "file": "日记/2022-06-22日记.md"
               }
             }
           }
