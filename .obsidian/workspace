@@ -7,12 +7,8 @@
         "id": "567e729045ba4090",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "代码/Node/Node JS 服务端请求.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Node/Node JS 服务端请求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Node/Node JS 服务端请求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,9 +115,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "代码/Node/Node JS 服务端请求.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,15 +127,15 @@
   },
   "active": "567e729045ba4090",
   "lastOpenFiles": [
+    "每月总结/0.每月总结-总目录.md",
+    "日记/0.日记-目录.md",
+    "摄影/修图/0.修图-总目录.md",
+    "代码/Node/0.NodeJs-目录.md",
     "代码/Node/Node JS 服务端请求.md",
     "代码/Node/NodeJS入门学习.md",
-    "代码/Node/0.NodeJs-目录.md",
     "阅读/阅读清单.md",
     "日记/2022-06-22日记.md",
     "日记/2022-06-20日记.md",
-    "日记/0.日记-目录.md",
-    "日记/2022-06-10日记.md",
-    "阅读/暗时间.md",
-    "代码/Vue/mini-vue/05-setup环境-集成jest做单元测试-集成 ts.md"
+    "日记/2022-06-10日记.md"
   ]
 }
