@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "8c8f5ca061875fc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d29b354a40fa4d69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77fb63fcd8054175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代码/重构/0.重构-目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f3d3d60c760b923",
+    "type": "split",
+    "children": [
+      {
+        "id": "cad35d8d48cd00ab",
+        "type": "tabs",
+        "dimension": 60.22267206477733,
+        "children": [
+          {
+            "id": "a2ddd9e49b26a271",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5fc589ddd1bfbc4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "font",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2d4798b97fa76153",
+        "type": "tabs",
+        "dimension": 39.77732793522267,
+        "children": [
+          {
+            "id": "b806dbc51c21b488",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6767cac89b054a0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "315cdb2d7bb52240",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71db44e9b6ca4ae8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "代码/重构/0.重构-目录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dc79137ed0d25963",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "代码/重构/0.重构-目录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c589111c6280712",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "代码/重构/0.重构-目录.md"
+              }
+            }
+          },
+          {
+            "id": "066bb5f7bde61af2",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "open-vscode:VSCode": false
+    }
+  },
+  "active": "77fb63fcd8054175",
+  "lastOpenFiles": [
+    "阅读/0.阅读-目录.md",
+    "阅读/小狗钱钱.md",
+    "阅读/决胜个人IP.md",
+    "阅读/教你做网红.md",
+    "阅读/鬼谷子.md",
+    "阅读/暗时间.md",
+    "阅读/阅读清单.md",
+    "每月总结/0.每月总结-总目录.md",
+    "日记/0.日记-目录.md",
+    "摄影/修图/0.修图-总目录.md"
+  ]
+}

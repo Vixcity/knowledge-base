@@ -2,5 +2,6 @@
   "baseFontSize": 17,
   "cssTheme": "Dark Moss",
   "theme": "obsidian",
-  "translucency": false
+  "translucency": false,
+  "accentColor": ""
 }

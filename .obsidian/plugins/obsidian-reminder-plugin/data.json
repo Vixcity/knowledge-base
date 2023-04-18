@@ -15,6 +15,7 @@
     "linkDatesToDailyNotes": false,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
     "enableKanbanPluginReminderFormat": false,
     "editDetectionSec": 10,
     "reminderCheckIntervalSec": 5
