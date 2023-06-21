@@ -16,7 +16,7 @@
 ## 脚手架
 
 ```bash
-npx create-react-app yourProjectName --templete typescript
+npx create-react-app yourProjectName --template typescript
 ```
 
 ## 运行
