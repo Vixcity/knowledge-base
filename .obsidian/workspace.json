@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
+                "file": "代码/React/0.React-目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5d335bfdd113a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代码/React/0.React-目录.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
+                "file": "代码/React/0.React-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
+                "file": "代码/React/0.React-目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md"
+                "file": "代码/React/0.React-目录.md"
               }
             }
           },
@@ -155,8 +168,11 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a2ddd9e49b26a271",
+  "active": "f5d335bfdd113a20",
   "lastOpenFiles": [
+    "代码/React/react 重点.md",
+    "代码/React/0.React-目录.md",
+    "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
     "代码/重构/0.重构-目录.md",
     "阅读/0.阅读-目录.md",
     "阅读/小狗钱钱.md",
