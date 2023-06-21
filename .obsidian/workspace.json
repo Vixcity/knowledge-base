@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/React/react 重点.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/React/react 重点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/React/react 重点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/React/0.React-目录.md"
+                "file": "代码/React/react 重点.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "f5d335bfdd113a20",
   "lastOpenFiles": [
+    "代码/React/JSX语法规范.md",
     "代码/React/react 重点.md",
     "代码/React/0.React-目录.md",
     "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
