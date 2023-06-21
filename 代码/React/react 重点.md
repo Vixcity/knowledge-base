@@ -13,3 +13,28 @@
 - 组件化
 - 数据驱动视图
 	- UI = f(state)
+## 脚手架
+
+```bash
+npx create-react-app yourProjectName --templete typescript
+```
+
+## 运行
+
+```bash
+npm start
+```
+
+[http://localhost:3000](http://localhost:3000/)
+
+## 测试
+
+```bash
+npm test
+```
+
+## 打包
+
+```bash
+npm run build
+```
