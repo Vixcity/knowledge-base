@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/React/0.React-目录.md",
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/React/0.React-目录.md"
+                "file": "代码/TypeScript/2.TypeScript-变量和数据类型.md"
               }
             }
           },
@@ -165,14 +165,17 @@
   },
   "active": "77fb63fcd8054175",
   "lastOpenFiles": [
+    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
+    "代码/TypeScript/0.TypeScript-目录.md",
+    "代码/React/事件处理.md",
+    "代码/React/JSX语法规范.md",
+    "代码/React/react 重点.md",
+    "代码/React/0.React-目录.md",
     "代码/构建打包工具/vite.md",
     "代码/构建打包工具/webpack.md",
     "代码/构建打包工具/0-构建打包工具-目录.md",
-    "代码/React/react 重点.md",
     "代码/构建工具/未命名",
     "代码/构建打包工具",
-    "代码/React/JSX语法规范.md",
-    "代码/React/0.React-目录.md",
     "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
     "代码/重构/0.重构-目录.md",
     "阅读/0.阅读-目录.md",

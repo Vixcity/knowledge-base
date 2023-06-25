@@ -8,7 +8,7 @@
 
  4. 内联样式要用 style = {{key:value}} 的形式来写
 
- 5. 虚拟只能有一个根节点
+ 5. 虚拟标签只能有一个根节点
 
  6. 标签必须闭合
 
@@ -22,6 +22,9 @@
   	- 转义后生成的 JS 代码为 
   	``` javascript
 	React.createElement('h1',{id:'title'},React.createElement('span',{},'Hello React!'))```
+9. 如果觉得标签比较多的话
+		可以用 Fragment 标签，就是
+		`<></>` 这样子来表达
 	
 # 2.虚拟 DOM
 - 虚拟 DOM 本质是 object 的对象，虚拟 DOM 比较轻，真实 DOM 比较重，因为虚拟 DOM 是 react 内部在用，无需真实 DOM 上那么多的属性，虚拟 DOM 最终会被 react 转化成真实DOM，呈现在页面上
