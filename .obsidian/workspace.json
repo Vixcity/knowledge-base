@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码/React/react 重点.md",
+                "file": "代码/构建打包工具/vite.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,6 +70,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "db38e8b4522d0b64",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       },
@@ -106,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/React/react 重点.md",
+                "file": "代码/构建打包工具/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/React/react 重点.md",
+                "file": "代码/构建打包工具/vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/React/react 重点.md"
+                "file": "代码/构建打包工具/vite.md"
               }
             }
           },
@@ -168,10 +176,15 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "71db44e9b6ca4ae8",
+  "active": "f5d335bfdd113a20",
   "lastOpenFiles": [
-    "代码/React/JSX语法规范.md",
+    "代码/构建打包工具/webpack.md",
+    "代码/构建打包工具/vite.md",
+    "代码/构建打包工具/0-构建打包工具-目录.md",
     "代码/React/react 重点.md",
+    "代码/构建工具/未命名",
+    "代码/构建打包工具",
+    "代码/React/JSX语法规范.md",
     "代码/React/0.React-目录.md",
     "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
     "代码/重构/0.重构-目录.md",
