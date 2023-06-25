@@ -20,5 +20,6 @@
   "obsidian-react-components",
   "folder-note-plugin",
   "sliding-panes-obsidian",
-  "obsidian-plugin-deploy-content-to-anywhere"
+  "obsidian-plugin-deploy-content-to-anywhere",
+  "obsidian-style-settings"
 ]
