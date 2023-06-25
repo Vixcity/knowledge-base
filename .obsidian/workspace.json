@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f5d335bfdd113a20",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代码/React/0.React-目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代码/React/0.React-目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +129,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代码/React/0.React-目录.md"
+              }
             }
           },
           {
@@ -168,7 +163,7 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "f5d335bfdd113a20",
+  "active": "77fb63fcd8054175",
   "lastOpenFiles": [
     "代码/构建打包工具/vite.md",
     "代码/构建打包工具/webpack.md",
