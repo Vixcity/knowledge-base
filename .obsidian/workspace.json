@@ -23,12 +23,8 @@
             "id": "f5d335bfdd113a20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "代码/构建打包工具/vite.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -114,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/构建打包工具/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/构建打包工具/vite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "代码/构建打包工具/vite.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,8 +170,8 @@
   },
   "active": "f5d335bfdd113a20",
   "lastOpenFiles": [
-    "代码/构建打包工具/webpack.md",
     "代码/构建打包工具/vite.md",
+    "代码/构建打包工具/webpack.md",
     "代码/构建打包工具/0-构建打包工具-目录.md",
     "代码/React/react 重点.md",
     "代码/构建工具/未命名",
