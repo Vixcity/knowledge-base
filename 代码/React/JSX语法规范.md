@@ -48,13 +48,27 @@ function hello() {
 循环
 
 ```jsx
-let list = ['a','b','c']
-
-<div>
-	{list.map(item => {
-		return <div key={item}>
-			{item}
-		</div>
-	})}
-</div>
+function () {
+	let list = ['a','b','c']
+	
+	return <div>
+		{list.map(item => {
+			return <div key={item}>
+				{item}
+			</div>
+		})}
+	</div>
+}
 ```
+
+## jsx 和 vue template 模板的区别
+
+### 判断
+jsx 中判断用三元表达式或者&&符
+vue中的template是用的是v-if和v-else
+### 循环
+jsx中是使用的map函数
+vue中使用的是v-for
+## React 和 Vue 的区别
+React 中是能用JS就用JS，需要JS基础扎实的人使用
+Vue 自定义了很多命令，方便初学者学习和记忆，不过现在Vue3中也支持jsx的语法了
