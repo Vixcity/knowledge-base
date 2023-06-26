@@ -25,6 +25,7 @@
 9. 如果觉得标签比较多的话
 		可以用 Fragment 标签，就是
 		`<></>` 这样子来表达
+10. 用大括号来包含变量
 	
 # 2.虚拟 DOM
 - 虚拟 DOM 本质是 object 的对象，虚拟 DOM 比较轻，真实 DOM 比较重，因为虚拟 DOM 是 react 内部在用，无需真实 DOM 上那么多的属性，虚拟 DOM 最终会被 react 转化成真实DOM，呈现在页面上
@@ -32,4 +33,28 @@
 在 JSX 当中，如果要注释标签的话，需要这么写
 ```javascript 
 {/*<h2 onClick = {changeWeather}>今天天气很{isHot?'炎热':'凉爽'}</h2>*/}
+```
+# 4.判断
+可以用 flag && `<p>Hello</p>`，也可以用函数封装
+```jsx
+function hello() {
+	if(flag) return <p>hello</p>
+	return <p>你好</p>
+}
+
+<Hello></Hello>
+```
+
+循环
+
+```jsx
+let list = ['a','b','c']
+
+<div>
+	{list.map(item => {
+		return <div key={item}>
+			{item}
+		</div>
+	})}
+</div>
 ```
