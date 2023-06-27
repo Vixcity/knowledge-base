@@ -100,5 +100,26 @@ git commit -m "chore: commit-lint"
 - style
 - test
 
-编译报错看下面
+## immer
+
+```bash
+npm install immer
+```
+
+## 报错
+
+1. 编译报错看下面
 [https://www.saoniuhuo.com/question/detail-2279183.html](https://www.saoniuhuo.com/question/detail-2279183.html)
+
+2. `# This expression is not callable. Type ‘typeof import(“xxx“)‘ has no call signatures.ts(2349)`
+
+原因：
+```typescript
+import marked from 'marked'
+```
+导入方式的错误  
+
+修改：
+```typescript
+import {marked} from 'marked'
+```
