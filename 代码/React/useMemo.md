@@ -12,3 +12,13 @@ const sum = useMemo(() => {
 	return num1 + num2;
 }, [num1, num2]);
 ```
+
+## useCallback
+
+和 useMemo 作用一样
+
+专门用于缓存函数
+
+缓存，性能优化，提升时间效率
+
+不要为了优化而优化
