@@ -106,11 +106,108 @@ git commit -m "chore: commit-lint"
 npm install immer
 ```
 
-## Classnames
+## classnames
 
 ```bash
 npm install classnames
 ```
+
+为了防止 CSS 命名重复而导致的样式冲突
+
+我们可以用 CSS Module 的写法
+
+文件名是 xxx.module.css
+
+引用是用的
+
+```ts
+import style from "./QuestionCard.module.css";
+
+<div className={style["list-item"]}></div>
+```
+
+如果你这样子写引用的话报错，那么可以在 src 根文件里面添加 global.d.ts 文件
+
+里面加上这句话，报错就得以解决了
+
+```ts
+declare module "*.module.css";
+```
+
+## 使用 SASS
+
+```bash
+npm i sass --save
+```
+
+如果要使用 SASS Module 和之前安装的 classname 库一起使用，可以参考如下写法
+
+```ts
+const listItemClass = styles["list-item"];
+  const publishedClass = styles.published;
+  const itemClassName = classnames({
+    [listItemClass]: true,
+    [publishedClass]: isPublished,
+  });
+```
+
+## CSS in JS
+
+这是一种解决方案，而不是一种工具名称，有好几个工具
+
+带来了很大的灵活性，和内联 style 完全不一样，也不会有内联 style 的问题
+
+**优点：** 用 JS 写，有逻辑有变量，非常灵活
+**缺点：** JSX 和样式代码混在一块儿，代码较多，增加了编译成本
+**试用场景：** 需要灵活变换样式
+
+### styled-components
+
+```bash
+npm install styled-components
+```
+
+```ts
+// 写法
+import React, { FC } from "react";
+import styled, { css } from "styled-components";
+
+// 这里面的 button，div，css 都是函数，函数可以通过反引号进行调用，所以我们传入的这些都是参数
+const Button = styled.button<{ primary?: boolean }>`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid #bf4f74;
+  color: #bf4f74;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  ${(props) =>
+    props.primary &&
+    css`
+      background: #BF4F74;
+      color: white;
+    `}
+`;
+  
+const Container = styled.div`
+  text-align: center;
+`;
+
+const styleComponentsDemo: FC = () => {
+  return (
+    <div>
+      <p>style-components-demo</p>
+      <Container>
+        <Button>Normal Button</Button>
+        <Button primary>Primary Button</Button>
+      </Container>
+    </div>
+  );
+};
+
+export default styleComponentsDemo;
+```
+
+[点击查看官网地址](https://styled-components.com/)
 
 ## 报错
 
