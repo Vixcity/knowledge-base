@@ -106,6 +106,12 @@ git commit -m "chore: commit-lint"
 npm install immer
 ```
 
+## Classnames
+
+```bash
+npm install classnames
+```
+
 ## 报错
 
 1. 编译报错看下面
