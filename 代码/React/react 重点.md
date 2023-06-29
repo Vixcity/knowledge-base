@@ -358,6 +358,12 @@ export default Home;
 - ManageLayout
 - QuestionLayout
 
+## UI组件库
+
+```bash
+yarn add antd
+```
+
 ## 报错
 
 1. 编译报错看下面
