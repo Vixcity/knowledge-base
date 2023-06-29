@@ -209,6 +209,20 @@ export default styleComponentsDemo;
 
 [点击查看官网地址](https://styled-components.com/)
 
+## 路由
+
+- 首页
+- 登录
+- 注册
+- 404
+- 问卷管理
+	- 我的问卷
+	- 星标问卷
+	- 回收站
+- 问卷详情
+	- 编辑
+	- 问卷统计
+
 ## 报错
 
 1. 编译报错看下面
@@ -220,7 +234,8 @@ export default styleComponentsDemo;
 ```typescript
 import marked from 'marked'
 ```
-导入方式的错误  
+
+以上是导入方式的错误  
 
 修改：
 ```typescript
