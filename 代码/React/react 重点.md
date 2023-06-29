@@ -211,17 +211,23 @@ export default styleComponentsDemo;
 
 ## 路由
 
-- 首页
-- 登录
-- 注册
+- 首页 `/`
+- 登录 `/login`
+- 注册 `/register`
 - 404
 - 问卷管理
-	- 我的问卷
-	- 星标问卷
-	- 回收站
+  - 我的问卷 `/manage/list`
+  - 星标问卷 `/manage/star`
+  - 回收站 `/manage/trash`
 - 问卷详情
-	- 编辑
-	- 问卷统计
+  - 编辑 `/question/edit:id` （动态路由）Restful API
+  - 问卷统计 `/question/stat:id`
+
+## Layout 模板
+
+- MainLayout
+- ManageLayout
+- QuestionLayout
 
 ## 报错
 
