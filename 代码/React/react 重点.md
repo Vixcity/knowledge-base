@@ -316,6 +316,30 @@ const router = createBrowserRouter([
 export default router;
 ```
 
+#### 跳转
+
+```tsx
+import React, { FC } from "react";
+import { useNavigate } from "react-router-dom";
+
+const Home: FC = () => {
+  // 第三方Hook
+  const nav = useNavigate();
+  function clickHandler() {
+    nav("/login");
+  }
+  
+  return (
+    <div>
+      <p>Home</p>
+      <button onClick={clickHandler}>登录</button>
+    </div>
+  );
+};
+  
+export default Home;
+```
+
 - 首页 `/`
 - 登录 `/login`
 - 注册 `/register`
