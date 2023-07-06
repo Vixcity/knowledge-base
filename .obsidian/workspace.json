@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码/构建打包工具/webpack.md",
+                "file": "思维/东极岛-旅游计划.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/构建打包工具/webpack.md",
+                "file": "思维/东极岛-旅游计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/构建打包工具/webpack.md",
+                "file": "思维/东极岛-旅游计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/构建打包工具/webpack.md"
+                "file": "思维/东极岛-旅游计划.md"
               }
             }
           },
@@ -166,6 +166,9 @@
   },
   "active": "49151757fe52aa64",
   "lastOpenFiles": [
+    "思维/0.思维-总目录.md",
+    "思维/东极岛-旅游计划.md",
+    "代码/构建打包工具/webpack.md",
     "代码/Node/koa.md",
     "代码/Node/0.NodeJs-目录.md",
     "代码/JS框架/1.Mock.js.md",
@@ -189,11 +192,8 @@
     "代码/TypeScript/2.TypeScript-变量和数据类型.md",
     "代码/TypeScript/0.TypeScript-目录.md",
     "代码/构建打包工具/vite.md",
-    "代码/构建打包工具/webpack.md",
     "代码/构建打包工具/0-构建打包工具-目录.md",
     "代码/构建工具/未命名",
-    "代码/构建打包工具",
-    "代码/重构/0.重构-目录.md",
-    "阅读/0.阅读-目录.md"
+    "代码/构建打包工具"
   ]
 }
