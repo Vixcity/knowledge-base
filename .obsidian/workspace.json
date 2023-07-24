@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "77fc87c68be51b38",
+        "id": "7f3d31ee53a83ebf",
         "type": "tabs",
         "children": [
           {
-            "id": "49151757fe52aa64",
+            "id": "1d03b6187b91310e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "思维/东极岛.png"
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思维/东极岛.png",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思维/东极岛.png",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思维/东极岛.png"
+                "file": "README.md"
               }
             }
           },
@@ -161,25 +164,38 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "49151757fe52aa64",
+  "active": "a2ddd9e49b26a271",
   "lastOpenFiles": [
+    "图集/低短调-1.jpg",
+    "图集/低长调-2.jpg",
+    "图集/低长调-1.jpg",
+    "图集/低中调-6.jpg",
+    "图集/低中调-5.jpg",
+    "图集/低中调-4.jpg",
+    "图集/低中调-3.jpg",
+    "图集/低中调-2.jpg",
+    "图集/低中调-1.jpg",
+    "图集/中中调-3.jpg",
+    "图集/中中调-2.jpg",
+    "代码/0.代码-总目录.md",
+    "代码/看源码思路.md",
+    "代码/React/0.React-目录.md",
+    "代码/React/表单组件.md",
+    "思考/怎样才能成为牛人.md",
+    "思考/0.思考-总目录.md",
+    "思考/怎么给宝子洗头.md",
     "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
     "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
-    "图库/5e4a155fc51e5dceabdd92aa03fb247.jpg",
     "图库",
     "README.md",
     "摄影/0.摄影-总目录.md",
     "代码/Node/0.NodeJs-目录.md",
-    "代码/React/0.React-目录.md",
-    "思维/东极岛.png",
     "思维/东极岛-旅游计划.md",
     "思维/0.思维-总目录.md",
     "代码/构建打包工具/webpack.md",
     "代码/Node/koa.md",
     "代码/JS框架/1.Mock.js.md",
     "代码/JS框架/0.JS框架-目录.md",
-    "代码/0.代码-总目录.md",
-    "代码/React/表单组件.md",
     "代码/JS框架",
     "代码/CSS/0.css-目录.md",
     "代码/CSS/TailWind CSS.md",
@@ -189,10 +205,6 @@
     "代码/React/JSX语法规范.md",
     "代码/React/自定义Hook.md",
     "代码/React/组件.md",
-    "代码/React/useEffect.md",
-    "代码/React/useMemo.md",
-    "代码/React/事件处理.md",
-    "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
     "代码/构建工具/未命名",
     "代码/构建打包工具"
   ]
