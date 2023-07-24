@@ -11,12 +11,9 @@
             "id": "49151757fe52aa64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "思维/东极岛.png"
               }
             }
           }
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md",
+                "file": "思维/东极岛.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md",
+                "file": "思维/东极岛.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码/Node/0.NodeJs-目录.md"
+                "file": "思维/东极岛.png"
               }
             }
           },
@@ -166,13 +163,19 @@
   },
   "active": "49151757fe52aa64",
   "lastOpenFiles": [
+    "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
+    "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
+    "图库/5e4a155fc51e5dceabdd92aa03fb247.jpg",
+    "图库",
+    "README.md",
+    "摄影/0.摄影-总目录.md",
+    "代码/Node/0.NodeJs-目录.md",
     "代码/React/0.React-目录.md",
     "思维/东极岛.png",
     "思维/东极岛-旅游计划.md",
     "思维/0.思维-总目录.md",
     "代码/构建打包工具/webpack.md",
     "代码/Node/koa.md",
-    "代码/Node/0.NodeJs-目录.md",
     "代码/JS框架/1.Mock.js.md",
     "代码/JS框架/0.JS框架-目录.md",
     "代码/0.代码-总目录.md",
@@ -190,9 +193,6 @@
     "代码/React/useMemo.md",
     "代码/React/事件处理.md",
     "代码/React/手把手带你10分钟手撸一个简易的React - Markdown编辑器.md",
-    "代码/TypeScript/2.TypeScript-变量和数据类型.md",
-    "代码/TypeScript/0.TypeScript-目录.md",
-    "代码/构建打包工具/vite.md",
     "代码/构建工具/未命名",
     "代码/构建打包工具"
   ]
