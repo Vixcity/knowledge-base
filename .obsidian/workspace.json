@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "思考/科技的生命周期.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "思考/科技的生命周期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "思考/科技的生命周期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "思考/科技的生命周期.md"
               }
             }
           },
@@ -164,8 +164,15 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a2ddd9e49b26a271",
+  "active": "1d03b6187b91310e",
   "lastOpenFiles": [
+    "思考/怎样才能成为牛人.md",
+    "思考/如何做的更好.md",
+    "思考/拍摄与后期.md",
+    "思考/0.思考-总目录.md",
+    "思考/科技的生命周期.md",
+    "图库/Pasted image 20230802164509.png",
+    "README.md",
     "图集/低短调-1.jpg",
     "图集/低长调-2.jpg",
     "图集/低长调-1.jpg",
@@ -175,19 +182,14 @@
     "图集/低中调-3.jpg",
     "图集/低中调-2.jpg",
     "图集/低中调-1.jpg",
-    "图集/中中调-3.jpg",
-    "图集/中中调-2.jpg",
     "代码/0.代码-总目录.md",
     "代码/看源码思路.md",
     "代码/React/0.React-目录.md",
     "代码/React/表单组件.md",
-    "思考/怎样才能成为牛人.md",
-    "思考/0.思考-总目录.md",
     "思考/怎么给宝子洗头.md",
     "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
     "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
     "图库",
-    "README.md",
     "摄影/0.摄影-总目录.md",
     "代码/Node/0.NodeJs-目录.md",
     "思维/东极岛-旅游计划.md",
@@ -203,8 +205,6 @@
     "代码/React/react 重点.md",
     "代码/React/路由.md",
     "代码/React/JSX语法规范.md",
-    "代码/React/自定义Hook.md",
-    "代码/React/组件.md",
     "代码/构建工具/未命名",
     "代码/构建打包工具"
   ]
