@@ -11,8 +11,13 @@
             "id": "1d03b6187b91310e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "思维/分析框架.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "思维/分析框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "思维/分析框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "思维/分析框架.md"
+              }
             }
           },
           {
@@ -157,6 +166,8 @@
   },
   "active": "1d03b6187b91310e",
   "lastOpenFiles": [
+    "思考/0.思考-总目录.md",
+    "思考/辛弃疾.md",
     "README.md",
     "写作/0.写作-总目录.md",
     "写作/名人名言.md",
@@ -172,7 +183,6 @@
     "思考/怎样才能成为牛人.md",
     "思考/如何做的更好.md",
     "思考/拍摄与后期.md",
-    "思考/0.思考-总目录.md",
     "图库/Pasted image 20230802164509.png",
     "图集/低短调-1.jpg",
     "图集/低长调-2.jpg",
@@ -194,7 +204,6 @@
     "摄影/0.摄影-总目录.md",
     "代码/Node/0.NodeJs-目录.md",
     "思维/东极岛-旅游计划.md",
-    "代码/构建打包工具/webpack.md",
     "代码/JS框架",
     "代码/构建工具/未命名",
     "代码/构建打包工具"
