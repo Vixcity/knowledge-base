@@ -11,13 +11,8 @@
             "id": "1d03b6187b91310e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "思考/科技的生命周期.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -102,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/科技的生命周期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/科技的生命周期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "思考/科技的生命周期.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,13 +157,23 @@
   },
   "active": "1d03b6187b91310e",
   "lastOpenFiles": [
+    "README.md",
+    "写作/0.写作-总目录.md",
+    "写作/名人名言.md",
+    "每月总结/2022/月总结-2022年6月.md",
+    "每月总结/2022/月总结-2022年5月.md",
+    "每月总结/2022/月总结-2022年4月.md",
+    "每月总结/2022/月总结-2022年2月.md",
+    "每月总结/2022/2022-月总结目录.md",
+    "每月总结/0.每月总结-总目录.md",
+    "思维/分析框架.md",
+    "思维/0.思维-总目录.md",
+    "思考/科技的生命周期.md",
     "思考/怎样才能成为牛人.md",
     "思考/如何做的更好.md",
     "思考/拍摄与后期.md",
     "思考/0.思考-总目录.md",
-    "思考/科技的生命周期.md",
     "图库/Pasted image 20230802164509.png",
-    "README.md",
     "图集/低短调-1.jpg",
     "图集/低长调-2.jpg",
     "图集/低长调-1.jpg",
@@ -193,18 +194,8 @@
     "摄影/0.摄影-总目录.md",
     "代码/Node/0.NodeJs-目录.md",
     "思维/东极岛-旅游计划.md",
-    "思维/0.思维-总目录.md",
     "代码/构建打包工具/webpack.md",
-    "代码/Node/koa.md",
-    "代码/JS框架/1.Mock.js.md",
-    "代码/JS框架/0.JS框架-目录.md",
     "代码/JS框架",
-    "代码/CSS/0.css-目录.md",
-    "代码/CSS/TailWind CSS.md",
-    "思维/南京-旅游计划.md",
-    "代码/React/react 重点.md",
-    "代码/React/路由.md",
-    "代码/React/JSX语法规范.md",
     "代码/构建工具/未命名",
     "代码/构建打包工具"
   ]
