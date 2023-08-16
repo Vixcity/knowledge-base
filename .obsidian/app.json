@@ -5,5 +5,11 @@
   "showLineNumber": true,
   "legacyEditor": false,
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
