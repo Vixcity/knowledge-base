@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/AI精英课.md",
+                "file": "思考/0.思考-总目录.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/AI精英课.md",
+                "file": "思考/0.思考-总目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/AI精英课.md",
+                "file": "思考/0.思考-总目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/AI精英课.md"
+                "file": "思考/0.思考-总目录.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "1d03b6187b91310e",
   "lastOpenFiles": [
-    "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
     "思考/AI精英课.md",
+    "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
     "思维/东极岛-旅游计划.md",
     "思维/分析框架.md",
     "思维/未命名.md",
