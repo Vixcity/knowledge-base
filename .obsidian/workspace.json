@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/AI使用.md",
+                "file": "代码/React/0.React-目录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26a04cdd81a6b655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "代码/React/状态管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思考/AI使用.md",
+                "file": "代码/React/状态管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思考/AI使用.md",
+                "file": "代码/React/状态管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思考/AI使用.md"
+                "file": "代码/React/状态管理.md"
               }
             }
           },
@@ -164,10 +178,12 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a2ddd9e49b26a271",
+  "active": "26a04cdd81a6b655",
   "lastOpenFiles": [
-    "思考/0.思考-总目录.md",
+    "代码/React/0.React-目录.md",
+    "代码/React/状态管理.md",
     "思考/AI使用.md",
+    "思考/0.思考-总目录.md",
     "思考/B站内容创业如何从个人兴趣到百万粉丝.md",
     "思维/东极岛-旅游计划.md",
     "思维/分析框架.md",
@@ -199,9 +215,7 @@
     "图集/低中调-1.jpg",
     "代码/0.代码-总目录.md",
     "代码/看源码思路.md",
-    "代码/React/0.React-目录.md",
     "代码/React/表单组件.md",
-    "思考/怎么给宝子洗头.md",
     "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
     "图库",
     "代码/JS框架",
