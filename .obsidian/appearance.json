@@ -3,5 +3,6 @@
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
   "translucency": false,
-  "accentColor": ""
+  "accentColor": "",
+  "interfaceFontFamily": "Fira Code"
 }
