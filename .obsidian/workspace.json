@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思维/分析框架.md",
+                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "思维/分析框架.md",
+                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "思维/分析框架.md",
+                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "思维/分析框架.md"
+                "file": "摄影/摄影/情侣拍摄技巧.md"
               }
             }
           },
@@ -178,14 +178,17 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "a2ddd9e49b26a271",
+  "active": "9f511de6f44985d9",
   "lastOpenFiles": [
+    "Pasted image 20230911203243.png",
+    "摄影/摄影/0.摄影-总目录.md",
+    "摄影/摄影/情侣拍摄技巧.md",
+    "思维/0.思维-总目录.md",
     "图库/Pasted image 20230911154527.png",
     "法则/定律/6.邓宁-克鲁格效应.md",
     "法则/法则/0.法则-目录.md",
     "思维/分析框架.md",
     "法则/法则/22.邓宁-克鲁格效应.md",
-    "思维/0.思维-总目录.md",
     "心理学/如何像心理学家一样思考.md",
     "心理学/0.心理学-总目录.md",
     "心理学/梦的解析/0.梦的解析-目录.md",
@@ -204,8 +207,6 @@
     "心理学/梦的解析/AI解梦/36.出去玩.md",
     "心理学/梦的解析/AI解梦/35.大学.md",
     "心理学/梦的解析/AI解梦/34. 楼梯.md",
-    "心理学/梦的解析/AI解梦/33.恐怖医院.md",
-    "心理学/梦的解析/AI解梦/32.洗澡.md",
     "图库/Pasted image 20230802164509.png",
     "心理学/梦的解析/AI解梦",
     "心理学/梦的解析",
@@ -218,7 +219,6 @@
     "图集/低中调-4.jpg",
     "图集/低中调-3.jpg",
     "图集/低中调-2.jpg",
-    "图集/低中调-1.jpg",
     "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
     "图库",
     "代码/JS框架",
