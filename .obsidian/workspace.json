@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "b68a5a8e4ff30c09",
+        "id": "7bb0fcd431e0f473",
         "type": "tabs",
         "children": [
           {
-            "id": "d0c57390f00d615d",
+            "id": "f4c9fcb8300f8bba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "心理学/如何像心理学家一样思考.md",
+                "file": "思维/0.思维-总目录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f511de6f44985d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "思维/分析框架.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -50,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "分析",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "心理学/如何像心理学家一样思考.md",
+                "file": "思维/分析框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "心理学/如何像心理学家一样思考.md",
+                "file": "思维/分析框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "心理学/如何像心理学家一样思考.md"
+                "file": "思维/分析框架.md"
               }
             }
           },
@@ -164,8 +178,15 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "d0c57390f00d615d",
+  "active": "a2ddd9e49b26a271",
   "lastOpenFiles": [
+    "图库/Pasted image 20230911154527.png",
+    "法则/定律/6.邓宁-克鲁格效应.md",
+    "法则/法则/0.法则-目录.md",
+    "思维/分析框架.md",
+    "法则/法则/22.邓宁-克鲁格效应.md",
+    "思维/0.思维-总目录.md",
+    "心理学/如何像心理学家一样思考.md",
     "心理学/0.心理学-总目录.md",
     "心理学/梦的解析/0.梦的解析-目录.md",
     "心理学/梦的解析/AI解梦/0.AI解梦目录.md",
@@ -185,13 +206,6 @@
     "心理学/梦的解析/AI解梦/34. 楼梯.md",
     "心理学/梦的解析/AI解梦/33.恐怖医院.md",
     "心理学/梦的解析/AI解梦/32.洗澡.md",
-    "心理学/梦的解析/AI解梦/31. 分手.md",
-    "心理学/梦的解析/AI解梦/30.开除.md",
-    "心理学/梦的解析/AI解梦/29.稀有气体.md",
-    "心理学/梦的解析/AI解梦/28.航天.md",
-    "心理学/梦的解析/AI解梦/27.吃.md",
-    "心理学/梦的解析/AI解梦/26.婚事.md",
-    "心理学/梦的解析/AI解梦/25.追逐.md",
     "图库/Pasted image 20230802164509.png",
     "心理学/梦的解析/AI解梦",
     "心理学/梦的解析",
