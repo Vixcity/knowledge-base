@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "15ca5fd610b515ea",
+        "id": "11e352574d71e584",
         "type": "tabs",
         "children": [
           {
-            "id": "f8111fbd5ef5527f",
+            "id": "25c5c6d7952a711a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -50,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Pasted image 20230911154527",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,8 +165,11 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "f8111fbd5ef5527f",
+  "active": "25c5c6d7952a711a",
   "lastOpenFiles": [
+    "思维/东极岛-旅游计划.md",
+    "思维/5w1h分析法.md",
+    "思维/东极岛.png",
     "摄影/摄影/情侣拍摄技巧.md",
     "摄影/摄影/22.自然风光.md",
     "Pasted image 20230912161918.png",
@@ -187,12 +181,10 @@
     "Pasted image 20230912150232.png",
     "Pasted image 20230912150008.png",
     "Pasted image 20230912145855.png",
-    "Pasted image 20230912144946.png",
     "思维/分析框架.md",
     "思考/科技的生命周期.md",
     "README.md",
     "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
-    "思维/东极岛-旅游计划.md",
     "思维/0.思维-总目录.md",
     "摄影/摄影/0.摄影-总目录.md",
     "法则/定律/6.邓宁-克鲁格效应.md",
