@@ -11,8 +11,13 @@
             "id": "25c5c6d7952a711a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "摄影/摄影/一节课解析暗调光影情绪人像.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/摄影/一节课解析暗调光影情绪人像.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/摄影/一节课解析暗调光影情绪人像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "摄影/摄影/一节课解析暗调光影情绪人像.md"
+              }
             }
           },
           {
@@ -167,10 +176,12 @@
   },
   "active": "25c5c6d7952a711a",
   "lastOpenFiles": [
+    "摄影/摄影/情侣拍摄技巧.md",
+    "摄影/摄影/一节课解析暗调光影情绪人像.md",
+    "摄影/摄影/0.摄影-总目录.md",
     "思维/东极岛-旅游计划.md",
     "思维/5w1h分析法.md",
     "思维/东极岛.png",
-    "摄影/摄影/情侣拍摄技巧.md",
     "摄影/摄影/22.自然风光.md",
     "Pasted image 20230912161918.png",
     "Pasted image 20230912161521.png",
@@ -186,7 +197,6 @@
     "README.md",
     "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
     "思维/0.思维-总目录.md",
-    "摄影/摄影/0.摄影-总目录.md",
     "法则/定律/6.邓宁-克鲁格效应.md",
     "法则/法则/0.法则-目录.md",
     "法则/法则/22.邓宁-克鲁格效应.md",
@@ -202,7 +212,6 @@
     "心理学/梦的解析/AI解梦/43.武侠.md",
     "心理学/梦的解析/AI解梦/42.银牌.md",
     "心理学/梦的解析/AI解梦/40.好好学习.md",
-    "心理学/梦的解析/AI解梦/39.时间偏差.md",
     "心理学/梦的解析/AI解梦",
     "心理学/梦的解析",
     "心理学",
