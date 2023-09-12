@@ -24,7 +24,7 @@
 
 提高节奏感
 
-![[5e4a155fc51e5dceabdd92aa03fb247.jpg]]
+![](https://cdn.jsdelivr.net/gh/Vixcity/FigureBed/img/202309121432155.jpg)
 
 设置障碍，把人逼到绝境，如何解决
 

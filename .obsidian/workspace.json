@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bb0fcd431e0f473",
+        "id": "3d9ec90b27fb789e",
         "type": "tabs",
         "children": [
           {
-            "id": "f4c9fcb8300f8bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "思维/0.思维-总目录.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f511de6f44985d9",
+            "id": "3bcf671995400738",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -46,7 +32,7 @@
       {
         "id": "cad35d8d48cd00ab",
         "type": "tabs",
-        "dimension": 60.22267206477733,
+        "dimension": 65.63407550822846,
         "children": [
           {
             "id": "a2ddd9e49b26a271",
@@ -64,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "分析",
+                "query": "Pasted image 20230911154527",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +72,7 @@
       {
         "id": "2d4798b97fa76153",
         "type": "tabs",
-        "dimension": 39.77732793522267,
+        "dimension": 34.36592449177154,
         "children": [
           {
             "id": "b806dbc51c21b488",
@@ -156,6 +142,16 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "5c5256326ae32845",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -178,16 +174,29 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "9f511de6f44985d9",
+  "active": "3bcf671995400738",
   "lastOpenFiles": [
-    "Pasted image 20230911203243.png",
-    "摄影/摄影/0.摄影-总目录.md",
+    "Pasted image 20230912153737.png",
+    "Pasted image 20230912150232.png",
+    "Pasted image 20230912150008.png",
+    "Pasted image 20230912145855.png",
+    "Pasted image 20230912144946.png",
+    "Pasted image 20230912144810.png",
+    "Pasted image 20230912144712.png",
+    "思维/分析框架.md",
     "摄影/摄影/情侣拍摄技巧.md",
-    "思维/0.思维-总目录.md",
+    "思考/科技的生命周期.md",
+    "README.md",
     "图库/Pasted image 20230911154527.png",
+    "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
+    "图库/Pasted image 20230802164509.png",
+    "思维/东极岛-旅游计划.md",
+    "思维/东极岛.png",
+    "思维/0.思维-总目录.md",
+    "图库/5e4a155fc51e5dceabdd92aa03fb247.jpg",
+    "摄影/摄影/0.摄影-总目录.md",
     "法则/定律/6.邓宁-克鲁格效应.md",
     "法则/法则/0.法则-目录.md",
-    "思维/分析框架.md",
     "法则/法则/22.邓宁-克鲁格效应.md",
     "心理学/如何像心理学家一样思考.md",
     "心理学/0.心理学-总目录.md",
@@ -203,22 +212,9 @@
     "心理学/梦的解析/AI解梦/40.好好学习.md",
     "心理学/梦的解析/AI解梦/39.时间偏差.md",
     "心理学/梦的解析/AI解梦/38.胡子.md",
-    "心理学/梦的解析/AI解梦/37.答题.md",
-    "心理学/梦的解析/AI解梦/36.出去玩.md",
-    "心理学/梦的解析/AI解梦/35.大学.md",
-    "心理学/梦的解析/AI解梦/34. 楼梯.md",
-    "图库/Pasted image 20230802164509.png",
     "心理学/梦的解析/AI解梦",
     "心理学/梦的解析",
     "心理学",
-    "图集/低短调-1.jpg",
-    "图集/低长调-2.jpg",
-    "图集/低长调-1.jpg",
-    "图集/低中调-6.jpg",
-    "图集/低中调-5.jpg",
-    "图集/低中调-4.jpg",
-    "图集/低中调-3.jpg",
-    "图集/低中调-2.jpg",
     "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
     "图库",
     "代码/JS框架",
