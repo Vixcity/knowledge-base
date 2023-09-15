@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "11e352574d71e584",
+        "id": "522fc2a6f49e7f2a",
         "type": "tabs",
         "children": [
           {
-            "id": "25c5c6d7952a711a",
+            "id": "78d3e9602fa3cc9f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "摄影/摄影/一节课get浓郁光影写真.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "摄影/摄影/一节课get浓郁光影写真.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "摄影/摄影/一节课get浓郁光影写真.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "摄影/摄影/一节课get浓郁光影写真.md"
+              }
             }
           },
           {
@@ -165,15 +174,16 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "25c5c6d7952a711a",
+  "active": "78d3e9602fa3cc9f",
   "lastOpenFiles": [
+    "摄影/摄影/一节课get浓郁光影写真.md",
+    "摄影/摄影/0.摄影-总目录.md",
     "心理学/梦的解析/AI解梦/0.AI解梦目录.md",
     "心理学/梦的解析/0.梦的解析-目录.md",
     "心理学/0.心理学-总目录.md",
     "心理学/梦的解析/AI解梦/12.暗恋.md",
     "摄影/摄影/发光感仙女风写真全攻略.md",
     "Pasted image 20230913214745.png",
-    "摄影/摄影/0.摄影-总目录.md",
     "Pasted image 20230913211309.png",
     "Pasted image 20230913210622.png",
     "Pasted image 20230913210447.png",
@@ -202,7 +212,6 @@
     "心理学/梦的解析/AI解梦/46.杀人游戏.md",
     "心理学/梦的解析/AI解梦/45.幼儿园疫苗.md",
     "心理学/梦的解析/AI解梦/44.奇异博士.md",
-    "心理学/梦的解析/AI解梦/43.武侠.md",
     "心理学/梦的解析/AI解梦",
     "心理学/梦的解析",
     "心理学",
