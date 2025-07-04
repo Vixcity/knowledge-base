@@ -3,8 +3,8 @@
   "weekStart": "locale",
   "wordsPerDot": 250,
   "showWeeklyNote": false,
-  "weeklyNoteFormat": "周复盘-YYYY年第WW周",
-  "weeklyNoteTemplate": "每周复盘/周复盘模板",
-  "weeklyNoteFolder": "每周复盘/2022",
+  "weeklyNoteFormat": "",
+  "weeklyNoteTemplate": "",
+  "weeklyNoteFolder": "",
   "localeOverride": "system-default"
 }

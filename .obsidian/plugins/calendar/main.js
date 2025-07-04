@@ -4455,3 +4455,5 @@ class CalendarPlugin extends obsidian.Plugin {
 }
 
 module.exports = CalendarPlugin;
+
+/* nosourcemap */

@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "522fc2a6f49e7f2a",
+        "id": "30b82771cfc260e5",
         "type": "tabs",
         "children": [
           {
-            "id": "78d3e9602fa3cc9f",
+            "id": "f5aaa6bce0597fe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
+                "file": "恋爱笔记/认知/0.目录.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "0.目录"
             }
           }
         ]
@@ -32,18 +34,7 @@
       {
         "id": "cad35d8d48cd00ab",
         "type": "tabs",
-        "dimension": 65.63407550822846,
         "children": [
-          {
-            "id": "a2ddd9e49b26a271",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "5fc589ddd1bfbc4c",
             "type": "leaf",
@@ -56,7 +47,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -64,29 +57,30 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
-          }
-        ]
-      },
-      {
-        "id": "2d4798b97fa76153",
-        "type": "tabs",
-        "dimension": 34.36592449177154,
-        "children": [
+          },
           {
-            "id": "b806dbc51c21b488",
+            "id": "e7b13245c37d180c",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "6767cac89b054a0c",
@@ -102,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +103,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
@@ -119,10 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md",
+                "file": "思考/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "穿搭 的出链列表"
             }
           },
           {
@@ -131,16 +128,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "摄影/摄影/情侣拍摄技巧.md"
-              }
-            }
-          },
-          {
-            "id": "066bb5f7bde61af2",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -149,11 +142,46 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
-              }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "e3e331005c34ddf1",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "f47d57065ed73b9b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "c61f939ba7752231",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -174,51 +202,54 @@
       "open-vscode:VSCode": false
     }
   },
-  "active": "78d3e9602fa3cc9f",
+  "active": "f5aaa6bce0597fe2",
   "lastOpenFiles": [
+    "恋爱笔记/认知/真心与技巧.md",
+    "恋爱笔记/认知/0.目录.md",
+    "恋爱笔记/认知/价值观拷问.md",
+    "恋爱笔记/认知/认知偏差.md",
+    "恋爱笔记/认知/拥抱复杂.md",
+    "恋爱笔记/0.恋爱笔记总目录.md",
+    "旅游/0.旅游攻略目录.md",
+    "README.md",
+    "恋爱笔记/认知/学会提问.md",
+    "恋爱笔记/认知/自我接纳.md",
+    "恋爱笔记/暧昧/0.目录.md",
+    "恋爱笔记/反捞/0.目录.md",
+    "恋爱笔记/经营/0.目录.md",
+    "恋爱笔记/未命名.md",
+    "恋爱笔记/反捞",
+    "恋爱笔记/经营",
+    "恋爱笔记/暧昧",
+    "恋爱笔记/吸引/0.目录.md",
+    "恋爱笔记/吸引",
+    "恋爱笔记/认知",
+    "思考/0.思考-总目录.md",
+    "恋爱笔记",
+    "思考/资源收集 与 形象入门.md",
+    "未命名.canvas",
+    "代码/CSS/好玩的CSS属性.md",
+    "内容/0.内容-总目录.md",
+    "法则/0.法则-总目录.md",
+    "电脑/显卡/0.显卡-目录.md",
+    "未命名 3.md",
+    "未命名.md",
+    "未命名 1.md",
+    "未命名 2.md",
+    "代码/TypeScript/7.TypeScript-对象.md",
+    "旅游/东极岛.png",
+    "旅游/枸杞嵊山岛旅游攻略.png",
+    "旅游/南京-旅游计划.pdf",
+    "旅游/枸杞嵊山岛旅游攻略.xmind",
+    "旅游/东极岛.xmind",
+    "旅游/东极岛-旅游计划.pdf",
     "Pasted image 20230917153822.png",
-    "摄影/摄影/发光感仙女风写真全攻略.md",
-    "摄影/摄影/情侣拍摄技巧.md",
-    "摄影/摄影/一节课get浓郁光影写真.md",
-    "摄影/摄影/0.摄影-总目录.md",
-    "心理学/梦的解析/AI解梦/0.AI解梦目录.md",
-    "心理学/梦的解析/0.梦的解析-目录.md",
-    "心理学/0.心理学-总目录.md",
-    "心理学/梦的解析/AI解梦/12.暗恋.md",
     "Pasted image 20230913214745.png",
     "Pasted image 20230913211309.png",
     "Pasted image 20230913210622.png",
     "Pasted image 20230913210447.png",
     "Pasted image 20230913205453.png",
     "Pasted image 20230913204647.png",
-    "摄影/摄影/22.自然风光.md",
-    "摄影/摄影/一节课解析暗调光影情绪人像.md",
-    "思维/东极岛-旅游计划.md",
-    "思维/5w1h分析法.md",
-    "思维/东极岛.png",
-    "Pasted image 20230912161918.png",
-    "Pasted image 20230912161521.png",
-    "Pasted image 20230912161155.png",
-    "思维/分析框架.md",
-    "思考/科技的生命周期.md",
-    "README.md",
-    "思考/百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.md",
-    "思维/0.思维-总目录.md",
-    "法则/定律/6.邓宁-克鲁格效应.md",
-    "法则/法则/0.法则-目录.md",
-    "法则/法则/22.邓宁-克鲁格效应.md",
-    "心理学/如何像心理学家一样思考.md",
-    "心理学/梦的解析/AI解梦/41.白头发.md",
-    "心理学/梦的解析/AI解梦/47.恐惧.md",
-    "心理学/梦的解析/AI解梦/46.杀人游戏.md",
-    "心理学/梦的解析/AI解梦/45.幼儿园疫苗.md",
-    "心理学/梦的解析/AI解梦",
-    "心理学/梦的解析",
-    "心理学",
-    "思考/柳夜熙主理人，百大UP主非非宇自述：用打造好莱坞电影的标准打造短视频.pdf",
-    "图库",
-    "代码/JS框架",
-    "代码/构建工具/未命名",
-    "代码/构建打包工具"
+    "Pasted image 20230912161918.png"
   ]
 }
